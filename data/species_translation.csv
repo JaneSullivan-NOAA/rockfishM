@@ -1,0 +1,1060 @@
+ID,AGENCY,NAME,CODE,ID,AGENCY,NAME,CODE
+64,AKR,Chinook Salmon,410,89,OBS,SALMON UNIDENTIFIED,220
+66,AKR,Coho Salmon,430,89,OBS,SALMON UNIDENTIFIED,220
+1646,AKR,Shortraker/Rougheye Rockfish,171,90,OBS,ROUGHEYE ROCKFISH,307
+1091,AKR,Triangle Tanner Crab,934,97,OBS,TANNER CRAB UNIDENTIFIED,3
+1513,AKR,Miscellaneous Flatfish,120,111,OBS,CALIFORNIA TONGUEFISH,113
+1533,AKR,Large Sculpins - Great Sculpin,281,118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440
+87,AKR,Bairdi Tanner Crab,931,131,OBS,CRAB UNIDENTIFIED,1
+88,AKR,"Crab, Opilio Tanner (Snow)",932,131,OBS,CRAB UNIDENTIFIED,1
+73,AKR,"Shark, Other",689,160,OBS,PACIFIC SLEEPER SHARK,62
+993,AKR,"Grenadiers (rattails, general)",213,166,OBS,PACIFIC GRENADIER,81
+993,AKR,"Grenadiers (rattails, general)",213,167,OBS,GIANT GRENADIER,82
+12,AKR,Starry Flounder,129,179,OBS,STARRY FLOUNDER,142
+1513,AKR,Miscellaneous Flatfish,120,180,OBS,LONGHEAD DAB,144
+1507,AKR,Kamchatka Flounder,117,182,OBS,KAMCHATKA FLOUNDER,147
+1553,AKR,Skilfish,715,196,OBS,SKILFISH,212
+999,AKR,"Dolly varden, anadromous",531,199,OBS,DOLLY VARDEN,228
+1519,AKR,"Snailfish, general",218,266,OBS,PINK SNAILFISH,504
+62,AKR,Pacific Herring (bycatch),235,282,OBS,PACIFIC HERRING,611
+1519,AKR,"Snailfish, general",218,377,OBS,LOBEFIN SNAILFISH,506
+1621,AKR,"Skate, Other",700,409,OBS,ROUGHTAIL SKATE,89
+1621,AKR,"Skate, Other",700,411,OBS,BERING SKATE,97
+1621,AKR,"Skate, Other",700,413,OBS,WHITEBROW SKATE,162
+1513,AKR,Miscellaneous Flatfish,120,461,OBS,SAKHALIN SOLE,148
+23,AKR,Thornyhead Rockfish (Idiots),143,475,OBS,BROAD BANDED THORNYHEAD,351
+1517,AKR,Eels or eel-like fish  ,210,499,OBS,PALLID EELPOUT,258
+27,AKR,Quillback Rockfish,147,527,OBS,QUILLBACK ROCKFISH,343
+23,AKR,Thornyhead Rockfish (Idiots),143,528,OBS,SHORTSPINE THORNYHEAD,350
+1531,AKR,Other Small Sculpins,160,530,OBS,SCULPIN UNIDENTIFIED,400
+80,AKR,Octopus,870,1044,OBS,PELAGIC OCTOPUS UNIDENTIFIED,61
+1506,AKR,Arrowtooth Flounder,121,1045,OBS,ARROWTOOTH/KAMCHATKA FLOUNDER,149
+16,AKR,Greenland Turbot,134,1169,OBS,TURBOT/KAM/ARROW - UNIDENTIFIED,143
+1022,AKR,Snails,890,1353,OBS,CROWNED HAIRY SNAIL,981
+1621,AKR,"Skate, Other",700,1627,OBS,SKATE UNIDENTIFIED,90
+67,AKR,Pink Salmon,440,89,OBS,SALMON UNIDENTIFIED,220
+85,AKR,"Crab, Golden King (Brown)",923,106,OBS,BROWN KING CRAB,8
+1037,AKR,"Crab, Hanasaki (Spiny) King",925,107,OBS,RARE KING CRAB,10
+1513,AKR,Miscellaneous Flatfish,120,114,OBS,CURLFIN SOLE,117
+10,AKR,Yellowfin Sole,127,116,OBS,YELLOWFIN SOLE,140
+1029,AKR,"Crab, hair",940,132,OBS,KOREAN HORSEHAIR CRAB,7
+1006,AKR,Black hagfish,202,164,OBS,HAGFISH UNIDENTIFIED,77
+73,AKR,"Shark, Other",689,165,OBS,SIXGILL SHARK,78
+8,AKR,Rex Sole,125,173,OBS,REX SOLE,105
+56,AKR,Atka Mackerel,193,189,OBS,ATKA MACKEREL,204
+996,AKR,Pacific tomcod,250,194,OBS,PACIFIC TOMCOD,209
+1497,AKR,"Sturgeon, general",680,200,OBS,STURGEON UNIDENTIFIED,230
+39,AKR,Darkblotched Rockfish,159,222,OBS,DARK BLOTCHED ROCKFISH,311
+52,AKR,Splitnose Rockfish,182,225,OBS,SPLITNOSE ROCKFISH,315
+48,AKR,Blackgill Rockfish,177,228,OBS,BLACKGILL ROCKFISH,319
+49,AKR,Chilipepper Rockfish,178,233,OBS,CHILIPEPPER ROCKFISH,325
+1536,AKR,Large Sculpins - Warty Sculpin,284,247,OBS,WARTY SCULPIN,398
+1538,AKR,Other Large Sculpins,286,251,OBS,SHORTHORN SCULPIN,406
+1538,AKR,Other Large Sculpins,286,254,OBS,BROWN IRISH LORD,410
+1521,AKR,"Poacher, general",219,262,OBS,BLACKTIP POACHER,460
+62,AKR,Pacific Herring (bycatch),235,272,OBS,SMELT/HERRING UNIDENTIFIED,600
+1531,AKR,Other Small Sculpins,160,277,OBS,LONGFIN IRISH LORD SCULPIN,434
+76,AKR,Lanternfishes (family Myctophidae),772,290,OBS,LANTERNFISH UNIDENTIFIED,700
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,293,OBS,LONGSNOUT PRICKLEBACK,756
+991,AKR,Wrymouths,211,353,OBS,WRYMOUTH UNIDENTIFIED,759
+1519,AKR,"Snailfish, general",218,370,OBS,LIPARIS GIBBUS,509
+72,AKR,Steelhead Trout,540,418,OBS,STEELHEAD,226
+13,AKR,Petrale Sole,131,421,OBS,PETRALE SOLE,112
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,438,OBS,DECORATED WARBONNET,757
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,440,OBS,DAUBED SHANNY,753
+1531,AKR,Other Small Sculpins,160,448,OBS,BUFFALO SCULPIN,412
+31,AKR,Rougheye Rockfish,151,451,OBS,SHORTRAKER/ROUGHEYE ROCKFISH,354
+18,AKR,Northern Rockfish,136,454,OBS,SMALL RED ROCKFISH GROUP,348
+1521,AKR,"Poacher, general",219,477,OBS,ALEUTIAN ALLIGATORFISH,462
+1511,AKR,"Lumpsucker, smooth",216,478,OBS,SMOOTH LUMPSUCKER,531
+76,AKR,Lanternfishes (family Myctophidae),772,490,OBS,BLUE LANTERNFISH,703
+6,AKR,Rock Sole,123,522,OBS,ROCK SOLE UNIDENTIFIED,104
+20,AKR,Copper Rockfish,138,525,OBS,COPPER ROCKFISH,327
+1534,AKR,Large Sculpins - Plain Sculpin,282,530,OBS,SCULPIN UNIDENTIFIED,400
+1537,AKR,Large Sculpins - Yellow Irish Lord,285,530,OBS,SCULPIN UNIDENTIFIED,400
+1531,AKR,Other Small Sculpins,160,540,OBS,ARCTIC STAGHORN SCULPIN,423
+1000,AKR,"Lamprey, pacific",600,566,OBS,LAMPREY UNIDENTIFIED,75
+80,AKR,Octopus,870,568,OBS,OCTOPUS UNIDENTIFIED,60
+1013,AKR,"Clam, pacific razor",830,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1531,AKR,Other Small Sculpins,160,1247,OBS,THYRISCUS ANOPLUS,428
+1519,AKR,"Snailfish, general",218,1255,OBS,CRYSTALLICHTHYS UNIDENTIFIED,510
+31,AKR,Rougheye Rockfish,151,90,OBS,ROUGHEYE ROCKFISH,307
+63,AKR,Pollock,270,93,OBS,POLLOCK,201
+88,AKR,"Crab, Opilio Tanner (Snow)",932,105,OBS,OPILIO TANNER CRAB,5
+65,AKR,Sockeye Salmon,420,109,OBS,SOCKEYE SALMON,224
+1531,AKR,Other Small Sculpins,160,118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440
+1028,AKR,"Crab, scarlet king",924,121,OBS,COUESI KING CRAB,16
+1028,AKR,"Crab, scarlet king",924,131,OBS,CRAB UNIDENTIFIED,1
+85,AKR,"Crab, Golden King (Brown)",923,136,OBS,LITHODID CRAB UNIDENTIFIED,14
+1002,AKR,"Shark, pacific sleeper",692,161,OBS,SHARK UNIDENTIFIED,65
+1001,AKR,"Shark, spiny dogfish",691,161,OBS,SHARK UNIDENTIFIED,65
+1036,AKR,"Shark, salmon",690,161,OBS,SHARK UNIDENTIFIED,65
+1001,AKR,"Shark, spiny dogfish",691,162,OBS,SPINY DOGFISH SHARK,66
+11,AKR,English Sole,128,176,OBS,ENGLISH SOLE,108
+75,AKR,Sablefish (blackcod),710,188,OBS,SABLEFISH (BLACKCOD),203
+1517,AKR,Eels or eel-like fish  ,210,205,OBS,EELPOUT UNIDENTIFIED,250
+21,AKR,Pacific Ocean Perch,141,213,OBS,PACIFIC OCEAN PERCH,301
+33,AKR,Redbanded Rockfish,153,219,OBS,RED BANDED ROCKFISH,308
+17,AKR,Greenstriped Rockfish,135,223,OBS,GREENSTRIPED ROCKFISH,313
+42,AKR,Blue Rockfish,167,226,OBS,BLUE ROCKFISH,316
+38,AKR,Redstripe Rockfish,158,232,OBS,REDSTRIPE ROCKFISH,324
+53,AKR,Stripetail Rockfish,183,235,OBS,STRIPETAIL ROCKFISH,328
+1534,AKR,Large Sculpins - Plain Sculpin,282,248,OBS,PLAIN SCULPIN,399
+1517,AKR,Eels or eel-like fish  ,210,271,OBS,RIBBONFISH UNIDENTIFIED,563
+1614,AKR,Pacific Herring (directed fishery),230,272,OBS,SMELT/HERRING UNIDENTIFIED,600
+1517,AKR,Eels or eel-like fish  ,210,285,OBS,CUTLASSFISH UNIDENTIFIED,660
+1518,AKR,Wolf-eel ,217,299,OBS,WOLF-EEL,780
+1521,AKR,"Poacher, general",219,374,OBS,NORTHERN SPEARNOSE POACHER,458
+1531,AKR,Other Small Sculpins,160,383,OBS,LEISTER SCULPIN,427
+1531,AKR,Other Small Sculpins,160,387,OBS,DUSKY SCULPIN,404
+1497,AKR,"Sturgeon, general",680,399,OBS,GREEN STURGEON,231
+1621,AKR,"Skate, Other",700,408,OBS,CALIFORNIA SKATE,87
+1621,AKR,"Skate, Other",700,412,OBS,SANDPAPER SKATE,98
+84,AKR,Blue King Crab,922,420,OBS,BLUE KING CRAB,6
+1531,AKR,Other Small Sculpins,160,449,OBS,SAILFIN SCULPIN,419
+1517,AKR,Eels or eel-like fish  ,210,458,OBS,MARBLED EELPOUT,249
+1031,AKR,"Shrimp, Northern (Pink)",961,460,OBS,NORTHERN PINK SHRIMP,73
+71,AKR,Capelin,516,479,OBS,CAPELIN,604
+1521,AKR,"Poacher, general",219,493,OBS,WARTY POACHER,451
+1031,AKR,"Shrimp, Northern (Pink)",961,518,OBS,SHRIMP UNIDENTIFIED,70
+1532,AKR,Large Sculpins - Bigmouth Sculpin,280,530,OBS,SCULPIN UNIDENTIFIED,400
+1028,AKR,"Crab, scarlet king",924,556,OBS,KING CRAB UNIDENTIFIED,2
+986,AKR,"Greenling, rock",191,563,OBS,GREENLING UNIDENTIFIED,390
+1517,AKR,Eels or eel-like fish  ,210,578,OBS,CUSK-EEL UNIDENTIFIED,248
+1530,AKR,"Jellyfish, general",625,1052,OBS,JELLYFISH UNIDENTIFIED,35
+60,AKR,"Bristlemouths, (family Gonostomatidae)",209,1181,OBS,BRISTLEMOUTHS,696
+1531,AKR,Other Small Sculpins,160,1249,OBS,GYMNOCANTHUS UNIDENTIFIED,431
+1621,AKR,"Skate, Other",700,1620,OBS,BUTTERFLY SKATE,168
+76,AKR,Lanternfishes (family Myctophidae),772,1636,OBS,MYCTOPHIDAE SPP,699
+1621,AKR,"Skate, Other",700,1638,OBS,ROUGHSHOULDER SKATE,166
+81,AKR,Squid,875,98,OBS,SQUID UNIDENTIFIED,50
+1513,AKR,Miscellaneous Flatfish,120,115,OBS,PACIFIC SANDDAB,137
+1534,AKR,Large Sculpins - Plain Sculpin,282,118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440
+1538,AKR,Other Large Sculpins,286,118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440
+68,AKR,Chum Salmon,450,127,OBS,CHUM SALMON,221
+67,AKR,Pink Salmon,440,130,OBS,PINK SALMON,225
+1029,AKR,"Crab, hair",940,131,OBS,CRAB UNIDENTIFIED,1
+1026,AKR,"Crabs, box",900,134,OBS,BOX CRAB,11
+1036,AKR,"Shark, salmon",690,163,OBS,SALMON SHARK,67
+992,AKR,Pacific hagfish,212,164,OBS,HAGFISH UNIDENTIFIED,77
+1551,AKR,"Skate, Longnose",701,169,OBS,LONGNOSE SKATE,95
+1621,AKR,"Skate, Other",700,170,OBS,STARRY SKATE,96
+1621,AKR,"Skate, Other",700,184,OBS,GOLDEN SKATE,160
+2,AKR,Pacific Cod,110,187,OBS,PACIFIC COD,202
+1504,AKR,Saffron Cod,111,193,OBS,SAFFRON COD,208
+1517,AKR,Eels or eel-like fish  ,210,206,OBS,POLAR EELPOUT,252
+41,AKR,Sharpchin Rockfish,166,215,OBS,SHARPCHIN ROCKFISH,304
+47,AKR,Harlequin Rockfish,176,231,OBS,HARLEQUIN ROCKFISH,323
+218,AKR,Unidentified Rockfish,139,241,OBS,P.O.P. GROUP,344
+987,AKR,"Greenling, whitespot",192,244,OBS,WHITESPOTTED GREENLING,391
+1531,AKR,Other Small Sculpins,160,246,OBS,TADPOLE SCULPIN,397
+1532,AKR,Large Sculpins - Bigmouth Sculpin,280,249,OBS,BIGMOUTH SCULPIN,402
+1531,AKR,Other Small Sculpins,160,255,OBS,BLACKFIN SCULPIN,411
+1531,AKR,Other Small Sculpins,160,263,OBS,ARMORHEAD SCULPIN,470
+1531,AKR,Other Small Sculpins,160,264,OBS,ROUGHSPINE SCULPIN,471
+1531,AKR,Other Small Sculpins,160,379,OBS,SLIM SCULPIN,416
+1517,AKR,Eels or eel-like fish  ,210,401,OBS,SPOTTED CUSK-EEL,256
+73,AKR,"Shark, Other",689,402,OBS,BLUE SHARK,69
+1035,AKR,"Shrimp, spot",965,403,OBS,SPOT SHRIMP,71
+25,AKR,Yelloweye Rockfish,145,424,OBS,YELLOWEYE ROCKFISH,322
+1646,AKR,Shortraker/Rougheye Rockfish,171,451,OBS,SHORTRAKER/ROUGHEYE ROCKFISH,354
+1517,AKR,Eels or eel-like fish  ,210,457,OBS,EBONY EELPOUT,263
+1513,AKR,Miscellaneous Flatfish,120,463,OBS,C-O SOLE,118
+73,AKR,"Shark, Other",689,469,OBS,BROWN CAT SHARK,68
+51,AKR,Shortbelly Rockfish,181,474,OBS,SHORTBELLY ROCKFISH,318
+1531,AKR,Other Small Sculpins,160,495,OBS,NORTHERN SCULPIN,417
+73,AKR,"Shark, Other",689,500,OBS,SOUPFIN SHARK,64
+1035,AKR,"Shrimp, spot",965,518,OBS,SHRIMP UNIDENTIFIED,70
+1000,AKR,"Lamprey, pacific",600,519,OBS,PACIFIC LAMPREY,79
+1615,AKR,"Skate, Alaska",703,520,OBS,ALASKA SKATE,88
+1517,AKR,Eels or eel-like fish  ,210,544,OBS,BLACKBELLY EELPOUT,261
+83,AKR,Red King Crab,921,556,OBS,KING CRAB UNIDENTIFIED,2
+85,AKR,"Crab, Golden King (Brown)",923,556,OBS,KING CRAB UNIDENTIFIED,2
+1526,AKR,Dark Rockfish,173,562,OBS,DUSKY ROCKFISH UNIDENTIFIED,355
+987,AKR,"Greenling, whitespot",192,563,OBS,GREENLING UNIDENTIFIED,390
+1612,AKR,"Crab, Multispine",951,1218,OBS,PARALOMIS MULTISPINA,17
+1016,AKR,"Scallop, weathervane",850,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1020,AKR,Oysters,880,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1017,AKR,"Scallop, pink (or calico)",851,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1613,AKR,"Crab, Verrilli",953,1230,OBS,PARALOMIS VERILLI CRAB,38
+1531,AKR,Other Small Sculpins,160,1252,OBS,ICELUS UNIDENTIFIED,436
+1022,AKR,Snails,890,1308,OBS,ERODED TURRET SNAIL,928
+1022,AKR,Snails,890,1354,OBS,PALLID MOON SNAIL,985
+1621,AKR,"Skate, Other",700,1647,OBS,STIFF SNOUT SKATE,167
+984,AKR,Shad,180,99,OBS,AMERICAN SHAD,606
+1641,AKR,"Skate, Big",702,100,OBS,BIG SKATE,94
+23,AKR,Thornyhead Rockfish (Idiots),143,101,OBS,THORNYHEAD ROCKFISH UNIDENTIFIED,349
+87,AKR,Bairdi Tanner Crab,931,104,OBS,BAIRDI TANNER CRAB,4
+1513,AKR,Miscellaneous Flatfish,120,113,OBS,HYBRID SOLE,116
+66,AKR,Coho Salmon,430,129,OBS,COHO SALMON,223
+84,AKR,Blue King Crab,922,131,OBS,CRAB UNIDENTIFIED,1
+84,AKR,Blue King Crab,922,136,OBS,LITHODID CRAB UNIDENTIFIED,14
+81,AKR,Squid,875,144,OBS,PACIFIC BOBTAIL SQUID,28
+73,AKR,"Shark, Other",689,163,OBS,SALMON SHARK,67
+1047,AKR,"Flatfish, unidentified",100,171,OBS,FLATFISH  UNIDENTIFIED,100
+7,AKR,Dover Sole,124,175,OBS,DOVER SOLE,107
+9,AKR,Butter Sole,126,177,OBS,BUTTER SOLE,109
+989,AKR,Pacific sandfish (family Trichodontidae),206,201,OBS,SANDFISHES,239
+1517,AKR,Eels or eel-like fish  ,210,208,OBS,BLACK EELPOUT,254
+1517,AKR,Eels or eel-like fish  ,210,209,OBS,SHORTFIN EELPOUT,259
+218,AKR,Unidentified Rockfish,139,212,OBS,ROCKFISH  UNIDENTIFIED,300
+22,AKR,Black Rockfish,142,217,OBS,BLACK ROCKFISH,306
+46,AKR,Yellowmouth Rockfish,175,229,OBS,YELLOWMOUTH ROCKFISH,320
+32,AKR,Shortraker Rockfish,152,234,OBS,SHORTRAKER ROCKFISH,326
+28,AKR,Tiger Rockfish,148,236,OBS,TIGER ROCKFISH,329
+55,AKR,Aurora Rockfish,185,239,OBS,AURORA ROCKFISH,334
+1531,AKR,Other Small Sculpins,160,258,OBS,SCISSORTAIL SCULPIN,425
+1521,AKR,"Poacher, general",219,261,OBS,BIGEYE POACHER,457
+1003,AKR,Lingcod,130,275,OBS,LINGCOD,603
+995,AKR,Pacific saury,220,278,OBS,PACIFIC SAURY,607
+78,AKR,Pacific Sand Lance (family Ammodytidae),774,286,OBS,SAND LANCES,670
+1022,AKR,Snails,890,315,OBS,RUSTY MOONSNAIL,975
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,356,OBS,PEARLY PRICKLEBACK,754
+1517,AKR,Eels or eel-like fish  ,210,361,OBS,FROSTFISH,650
+1550,AKR,"Smelt, Surf",515,362,OBS,SURF SMELT,613
+1521,AKR,"Poacher, general",219,371,OBS,SAWBACK POACHER,453
+1521,AKR,"Poacher, general",219,375,OBS,SPINYCHEEK STARSNOUT,461
+1521,AKR,"Poacher, general",219,376,OBS,BERING POACHER,463
+29,AKR,China Rockfish,149,393,OBS,CHINA ROCKFISH,346
+1517,AKR,Eels or eel-like fish  ,210,397,OBS,KAMCHATKA EELPOUT,262
+19,AKR,Bocaccio Rockfish,137,423,OBS,BOCACCIO ROCKFISH,302
+76,AKR,Lanternfishes (family Myctophidae),772,442,OBS,CALIFORNIA HEADLIGHTFISH,701
+1531,AKR,Other Small Sculpins,160,445,OBS,ANTLERED SCULPIN,472
+1621,AKR,"Skate, Other",700,462,OBS,OKHOTSK SKATE,161
+1531,AKR,Other Small Sculpins,160,476,OBS,BLOB SCULPIN,422
+6,AKR,Rock Sole,123,511,OBS,SOUTHERN ROCK SOLE,121
+73,AKR,"Shark, Other",689,517,OBS,THRESHER SHARK,63
+1033,AKR,"Shrimp, humpy",963,518,OBS,SHRIMP UNIDENTIFIED,70
+1552,AKR,Ratfish,714,521,OBS,SPOTTED RATFISH,99
+1538,AKR,Other Large Sculpins,286,530,OBS,SCULPIN UNIDENTIFIED,400
+1531,AKR,Other Small Sculpins,160,533,OBS,PACIFIC STAGHORN SCULPIN,424
+1521,AKR,"Poacher, general",219,534,OBS,DRAGON POACHER,459
+994,AKR,Giant grenadier,214,564,OBS,GRENADIER UNIDENTIFIED,80
+1507,AKR,Kamchatka Flounder,117,1169,OBS,TURBOT/KAM/ARROW - UNIDENTIFIED,143
+1011,AKR,"Clam, geoduck",815,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1022,AKR,Snails,890,1228,OBS,SNAIL EGGS UNIDENTIFIED,34
+1022,AKR,Snails,890,1229,OBS,SNAIL SHELL UNIDENTIFIED,36
+1519,AKR,"Snailfish, general",218,1253,OBS,LIPARIS MEGACEPHALUS,502
+1526,AKR,Dark Rockfish,173,1528,OBS,DARK ROCKFISH,345
+1621,AKR,"Skate, Other",700,1637,OBS,MUD SKATE,165
+1513,AKR,Miscellaneous Flatfish,120,1639,OBS,CALIFORNIA HALIBUT,122
+81,AKR,Squid,875,96,OBS,HUMBOLDT SQUID,511
+88,AKR,"Crab, Opilio Tanner (Snow)",932,97,OBS,TANNER CRAB UNIDENTIFIED,3
+1506,AKR,Arrowtooth Flounder,121,117,OBS,ARROWTOOTH FLOUNDER,141
+1521,AKR,"Poacher, general",219,119,OBS,POACHER UNIDENTIFIED,450
+83,AKR,Red King Crab,921,131,OBS,CRAB UNIDENTIFIED,1
+85,AKR,"Crab, Golden King (Brown)",923,131,OBS,CRAB UNIDENTIFIED,1
+1026,AKR,"Crabs, box",900,131,OBS,CRAB UNIDENTIFIED,1
+1027,AKR,"Crab, dungeness",910,131,OBS,CRAB UNIDENTIFIED,1
+1613,AKR,"Crab, Verrilli",953,131,OBS,CRAB UNIDENTIFIED,1
+83,AKR,Red King Crab,921,136,OBS,LITHODID CRAB UNIDENTIFIED,14
+73,AKR,"Shark, Other",689,162,OBS,SPINY DOGFISH SHARK,66
+994,AKR,Giant grenadier,214,167,OBS,GIANT GRENADIER,82
+1514,AKR,Bering Flounder,116,181,OBS,BERING FLOUNDER,145
+2,AKR,Pacific Cod,110,198,OBS,GADID UNIDENTIFIED,215
+1504,AKR,Saffron Cod,111,198,OBS,GADID UNIDENTIFIED,215
+36,AKR,Widow Rockfish,156,216,OBS,WIDOW ROCKFISH,305
+30,AKR,Rosethorn Rockfish,150,220,OBS,ROSETHORN ROCKFISH,309
+37,AKR,Silvergray Rockfish,157,221,OBS,SILVERGRAY ROCKFISH,310
+26,AKR,Canary Rockfish,146,224,OBS,CANARY ROCKFISH,314
+1533,AKR,Large Sculpins - Great Sculpin,281,250,OBS,GREAT SCULPIN,405
+1538,AKR,Other Large Sculpins,286,257,OBS,IRISH LORD UNIDENTIFIED,418
+1521,AKR,"Poacher, general",219,259,OBS,STURGEON POACHER,452
+1521,AKR,"Poacher, general",219,260,OBS,GRAY STARSNOUT POACHER,456
+1550,AKR,"Smelt, Surf",515,272,OBS,SMELT/HERRING UNIDENTIFIED,600
+70,AKR,"Smelt, Eulachon",511,273,OBS,EULACHON,601
+1550,AKR,"Smelt, Surf",515,274,OBS,SMELT UNIDENTIFIED,602
+1614,AKR,Pacific Herring (directed fishery),230,282,OBS,PACIFIC HERRING,611
+1004,AKR,Pacific sardine,170,283,OBS,PACIFIC SARDINE,614
+1521,AKR,"Poacher, general",219,373,OBS,BLACKFIN POACHER,455
+1531,AKR,Other Small Sculpins,160,381,OBS,MOSSHEAD SCULPIN,421
+1032,AKR,"Shrimp, sidestripe",962,404,OBS,SIDESTRIPE SHRIMP,72
+1621,AKR,"Skate, Other",700,410,OBS,DEEPSEA SKATE,92
+41,AKR,Sharpchin Rockfish,166,454,OBS,SMALL RED ROCKFISH GROUP,348
+47,AKR,Harlequin Rockfish,176,454,OBS,SMALL RED ROCKFISH GROUP,348
+81,AKR,Squid,875,467,OBS,ROBUST CLUBHOOK SQUID,51
+1622,AKR,"Skate, Aleutian",704,470,OBS,ALEUTIAN SKATE,85
+997,AKR,Pacific Flatnose,260,472,OBS,PACIFIC FLATNOSE,210
+1519,AKR,"Snailfish, general",218,494,OBS,MARBLED SNAILFISH,505
+1513,AKR,Miscellaneous Flatfish,120,508,OBS,SANDDAB UNIDENTIFIED,136
+6,AKR,Rock Sole,123,510,OBS,NORTHERN ROCK SOLE,120
+1513,AKR,Miscellaneous Flatfish,120,523,OBS,DEEPSEA SOLE,110
+54,AKR,Vermilion Rockfish,184,526,OBS,VERMILION ROCKFISH,331
+988,AKR,"Greenling, kelp",194,529,OBS,KELP GREENLING,392
+1538,AKR,Other Large Sculpins,286,531,OBS,RED IRISH LORD,407
+1519,AKR,"Snailfish, general",218,535,OBS,SNAILFISH UNIDENTIFIED,500
+1517,AKR,Eels or eel-like fish  ,210,537,OBS,SNIPE EEL UNIDENTIFIED,559
+1623,AKR,"Skate, Whiteblotched",705,548,OBS,WHITEBLOTCHED SKATE,164
+218,AKR,Unidentified Rockfish,139,554,OBS,DARK ROCKFISH UNIDENTIFIED,347
+84,AKR,Blue King Crab,922,556,OBS,KING CRAB UNIDENTIFIED,2
+1507,AKR,Kamchatka Flounder,117,1045,OBS,ARROWTOOTH/KAMCHATKA FLOUNDER,149
+1506,AKR,Arrowtooth Flounder,121,1169,OBS,TURBOT/KAM/ARROW - UNIDENTIFIED,143
+1005,AKR,"Tuna, albacore",720,1178,OBS,ALBACORE TUNA,784
+1014,AKR,"Clam, little-neck",840,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1023,AKR,Sea cucumbers,895,1232,OBS,SEA CUCUMBER UNIDENTIFIED,41
+1531,AKR,Other Small Sculpins,160,1248,OBS,ICELUS CANALICULATUS,429
+65,AKR,Sockeye Salmon,420,89,OBS,SALMON UNIDENTIFIED,220
+57,AKR,Pacific Halibut,200,91,OBS,PACIFIC HALIBUT,101
+87,AKR,Bairdi Tanner Crab,931,97,OBS,TANNER CRAB UNIDENTIFIED,3
+1089,AKR,Grooved Tanner Crab,933,97,OBS,TANNER CRAB UNIDENTIFIED,3
+1513,AKR,Miscellaneous Flatfish,120,112,OBS,ROUGHSCALE SOLE,114
+1536,AKR,Large Sculpins - Warty Sculpin,284,118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440
+1089,AKR,Grooved Tanner Crab,933,122,OBS,TANNERI TANNER,18
+1091,AKR,Triangle Tanner Crab,934,123,OBS,ANGULATUS TANNER,19
+1037,AKR,"Crab, Hanasaki (Spiny) King",925,131,OBS,CRAB UNIDENTIFIED,1
+1089,AKR,Grooved Tanner Crab,933,131,OBS,CRAB UNIDENTIFIED,1
+1091,AKR,Triangle Tanner Crab,934,131,OBS,CRAB UNIDENTIFIED,1
+1028,AKR,"Crab, scarlet king",924,136,OBS,LITHODID CRAB UNIDENTIFIED,14
+1002,AKR,"Shark, pacific sleeper",692,160,OBS,PACIFIC SLEEPER SHARK,62
+5,AKR,Flathead Sole,122,172,OBS,FLATHEAD SOLE,103
+15,AKR,Alaska Plaice Flounder,133,174,OBS,ALASKA PLAICE,106
+1513,AKR,Miscellaneous Flatfish,120,178,OBS,SLENDER SOLE,111
+73,AKR,"Shark, Other",689,183,OBS,PYGMY SHARK,155
+1430,AKR,Prowfish,215,190,OBS,PROWFISH,205
+1640,AKR,Pacific Hake,112,191,OBS,PACIFIC HAKE,206
+18,AKR,Northern Rockfish,136,214,OBS,NORTHERN ROCKFISH,303
+35,AKR,Yellowtail Rockfish,155,230,OBS,YELLOWTAIL ROCKFISH,321
+1646,AKR,Shortraker/Rougheye Rockfish,171,234,OBS,SHORTRAKER ROCKFISH,326
+23,AKR,Thornyhead Rockfish (Idiots),143,243,OBS,LONGSPINE THORNYHEAD ROCKFISH,352
+986,AKR,"Greenling, rock",191,245,OBS,ROCK GREENLING,393
+1537,AKR,Large Sculpins - Yellow Irish Lord,285,257,OBS,IRISH LORD UNIDENTIFIED,418
+1519,AKR,"Snailfish, general",218,265,OBS,BLACKTAIL SNAILFISH GROUP,501
+1517,AKR,Eels or eel-like fish  ,210,279,OBS,KING-OF-THE-SALMON,608
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,291,OBS,PRICKLEBACK UNIDENTIFIED,750
+1007,AKR,Lancetfish,716,302,OBS,LANCETFISHES,785
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,355,OBS,ARCTIC SHANNY,752
+76,AKR,Lanternfishes (family Myctophidae),772,360,OBS,BROKENLINE LAMPFISH,704
+77,AKR,Deep-sea Smelt (family Bathylagidae),773,366,OBS,BLACKSMELT UNIDENTIFIED,618
+77,AKR,Deep-sea Smelt (family Bathylagidae),773,367,OBS,NORTHERN SMOOTHTONGUE,619
+1531,AKR,Other Small Sculpins,160,378,OBS,THORNY SCULPIN,413
+1531,AKR,Other Small Sculpins,160,380,OBS,CALICO SCULPIN,420
+1517,AKR,Eels or eel-like fish  ,210,400,OBS,WATTLED EELPOUT,251
+16,AKR,Greenland Turbot,134,422,OBS,GREENLAND TURBOT,102
+1517,AKR,Eels or eel-like fish  ,210,444,OBS,BLACKLINE SNIPE EEL,561
+1519,AKR,"Snailfish, general",218,447,OBS,RIBBON SNAILFISH,507
+32,AKR,Shortraker Rockfish,152,451,OBS,SHORTRAKER/ROUGHEYE ROCKFISH,354
+21,AKR,Pacific Ocean Perch,141,454,OBS,SMALL RED ROCKFISH GROUP,348
+1517,AKR,Eels or eel-like fish  ,210,473,OBS,BIGFIN EELPOUT,257
+1518,AKR,Wolf-eel ,217,481,OBS,WOLFFISH UNIDENTIFIED,779
+1621,AKR,"Skate, Other",700,501,OBS,FLATHEAD SKATE,86
+1621,AKR,"Skate, Other",700,504,OBS,COMMANDER SKATE,163
+1032,AKR,"Shrimp, sidestripe",962,518,OBS,SHRIMP UNIDENTIFIED,70
+1034,AKR,"Shrimp, coonstripe",964,518,OBS,SHRIMP UNIDENTIFIED,70
+1513,AKR,Miscellaneous Flatfish,120,524,OBS,ARCTIC FLOUNDER,146
+1535,AKR,Small Sculpins - Threaded Sculpin,283,530,OBS,SCULPIN UNIDENTIFIED,400
+1517,AKR,Eels or eel-like fish  ,210,545,OBS,BASKETWEAVE CUSK-EEL,255
+73,AKR,"Shark, Other",689,546,OBS,PACIFIC SHARPNOSE SHARK,76
+1037,AKR,"Crab, Hanasaki (Spiny) King",925,556,OBS,KING CRAB UNIDENTIFIED,2
+988,AKR,"Greenling, kelp",194,563,OBS,GREENLING UNIDENTIFIED,390
+993,AKR,"Grenadiers (rattails, general)",213,564,OBS,GRENADIER UNIDENTIFIED,80
+1018,AKR,"Mussel, blue",855,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1015,AKR,"Clam, eastern softshell",842,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1009,AKR,"Clam, butter",810,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1012,AKR,"Clam, cockle",820,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1022,AKR,Snails,890,1225,OBS,SNAIL UNIDENTIFIED,30
+68,AKR,Chum Salmon,450,89,OBS,SALMON UNIDENTIFIED,220
+64,AKR,Chinook Salmon,410,94,OBS,CHINOOK SALMON,222
+1612,AKR,"Crab, Multispine",951,131,OBS,CRAB UNIDENTIFIED,1
+1027,AKR,"Crab, dungeness",910,135,OBS,DUNGENESS CRAB,12
+73,AKR,"Shark, Other",689,161,OBS,SHARK UNIDENTIFIED,65
+1517,AKR,Eels or eel-like fish  ,210,207,OBS,TWOLINE EELPOUT,253
+1531,AKR,Other Small Sculpins,160,252,OBS,RIBBED SCULPIN,408
+1531,AKR,Other Small Sculpins,160,253,OBS,CRESTED SCULPIN,409
+1538,AKR,Other Large Sculpins,286,256,OBS,BUTTERFLY SCULPIN,415
+1519,AKR,"Snailfish, general",218,267,OBS,RINGTAIL SNAILFISH,508
+1511,AKR,"Lumpsucker, smooth",216,268,OBS,LUMPSUCKER UNIDENTIFIED,525
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,292,OBS,SNAKE PRICKLEBACK,751
+991,AKR,Wrymouths,211,294,OBS,GIANT WRYMOUTH,760
+991,AKR,Wrymouths,211,301,OBS,DWARF WRYMOUTH,783
+76,AKR,Lanternfishes (family Myctophidae),772,359,OBS,NORTHERN LANTERNFISH,702
+77,AKR,Deep-sea Smelt (family Bathylagidae),773,363,OBS,EARED BLACKSMELT,615
+1517,AKR,Eels or eel-like fish  ,210,369,OBS,SLENDER SNIPE EEL,560
+1521,AKR,"Poacher, general",219,372,OBS,SMOOTH ALLIGATORFISH,454
+1531,AKR,Other Small Sculpins,160,382,OBS,SPECTACLED SCULPIN,426
+1531,AKR,Other Small Sculpins,160,386,OBS,THREADFIN SCULPIN,403
+993,AKR,"Grenadiers (rattails, general)",213,406,OBS,FILAMENTED RATTAIL,83
+14,AKR,Sand Sole,132,415,OBS,SAND SOLE,115
+58,AKR,"Gunnels, (family Pholidae)",207,416,OBS,GUNNEL UNIDENTIFIED,430
+83,AKR,Red King Crab,921,417,OBS,RED KING CRAB,13
+1531,AKR,Other Small Sculpins,160,450,OBS,SILVERSPOTTED SCULPIN,396
+50,AKR,Pygmy Rockfish,179,452,OBS,PYGMY ROCKFISH,335
+1531,AKR,Other Small Sculpins,160,464,OBS,TRIGLOPS SCULPIN UNIDENTIFIED,433
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,489,OBS,WHITEBARRED PRICKLEBACK,755
+1536,AKR,Large Sculpins - Warty Sculpin,284,530,OBS,SCULPIN UNIDENTIFIED,400
+1533,AKR,Large Sculpins - Great Sculpin,281,530,OBS,SCULPIN UNIDENTIFIED,400
+1537,AKR,Large Sculpins - Yellow Irish Lord,285,532,OBS,YELLOW IRISH LORD,414
+1531,AKR,Other Small Sculpins,160,550,OBS,SPINYHEAD SCULPIN,401
+1531,AKR,Other Small Sculpins,160,560,OBS,DARKFIN SCULPIN,395
+1525,AKR,Dusky Rockfish,172,562,OBS,DUSKY ROCKFISH UNIDENTIFIED,355
+1010,AKR,"Clam, surf",812,1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29
+1621,AKR,"Skate, Other",700,1246,OBS,SOFT SNOUT SKATE,159
+1531,AKR,Other Small Sculpins,160,1250,OBS,ICELUS EURYOPS,432
+1519,AKR,"Snailfish, general",218,1254,OBS,LIPARIS OCHOTENSIS,503
+1525,AKR,Dusky Rockfish,172,1527,OBS,DUSKY ROCKFISH,330
+73,AKR,"Shark, Other",689,1634,OBS,BASKING SHARK,156
+14,AKR,Sand Sole,132,671,ADFG,"Sole, sand",132
+28,AKR,Tiger Rockfish,148,687,ADFG,"Rockfish, Tiger",148
+41,AKR,Sharpchin Rockfish,166,705,ADFG,"Rockfish, Sharpchin",166
+51,AKR,Shortbelly Rockfish,181,788,ADFG,"Rockfish, Shortbelly",181
+52,AKR,Splitnose Rockfish,182,1375,ADFG,"Rockfish, Splitnose",182
+57,AKR,Pacific Halibut,200,715,ADFG,Halibut,200
+62,AKR,Pacific Herring (bycatch),235,126,ADFG,"Herring, roe only",232
+62,AKR,Pacific Herring (bycatch),235,593,ADFG,"Herring, Pacific  (directed fishery)",230
+65,AKR,Sockeye Salmon,420,588,ADFG,"Salmon, Sockeye",420
+67,AKR,Pink Salmon,440,579,ADFG,"Salmon Roe, Unspecified",400
+67,AKR,Pink Salmon,440,584,ADFG,"Salmon Roe, Pink",404
+68,AKR,Chum Salmon,450,591,ADFG,"Salmon, Chum",450
+72,AKR,Steelhead Trout,540,748,ADFG,"Trout, Steelhead",540
+72,AKR,Steelhead Trout,540,749,ADFG,"Trout, Rainbow",541
+76,AKR,Lanternfishes (family Myctophidae),772,1397,ADFG,Lanternfish,772
+994,AKR,Giant grenadier,214,1381,ADFG,"Grenadier, Giant",214
+1014,AKR,"Clam, little-neck",840,624,ADFG,"Clam, Little-neck, Pacific",840
+1023,AKR,Sea cucumbers,895,650,ADFG,"Sea Cucumber, Red",894
+1031,AKR,"Shrimp, Northern (Pink)",961,613,ADFG,"Shrimp, Northern (Pink)",961
+1037,AKR,"Crab, Hanasaki (Spiny) King",925,597,ADFG,"Crab, Hanasaki (Spiny) King",925
+1497,AKR,"Sturgeon, general",680,778,ADFG,"Sturgeon, White",682
+1513,AKR,Miscellaneous Flatfish,120,1516,ADFG,"Flounder, General",120
+1646,AKR,Shortraker/Rougheye Rockfish,171,691,ADFG,"Rockfish, Shortraker",152
+5,AKR,Flathead Sole,122,661,ADFG,"Sole, Flathead",122
+16,AKR,Greenland Turbot,134,673,ADFG,"Turbot, Greenland",134
+19,AKR,Bocaccio Rockfish,137,676,ADFG,"Rockfish, Bocaccio  ",137
+22,AKR,Black Rockfish,142,681,ADFG,"Rockfish, black",142
+26,AKR,Canary Rockfish,146,685,ADFG,"Rockfish, Canary",146
+36,AKR,Widow Rockfish,156,695,ADFG,"Rockfish, Widow",156
+46,AKR,Yellowmouth Rockfish,175,709,ADFG,"Rockfish, Yellowmouth",175
+47,AKR,Harlequin Rockfish,176,786,ADFG,"Rockfish, Harlequin",176
+53,AKR,Stripetail Rockfish,183,1376,ADFG,"Rockfish, Stripetail",183
+62,AKR,Pacific Herring (bycatch),235,128,ADFG,"Herring, Bait",233
+64,AKR,Chinook Salmon,410,579,ADFG,"Salmon Roe, Unspecified",400
+64,AKR,Chinook Salmon,410,586,ADFG,"Salmon, Chinook",410
+66,AKR,Coho Salmon,430,589,ADFG,"Salmon, Coho",430
+991,AKR,Wrymouths,211,717,ADFG,Wrymouths,211
+999,AKR,"Dolly varden, anadromous",531,745,ADFG,Dolly Varden (general),530
+1007,AKR,Lancetfish,716,792,ADFG,Lancetfish (Family Alepisauridae),716
+1009,AKR,"Clam, butter",810,619,ADFG,"Clam, Butter, Washington",810
+1028,AKR,"Crab, scarlet king",924,604,ADFG,"Crab, Scarlet, King",924
+1033,AKR,"Shrimp, humpy",963,615,ADFG,"Shrimp, Humpy",963
+1537,AKR,Large Sculpins - Yellow Irish Lord,285,1545,ADFG,"Sculpin, Yellow Irish Lord",285
+1614,AKR,Pacific Herring (directed fishery),230,125,ADFG,"Herring, Roe on Kelp",231
+1614,AKR,Pacific Herring (directed fishery),230,128,ADFG,"Herring, Bait",233
+1641,AKR,"Skate, Big",702,1387,ADFG,"Skate, Big",702
+1646,AKR,Shortraker/Rougheye Rockfish,171,690,ADFG,"Rockfish, Rougheye",151
+13,AKR,Petrale Sole,131,670,ADFG,"Sole, Petrale",131
+15,AKR,Alaska Plaice Flounder,133,672,ADFG,"Flounder, Alaska Plaice",133
+17,AKR,Greenstriped Rockfish,135,674,ADFG,"Rockfish, Greenstriped",135
+20,AKR,Copper Rockfish,138,677,ADFG,"Rockfish, Copper",138
+27,AKR,Quillback Rockfish,147,686,ADFG,"Rockfish, Quillback",147
+29,AKR,China Rockfish,149,688,ADFG,"Rockfish, China",149
+32,AKR,Shortraker Rockfish,152,785,ADFG,"Rockfish, Shortraker/Rougheye",171
+62,AKR,Pacific Herring (bycatch),235,138,ADFG,"Herring, with sac roe",234
+63,AKR,Pollock,270,730,ADFG,"Pollock, CDQ",970
+65,AKR,Sockeye Salmon,420,582,ADFG,"Salmon Roe, Sockeye",402
+73,AKR,"Shark, Other",689,783,ADFG,"Shark, Pacific Sleeper",692
+80,AKR,Octopus,870,644,ADFG,"Octopus, North Pacific",870
+997,AKR,Pacific Flatnose,260,722,ADFG,"Codling, Pacific Flatnose",260
+999,AKR,"Dolly varden, anadromous",531,746,ADFG,Dolly Varden (anadromous),531
+1002,AKR,"Shark, pacific sleeper",692,725,ADFG,"Shark, Other",689
+1005,AKR,"Tuna, albacore",720,780,ADFG,"Tuna, Albacore",720
+1006,AKR,Black hagfish,202,791,ADFG,"Hagfish, Black",202
+1017,AKR,"Scallop, pink (or calico)",851,640,ADFG,"Scallop, Pink or Calico",851
+1029,AKR,"Crab, hair",940,610,ADFG,"Crab, Korean Horsehair",940
+1032,AKR,"Shrimp, sidestripe",962,614,ADFG,"Shrimp, Sidestripe",962
+1035,AKR,"Shrimp, spot",965,617,ADFG,"Shrimp, Spot",965
+1089,AKR,Grooved Tanner Crab,933,608,ADFG,"Crab, Tanner, Grooved",933
+1091,AKR,Triangle Tanner Crab,934,609,ADFG,"Crab, Tanner, Triangle",934
+1430,AKR,Prowfish,215,1431,ADFG,Prowfish,215
+1504,AKR,Saffron Cod,111,1505,ADFG,"Cod, Saffron",111
+1611,AKR,"Sea Urchin, red",892,782,ADFG,"Sea Urchin, Red",892
+1613,AKR,"Crab, Verrilli",953,612,ADFG,"Crab, Verrilli",953
+23,AKR,Thornyhead Rockfish (Idiots),143,682,ADFG,"Rockfish, Thornyhead (idiots)",143
+48,AKR,Blackgill Rockfish,177,787,ADFG,"Rockfish, Blackgill",177
+50,AKR,Pygmy Rockfish,179,1374,ADFG,"Rockfish, Pygmy",179
+56,AKR,Atka Mackerel,193,713,ADFG,Atka Mackerel,193
+60,AKR,"Bristlemouths, (family Gonostomatidae)",209,1380,ADFG,"Bristlemouth, Lightfish, Anglemouth",209
+62,AKR,Pacific Herring (bycatch),235,125,ADFG,"Herring, Roe on Kelp",231
+62,AKR,Pacific Herring (bycatch),235,157,ADFG,"Herring, (groundfish fishery bycatch)",235
+64,AKR,Chinook Salmon,410,580,ADFG,"Salmon Roe, Chinook",401
+67,AKR,Pink Salmon,440,590,ADFG,"Salmon, Pink",440
+73,AKR,"Shark, Other",689,727,ADFG,"Shark, Spiny Dogfish",691
+73,AKR,"Shark, Other",689,726,ADFG,"Shark, Salmon",690
+75,AKR,Sablefish (blackcod),710,729,ADFG,Sablefish,710
+81,AKR,Squid,875,646,ADFG,Squid,875
+85,AKR,"Crab, Golden King (Brown)",923,603,ADFG,"Crab, Golden King (Brown)",923
+87,AKR,Bairdi Tanner Crab,931,606,ADFG,"Crab, Tanner Bairdi",931
+996,AKR,Pacific tomcod,250,721,ADFG,"Tomcod, Pacific",250
+998,AKR,"Arctic char, anadromous",521,742,ADFG,Arctic Char (general),520
+998,AKR,"Arctic char, anadromous",521,743,ADFG,Arctic Char (anadromous),521
+998,AKR,"Arctic char, anadromous",521,744,ADFG,Arctic Char (nonanadromous),522
+999,AKR,"Dolly varden, anadromous",531,747,ADFG,Dolly Varden (nonanadromous),532
+1012,AKR,"Clam, cockle",820,622,ADFG,"Clam, Cockle",820
+1016,AKR,"Scallop, weathervane",850,639,ADFG,"Scallop, Weathervane",850
+1506,AKR,Arrowtooth Flounder,121,1508,ADFG,"Flounder, Arrowtooth",121
+1517,AKR,Eels or eel-like fish  ,210,1158,ADFG,Eels or eel-like fish,210
+1531,AKR,Other Small Sculpins,160,701,ADFG,"Sculpin, Slimy",162
+1531,AKR,Other Small Sculpins,160,702,ADFG,"Sculpin, Fourhorn",163
+1532,AKR,Large Sculpins - Bigmouth Sculpin,280,1540,ADFG,"Sculpin, Bigmouth",280
+1534,AKR,Large Sculpins - Plain Sculpin,282,1542,ADFG,"Sculpin, Plain",282
+1614,AKR,Pacific Herring (directed fishery),230,593,ADFG,"Herring, Pacific  (directed fishery)",230
+1621,AKR,"Skate, Other",700,1624,ADFG,"Skate, Other",700
+1646,AKR,Shortraker/Rougheye Rockfish,171,785,ADFG,"Rockfish, Shortraker/Rougheye",171
+2,AKR,Pacific Cod,110,656,ADFG,"Cod, Pacific, (Grey)",110
+31,AKR,Rougheye Rockfish,151,785,ADFG,"Rockfish, Shortraker/Rougheye",171
+38,AKR,Redstripe Rockfish,158,697,ADFG,"Rockfish, Redstripe",158
+39,AKR,Darkblotched Rockfish,159,698,ADFG,"Rockfish, Darkblotched",159
+71,AKR,Capelin,516,741,ADFG,Capelin,516
+83,AKR,Red King Crab,921,601,ADFG,"Crab, Red King",921
+994,AKR,Giant grenadier,214,719,ADFG,Grenadier (Rattail),213
+995,AKR,Pacific saury,220,720,ADFG,"Saury, Pacific",220
+1003,AKR,Lingcod,130,669,ADFG,Lingcod,130
+1013,AKR,"Clam, pacific razor",830,623,ADFG,"Clam, Razor, Pacific",830
+1018,AKR,"Mussel, blue",855,642,ADFG,"Mussel, Blue",855
+1020,AKR,Oysters,880,647,ADFG,"Oyster, Pacific",880
+1025,AKR,Coral,899,654,ADFG,Coral,899
+1036,AKR,"Shark, salmon",690,725,ADFG,"Shark, Other",689
+1497,AKR,"Sturgeon, general",680,779,ADFG,"Sturgeon, Siberian",683
+1518,AKR,Wolf-eel ,217,1158,ADFG,Eels or eel-like fish,210
+1521,AKR,"Poacher, general",219,1522,ADFG,"Poacher, general",219
+1525,AKR,Dusky Rockfish,172,1523,ADFG,"Rockfish, Dusky",172
+1536,AKR,Large Sculpins - Warty Sculpin,284,1544,ADFG,"Sculpin, Warty",284
+1552,AKR,Ratfish,714,1388,ADFG,"Ratfish, Spotted",714
+1610,AKR,"Sea Urchin, green",893,781,ADFG,"Sea Urchin, Green",893
+1612,AKR,"Crab, Multispine",951,611,ADFG,"Crab, Multispina",951
+1614,AKR,Pacific Herring (directed fishery),230,157,ADFG,"Herring, (groundfish fishery bycatch)",235
+7,AKR,Dover Sole,124,663,ADFG,"Sole, Dover",124
+11,AKR,English Sole,128,667,ADFG,"Sole, English",128
+32,AKR,Shortraker Rockfish,152,691,ADFG,"Rockfish, Shortraker",152
+63,AKR,Pollock,270,723,ADFG,Pollock,270
+66,AKR,Coho Salmon,430,583,ADFG,"Salmon Roe, Coho",403
+79,AKR,Krill (order Euphausiacea),800,1400,ADFG,Krill,800
+84,AKR,Blue King Crab,922,602,ADFG,"Crab, Blue King",922
+987,AKR,"Greenling, whitespot",192,712,ADFG,"Greenling, Whitespotted",192
+992,AKR,Pacific hagfish,212,718,ADFG,"Hagfish, Pacific",212
+993,AKR,"Grenadiers (rattails, general)",213,719,ADFG,Grenadier (Rattail),213
+1000,AKR,"Lamprey, pacific",600,765,ADFG,"Lamprey, Pacific",600
+1001,AKR,"Shark, spiny dogfish",691,725,ADFG,"Shark, Other",689
+1002,AKR,"Shark, pacific sleeper",692,783,ADFG,"Shark, Pacific Sleeper",692
+1036,AKR,"Shark, salmon",690,726,ADFG,"Shark, Salmon",690
+1497,AKR,"Sturgeon, general",680,777,ADFG,"Sturgeon, Green",681
+1531,AKR,Other Small Sculpins,160,703,ADFG,"Sculpin, Prickly",164
+1535,AKR,Small Sculpins - Threaded Sculpin,283,1543,ADFG,"Sculpin, Threaded",283
+1553,AKR,Skilfish,715,1590,ADFG,Skilfish,715
+1614,AKR,Pacific Herring (directed fishery),230,138,ADFG,"Herring, with sac roe",234
+1615,AKR,"Skate, Alaska",703,1619,ADFG,"Skate, Alaska",703
+12,AKR,Starry Flounder,129,668,ADFG,"Flounder, Starry",129
+31,AKR,Rougheye Rockfish,151,690,ADFG,"Rockfish, Rougheye",151
+33,AKR,Redbanded Rockfish,153,692,ADFG,"Rockfish, Redbanded",153
+37,AKR,Silvergray Rockfish,157,696,ADFG,"Rockfish, Silvergrey",157
+49,AKR,Chilipepper Rockfish,178,1373,ADFG,"Rockfish, Chilipepper",178
+55,AKR,Aurora Rockfish,185,790,ADFG,"Rockfish, Aurora",185
+59,AKR,"Pricklebacks, etc.  (family Stichaeidae)",208,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+64,AKR,Chinook Salmon,410,587,ADFG,"Salmon, chinook, under 21 inches",411
+65,AKR,Sockeye Salmon,420,579,ADFG,"Salmon Roe, Unspecified",400
+68,AKR,Chum Salmon,450,585,ADFG,"Salmon Roe, Chum",405
+70,AKR,"Smelt, Eulachon",511,736,ADFG,Eulachon,511
+73,AKR,"Shark, Other",689,1391,ADFG,"Shark, Mako",752
+88,AKR,"Crab, Opilio Tanner (Snow)",932,607,ADFG,"Crab, Opilio Tanner (Snow)",932
+218,AKR,Unidentified Rockfish,139,678,ADFG,"Rockfish, Other",139
+986,AKR,"Greenling, rock",191,711,ADFG,"Greenling, Rock",191
+988,AKR,"Greenling, kelp",194,714,ADFG,"Greenling, Kelp",194
+1015,AKR,"Clam, eastern softshell",842,637,ADFG,"Clam, Eastern softshell",842
+1022,AKR,Snails,890,648,ADFG,Snails,890
+1023,AKR,Sea cucumbers,895,651,ADFG,"Sea Cucumber, General",895
+1026,AKR,"Crabs, box",900,598,ADFG,"Crab, Box",900
+1497,AKR,"Sturgeon, general",680,776,ADFG,"Sturgeon, General",680
+1511,AKR,"Lumpsucker, smooth",216,1383,ADFG,"Lumpsucker, Smooth",216
+1526,AKR,Dark Rockfish,173,1524,ADFG,"Rockfish, Dark",173
+1531,AKR,Other Small Sculpins,160,700,ADFG,"Sculpin, Coastrange",161
+1533,AKR,Large Sculpins - Great Sculpin,281,1541,ADFG,"Sculpin, Great",281
+1538,AKR,Other Large Sculpins,286,1546,ADFG,"Sculpin, Other Large",286
+1622,AKR,"Skate, Aleutian",704,1625,ADFG,"Skate, Aleutian",704
+1623,AKR,"Skate, Whiteblotched",705,1626,ADFG,"Skate, Whiteblotched",705
+6,AKR,Rock Sole,123,662,ADFG,"Sole, Rock",123
+8,AKR,Rex Sole,125,664,ADFG,"Sole, Rex",125
+9,AKR,Butter Sole,126,665,ADFG,"Sole, Butter",126
+10,AKR,Yellowfin Sole,127,666,ADFG,"Sole, Yellowfin",127
+18,AKR,Northern Rockfish,136,675,ADFG,"Rockfish, Northern",136
+21,AKR,Pacific Ocean Perch,141,680,ADFG,Pacific Ocean Perch,141
+25,AKR,Yelloweye Rockfish,145,684,ADFG,"Rockfish, Yelloweye",145
+30,AKR,Rosethorn Rockfish,150,689,ADFG,"Rockfish, Rosethorn",150
+35,AKR,Yellowtail Rockfish,155,694,ADFG,"Rockfish, Yellowtail",155
+42,AKR,Blue Rockfish,167,706,ADFG,"Rockfish, Blue",167
+54,AKR,Vermilion Rockfish,184,789,ADFG,"Rockfish, Vermilion",184
+58,AKR,"Gunnels, (family Pholidae)",207,1378,ADFG,Gunnels,207
+66,AKR,Coho Salmon,430,579,ADFG,"Salmon Roe, Unspecified",400
+68,AKR,Chum Salmon,450,579,ADFG,"Salmon Roe, Unspecified",400
+73,AKR,"Shark, Other",689,725,ADFG,"Shark, Other",689
+77,AKR,Deep-sea Smelt (family Bathylagidae),773,1398,ADFG,"Smelts, Deep-Sea",773
+78,AKR,Pacific Sand Lance (family Ammodytidae),774,1399,ADFG,Pacific Sand Lance,774
+984,AKR,Shad,180,733,ADFG,Shad,180
+989,AKR,Pacific sandfish (family Trichodontidae),206,1377,ADFG,Pacific Sand Fish,206
+993,AKR,"Grenadiers (rattails, general)",213,1381,ADFG,"Grenadier, Giant",214
+1001,AKR,"Shark, spiny dogfish",691,727,ADFG,"Shark, Spiny Dogfish",691
+1004,AKR,Pacific sardine,170,732,ADFG,"Sardine, Pacific",170
+1010,AKR,"Clam, surf",812,620,ADFG,"Clam, Surf, Arctic",812
+1011,AKR,"Clam, geoduck",815,621,ADFG,"Clam, Geoduck, Pacific",815
+1019,AKR,Abalone,860,643,ADFG,"Abalone, Northern (Pinto)",860
+1027,AKR,"Crab, dungeness",910,599,ADFG,"Crab, Dungeness",910
+1034,AKR,"Shrimp, coonstripe",964,616,ADFG,"Shrimp, Coonstripe",964
+1507,AKR,Kamchatka Flounder,117,1509,ADFG,"Flounder, Kamchatka",117
+1514,AKR,Bering Flounder,116,1515,ADFG,"Flounder, Bering",116
+1518,AKR,Wolf-eel ,217,1384,ADFG,Wolf-eel,217
+1519,AKR,"Snailfish, general",218,1520,ADFG,"Snailfish, general",218
+1530,AKR,"Jellyfish, general",625,1385,ADFG,Jellyfish,625
+1531,AKR,Other Small Sculpins,160,1539,ADFG,"Sculpin, Other Small",160
+1531,AKR,Other Small Sculpins,160,704,ADFG,"Sculpin, Riffle",165
+1550,AKR,"Smelt, Surf",515,740,ADFG,"Smelt, Surf",515
+1551,AKR,"Skate, Longnose",701,1386,ADFG,"Skate, Longnose",701
+1614,AKR,Pacific Herring (directed fishery),230,126,ADFG,"Herring, roe only",232
+1640,AKR,Pacific Hake,112,1642,ADFG,Pacific Hake,112
+89,OBS,SALMON UNIDENTIFIED,220,586,ADFG,"Salmon, Chinook",410
+89,OBS,SALMON UNIDENTIFIED,220,583,ADFG,"Salmon Roe, Coho",403
+104,OBS,BAIRDI TANNER CRAB,4,606,ADFG,"Crab, Tanner Bairdi",931
+111,OBS,CALIFORNIA TONGUEFISH,113,1516,ADFG,"Flounder, General",120
+118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440,1541,ADFG,"Sculpin, Great",281
+118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440,1546,ADFG,"Sculpin, Other Large",286
+127,OBS,CHUM SALMON,221,585,ADFG,"Salmon Roe, Chum",405
+129,OBS,COHO SALMON,223,589,ADFG,"Salmon, Coho",430
+131,OBS,CRAB UNIDENTIFIED,1,601,ADFG,"Crab, Red King",921
+163,OBS,SALMON SHARK,67,725,ADFG,"Shark, Other",689
+164,OBS,HAGFISH UNIDENTIFIED,77,791,ADFG,"Hagfish, Black",202
+174,OBS,ALASKA PLAICE,106,672,ADFG,"Flounder, Alaska Plaice",133
+179,OBS,STARRY FLOUNDER,142,668,ADFG,"Flounder, Starry",129
+191,OBS,PACIFIC HAKE,206,1642,ADFG,Pacific Hake,112
+196,OBS,SKILFISH,212,1590,ADFG,Skilfish,715
+199,OBS,DOLLY VARDEN,228,745,ADFG,Dolly Varden (general),530
+199,OBS,DOLLY VARDEN,228,747,ADFG,Dolly Varden (nonanadromous),532
+200,OBS,STURGEON UNIDENTIFIED,230,776,ADFG,"Sturgeon, General",680
+206,OBS,POLAR EELPOUT,252,1158,ADFG,Eels or eel-like fish,210
+215,OBS,SHARPCHIN ROCKFISH,304,705,ADFG,"Rockfish, Sharpchin",166
+220,OBS,ROSETHORN ROCKFISH,309,689,ADFG,"Rockfish, Rosethorn",150
+233,OBS,CHILIPEPPER ROCKFISH,325,1373,ADFG,"Rockfish, Chilipepper",178
+239,OBS,AURORA ROCKFISH,334,790,ADFG,"Rockfish, Aurora",185
+247,OBS,WARTY SCULPIN,398,1544,ADFG,"Sculpin, Warty",284
+251,OBS,SHORTHORN SCULPIN,406,1546,ADFG,"Sculpin, Other Large",286
+258,OBS,SCISSORTAIL SCULPIN,425,1539,ADFG,"Sculpin, Other Small",160
+267,OBS,RINGTAIL SNAILFISH,508,1520,ADFG,"Snailfish, general",218
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,126,ADFG,"Herring, roe only",232
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,593,ADFG,"Herring, Pacific  (directed fishery)",230
+282,OBS,PACIFIC HERRING,611,138,ADFG,"Herring, with sac roe",234
+291,OBS,PRICKLEBACK UNIDENTIFIED,750,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+299,OBS,WOLF-EEL,780,1384,ADFG,Wolf-eel,217
+301,OBS,DWARF WRYMOUTH,783,717,ADFG,Wrymouths,211
+302,OBS,LANCETFISHES,785,792,ADFG,Lancetfish (Family Alepisauridae),716
+363,OBS,EARED BLACKSMELT,615,1398,ADFG,"Smelts, Deep-Sea",773
+374,OBS,NORTHERN SPEARNOSE POACHER,458,1522,ADFG,"Poacher, general",219
+404,OBS,SIDESTRIPE SHRIMP,72,614,ADFG,"Shrimp, Sidestripe",962
+406,OBS,FILAMENTED RATTAIL,83,719,ADFG,Grenadier (Rattail),213
+418,OBS,STEELHEAD,226,748,ADFG,"Trout, Steelhead",540
+451,OBS,SHORTRAKER/ROUGHEYE ROCKFISH,354,690,ADFG,"Rockfish, Rougheye",151
+462,OBS,OKHOTSK SKATE,161,1624,ADFG,"Skate, Other",700
+463,OBS,C-O SOLE,118,1516,ADFG,"Flounder, General",120
+494,OBS,MARBLED SNAILFISH,505,1520,ADFG,"Snailfish, general",218
+500,OBS,SOUPFIN SHARK,64,725,ADFG,"Shark, Other",689
+528,OBS,SHORTSPINE THORNYHEAD,350,682,ADFG,"Rockfish, Thornyhead (idiots)",143
+530,OBS,SCULPIN UNIDENTIFIED,400,1545,ADFG,"Sculpin, Yellow Irish Lord",285
+537,OBS,SNIPE EEL UNIDENTIFIED,559,1158,ADFG,Eels or eel-like fish,210
+548,OBS,WHITEBLOTCHED SKATE,164,1626,ADFG,"Skate, Whiteblotched",705
+560,OBS,DARKFIN SCULPIN,395,1539,ADFG,"Sculpin, Other Small",160
+1169,OBS,TURBOT/KAM/ARROW - UNIDENTIFIED,143,673,ADFG,"Turbot, Greenland",134
+1230,OBS,PARALOMIS VERILLI CRAB,38,612,ADFG,"Crab, Verrilli",953
+1246,OBS,SOFT SNOUT SKATE,159,1624,ADFG,"Skate, Other",700
+1250,OBS,ICELUS EURYOPS,432,1539,ADFG,"Sculpin, Other Small",160
+1254,OBS,LIPARIS OCHOTENSIS,503,1520,ADFG,"Snailfish, general",218
+89,OBS,SALMON UNIDENTIFIED,220,591,ADFG,"Salmon, Chum",450
+93,OBS,POLLOCK,201,723,ADFG,Pollock,270
+97,OBS,TANNER CRAB UNIDENTIFIED,3,609,ADFG,"Crab, Tanner, Triangle",934
+112,OBS,ROUGHSCALE SOLE,114,1516,ADFG,"Flounder, General",120
+113,OBS,HYBRID SOLE,116,1516,ADFG,"Flounder, General",120
+127,OBS,CHUM SALMON,221,579,ADFG,"Salmon Roe, Unspecified",400
+130,OBS,PINK SALMON,225,584,ADFG,"Salmon Roe, Pink",404
+131,OBS,CRAB UNIDENTIFIED,1,598,ADFG,"Crab, Box",900
+161,OBS,SHARK UNIDENTIFIED,65,725,ADFG,"Shark, Other",689
+162,OBS,SPINY DOGFISH SHARK,66,725,ADFG,"Shark, Other",689
+167,OBS,GIANT GRENADIER,82,719,ADFG,Grenadier (Rattail),213
+181,OBS,BERING FLOUNDER,145,1515,ADFG,"Flounder, Bering",116
+189,OBS,ATKA MACKEREL,204,713,ADFG,Atka Mackerel,193
+198,OBS,GADID UNIDENTIFIED,215,656,ADFG,"Cod, Pacific, (Grey)",110
+200,OBS,STURGEON UNIDENTIFIED,230,777,ADFG,"Sturgeon, Green",681
+205,OBS,EELPOUT UNIDENTIFIED,250,1158,ADFG,Eels or eel-like fish,210
+216,OBS,WIDOW ROCKFISH,305,695,ADFG,"Rockfish, Widow",156
+231,OBS,HARLEQUIN ROCKFISH,323,786,ADFG,"Rockfish, Harlequin",176
+252,OBS,RIBBED SCULPIN,408,1539,ADFG,"Sculpin, Other Small",160
+265,OBS,BLACKTAIL SNAILFISH GROUP,501,1520,ADFG,"Snailfish, general",218
+266,OBS,PINK SNAILFISH,504,1520,ADFG,"Snailfish, general",218
+271,OBS,RIBBONFISH UNIDENTIFIED,563,1158,ADFG,Eels or eel-like fish,210
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,737,ADFG,"Smelt, Longfin",512
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,739,ADFG,"Smelt, Pond",514
+273,OBS,EULACHON,601,736,ADFG,Eulachon,511
+275,OBS,LINGCOD,603,669,ADFG,Lingcod,130
+282,OBS,PACIFIC HERRING,611,125,ADFG,"Herring, Roe on Kelp",231
+293,OBS,LONGSNOUT PRICKLEBACK,756,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+294,OBS,GIANT WRYMOUTH,760,717,ADFG,Wrymouths,211
+355,OBS,ARCTIC SHANNY,752,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+380,OBS,CALICO SCULPIN,420,1539,ADFG,"Sculpin, Other Small",160
+399,OBS,GREEN STURGEON,231,777,ADFG,"Sturgeon, Green",681
+411,OBS,BERING SKATE,97,1624,ADFG,"Skate, Other",700
+418,OBS,STEELHEAD,226,749,ADFG,"Trout, Rainbow",541
+454,OBS,SMALL RED ROCKFISH GROUP,348,705,ADFG,"Rockfish, Sharpchin",166
+458,OBS,MARBLED EELPOUT,249,1158,ADFG,Eels or eel-like fish,210
+460,OBS,NORTHERN PINK SHRIMP,73,613,ADFG,"Shrimp, Northern (Pink)",961
+470,OBS,ALEUTIAN SKATE,85,1625,ADFG,"Skate, Aleutian",704
+476,OBS,BLOB SCULPIN,422,1539,ADFG,"Sculpin, Other Small",160
+504,OBS,COMMANDER SKATE,163,1624,ADFG,"Skate, Other",700
+517,OBS,THRESHER SHARK,63,725,ADFG,"Shark, Other",689
+518,OBS,SHRIMP UNIDENTIFIED,70,613,ADFG,"Shrimp, Northern (Pink)",961
+518,OBS,SHRIMP UNIDENTIFIED,70,616,ADFG,"Shrimp, Coonstripe",964
+520,OBS,ALASKA SKATE,88,1619,ADFG,"Skate, Alaska",703
+523,OBS,DEEPSEA SOLE,110,1516,ADFG,"Flounder, General",120
+530,OBS,SCULPIN UNIDENTIFIED,400,1539,ADFG,"Sculpin, Other Small",160
+530,OBS,SCULPIN UNIDENTIFIED,400,1544,ADFG,"Sculpin, Warty",284
+530,OBS,SCULPIN UNIDENTIFIED,400,1540,ADFG,"Sculpin, Bigmouth",280
+530,OBS,SCULPIN UNIDENTIFIED,400,1541,ADFG,"Sculpin, Great",281
+530,OBS,SCULPIN UNIDENTIFIED,400,702,ADFG,"Sculpin, Fourhorn",163
+533,OBS,PACIFIC STAGHORN SCULPIN,424,1539,ADFG,"Sculpin, Other Small",160
+534,OBS,DRAGON POACHER,459,1522,ADFG,"Poacher, general",219
+546,OBS,PACIFIC SHARPNOSE SHARK,76,725,ADFG,"Shark, Other",689
+563,OBS,GREENLING UNIDENTIFIED,390,714,ADFG,"Greenling, Kelp",194
+566,OBS,LAMPREY UNIDENTIFIED,75,766,ADFG,"Lamprey, Arctic",601
+578,OBS,CUSK-EEL UNIDENTIFIED,248,1158,ADFG,Eels or eel-like fish,210
+1045,OBS,ARROWTOOTH/KAMCHATKA FLOUNDER,149,1509,ADFG,"Flounder, Kamchatka",117
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,619,ADFG,"Clam, Butter, Washington",810
+1229,OBS,SNAIL SHELL UNIDENTIFIED,36,648,ADFG,Snails,890
+1253,OBS,LIPARIS MEGACEPHALUS,502,1520,ADFG,"Snailfish, general",218
+1255,OBS,CRYSTALLICHTHYS UNIDENTIFIED,510,1520,ADFG,"Snailfish, general",218
+1353,OBS,CROWNED HAIRY SNAIL,981,648,ADFG,Snails,890
+89,OBS,SALMON UNIDENTIFIED,220,588,ADFG,"Salmon, Sockeye",420
+100,OBS,BIG SKATE,94,1387,ADFG,"Skate, Big",702
+109,OBS,SOCKEYE SALMON,224,588,ADFG,"Salmon, Sockeye",420
+118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440,1539,ADFG,"Sculpin, Other Small",160
+122,OBS,TANNERI TANNER,18,608,ADFG,"Crab, Tanner, Grooved",933
+131,OBS,CRAB UNIDENTIFIED,1,599,ADFG,"Crab, Dungeness",910
+134,OBS,BOX CRAB,11,598,ADFG,"Crab, Box",900
+136,OBS,LITHODID CRAB UNIDENTIFIED,14,603,ADFG,"Crab, Golden King (Brown)",923
+144,OBS,PACIFIC BOBTAIL SQUID,28,646,ADFG,Squid,875
+160,OBS,PACIFIC SLEEPER SHARK,62,725,ADFG,"Shark, Other",689
+161,OBS,SHARK UNIDENTIFIED,65,726,ADFG,"Shark, Salmon",690
+162,OBS,SPINY DOGFISH SHARK,66,727,ADFG,"Shark, Spiny Dogfish",691
+173,OBS,REX SOLE,105,664,ADFG,"Sole, Rex",125
+180,OBS,LONGHEAD DAB,144,1516,ADFG,"Flounder, General",120
+200,OBS,STURGEON UNIDENTIFIED,230,778,ADFG,"Sturgeon, White",682
+200,OBS,STURGEON UNIDENTIFIED,230,779,ADFG,"Sturgeon, Siberian",683
+201,OBS,SANDFISHES,239,1377,ADFG,Pacific Sand Fish,206
+207,OBS,TWOLINE EELPOUT,253,1158,ADFG,Eels or eel-like fish,210
+221,OBS,SILVERGRAY ROCKFISH,310,696,ADFG,"Rockfish, Silvergrey",157
+228,OBS,BLACKGILL ROCKFISH,319,787,ADFG,"Rockfish, Blackgill",177
+234,OBS,SHORTRAKER ROCKFISH,326,785,ADFG,"Rockfish, Shortraker/Rougheye",171
+235,OBS,STRIPETAIL ROCKFISH,328,1376,ADFG,"Rockfish, Stripetail",183
+243,OBS,LONGSPINE THORNYHEAD ROCKFISH,352,682,ADFG,"Rockfish, Thornyhead (idiots)",143
+248,OBS,PLAIN SCULPIN,399,1542,ADFG,"Sculpin, Plain",282
+249,OBS,BIGMOUTH SCULPIN,402,1540,ADFG,"Sculpin, Bigmouth",280
+261,OBS,BIGEYE POACHER,457,1522,ADFG,"Poacher, general",219
+264,OBS,ROUGHSPINE SCULPIN,471,1539,ADFG,"Sculpin, Other Small",160
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,128,ADFG,"Herring, Bait",233
+274,OBS,SMELT UNIDENTIFIED,602,737,ADFG,"Smelt, Longfin",512
+274,OBS,SMELT UNIDENTIFIED,602,738,ADFG,"Smelt, Rainbow",513
+282,OBS,PACIFIC HERRING,611,126,ADFG,"Herring, roe only",232
+285,OBS,CUTLASSFISH UNIDENTIFIED,660,1158,ADFG,Eels or eel-like fish,210
+299,OBS,WOLF-EEL,780,1158,ADFG,Eels or eel-like fish,210
+356,OBS,PEARLY PRICKLEBACK,754,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+362,OBS,SURF SMELT,613,740,ADFG,"Smelt, Surf",515
+367,OBS,NORTHERN SMOOTHTONGUE,619,1398,ADFG,"Smelts, Deep-Sea",773
+373,OBS,BLACKFIN POACHER,455,1522,ADFG,"Poacher, general",219
+376,OBS,BERING POACHER,463,1522,ADFG,"Poacher, general",219
+401,OBS,SPOTTED CUSK-EEL,256,1158,ADFG,Eels or eel-like fish,210
+410,OBS,DEEPSEA SKATE,92,1624,ADFG,"Skate, Other",700
+413,OBS,WHITEBROW SKATE,162,1624,ADFG,"Skate, Other",700
+454,OBS,SMALL RED ROCKFISH GROUP,348,786,ADFG,"Rockfish, Harlequin",176
+457,OBS,EBONY EELPOUT,263,1158,ADFG,Eels or eel-like fish,210
+467,OBS,ROBUST CLUBHOOK SQUID,51,646,ADFG,Squid,875
+473,OBS,BIGFIN EELPOUT,257,1158,ADFG,Eels or eel-like fish,210
+508,OBS,SANDDAB UNIDENTIFIED,136,1516,ADFG,"Flounder, General",120
+510,OBS,NORTHERN ROCK SOLE,120,662,ADFG,"Sole, Rock",123
+518,OBS,SHRIMP UNIDENTIFIED,70,617,ADFG,"Shrimp, Spot",965
+527,OBS,QUILLBACK ROCKFISH,343,686,ADFG,"Rockfish, Quillback",147
+556,OBS,KING CRAB UNIDENTIFIED,2,601,ADFG,"Crab, Red King",921
+1169,OBS,TURBOT/KAM/ARROW - UNIDENTIFIED,143,1508,ADFG,"Flounder, Arrowtooth",121
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,621,ADFG,"Clam, Geoduck, Pacific",815
+1225,OBS,SNAIL UNIDENTIFIED,30,648,ADFG,Snails,890
+1354,OBS,PALLID MOON SNAIL,985,648,ADFG,Snails,890
+1638,OBS,ROUGHSHOULDER SKATE,166,1624,ADFG,"Skate, Other",700
+89,OBS,SALMON UNIDENTIFIED,220,587,ADFG,"Salmon, chinook, under 21 inches",411
+89,OBS,SALMON UNIDENTIFIED,220,584,ADFG,"Salmon Roe, Pink",404
+89,OBS,SALMON UNIDENTIFIED,220,590,ADFG,"Salmon, Pink",440
+96,OBS,HUMBOLDT SQUID,511,646,ADFG,Squid,875
+98,OBS,SQUID UNIDENTIFIED,50,646,ADFG,Squid,875
+107,OBS,RARE KING CRAB,10,597,ADFG,"Crab, Hanasaki (Spiny) King",925
+109,OBS,SOCKEYE SALMON,224,582,ADFG,"Salmon Roe, Sockeye",402
+129,OBS,COHO SALMON,223,583,ADFG,"Salmon Roe, Coho",403
+130,OBS,PINK SALMON,225,590,ADFG,"Salmon, Pink",440
+131,OBS,CRAB UNIDENTIFIED,1,602,ADFG,"Crab, Blue King",922
+131,OBS,CRAB UNIDENTIFIED,1,610,ADFG,"Crab, Korean Horsehair",940
+132,OBS,KOREAN HORSEHAIR CRAB,7,610,ADFG,"Crab, Korean Horsehair",940
+135,OBS,DUNGENESS CRAB,12,599,ADFG,"Crab, Dungeness",910
+161,OBS,SHARK UNIDENTIFIED,65,1391,ADFG,"Shark, Mako",752
+169,OBS,LONGNOSE SKATE,95,1386,ADFG,"Skate, Longnose",701
+176,OBS,ENGLISH SOLE,108,667,ADFG,"Sole, English",128
+188,OBS,SABLEFISH (BLACKCOD),203,729,ADFG,Sablefish,710
+198,OBS,GADID UNIDENTIFIED,215,1505,ADFG,"Cod, Saffron",111
+224,OBS,CANARY ROCKFISH,314,685,ADFG,"Rockfish, Canary",146
+245,OBS,ROCK GREENLING,393,711,ADFG,"Greenling, Rock",191
+250,OBS,GREAT SCULPIN,405,1541,ADFG,"Sculpin, Great",281
+257,OBS,IRISH LORD UNIDENTIFIED,418,1546,ADFG,"Sculpin, Other Large",286
+262,OBS,BLACKTIP POACHER,460,1522,ADFG,"Poacher, general",219
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,125,ADFG,"Herring, Roe on Kelp",231
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,738,ADFG,"Smelt, Rainbow",513
+282,OBS,PACIFIC HERRING,611,157,ADFG,"Herring, (groundfish fishery bycatch)",235
+290,OBS,LANTERNFISH UNIDENTIFIED,700,1397,ADFG,Lanternfish,772
+359,OBS,NORTHERN LANTERNFISH,702,1397,ADFG,Lanternfish,772
+366,OBS,BLACKSMELT UNIDENTIFIED,618,1398,ADFG,"Smelts, Deep-Sea",773
+375,OBS,SPINYCHEEK STARSNOUT,461,1522,ADFG,"Poacher, general",219
+397,OBS,KAMCHATKA EELPOUT,262,1158,ADFG,Eels or eel-like fish,210
+398,OBS,CUTTHROAT TROUT,227,753,ADFG,"Trout, Cutthroat (anadromous)",561
+398,OBS,CUTTHROAT TROUT,227,754,ADFG,"Trout, Cutthroat (nonanadromous)",562
+399,OBS,GREEN STURGEON,231,776,ADFG,"Sturgeon, General",680
+403,OBS,SPOT SHRIMP,71,617,ADFG,"Shrimp, Spot",965
+408,OBS,CALIFORNIA SKATE,87,1624,ADFG,"Skate, Other",700
+416,OBS,GUNNEL UNIDENTIFIED,430,1378,ADFG,Gunnels,207
+417,OBS,RED KING CRAB,13,601,ADFG,"Crab, Red King",921
+451,OBS,SHORTRAKER/ROUGHEYE ROCKFISH,354,785,ADFG,"Rockfish, Shortraker/Rougheye",171
+454,OBS,SMALL RED ROCKFISH GROUP,348,675,ADFG,"Rockfish, Northern",136
+477,OBS,ALEUTIAN ALLIGATORFISH,462,1522,ADFG,"Poacher, general",219
+499,OBS,PALLID EELPOUT,258,1158,ADFG,Eels or eel-like fish,210
+525,OBS,COPPER ROCKFISH,327,677,ADFG,"Rockfish, Copper",138
+526,OBS,VERMILION ROCKFISH,331,789,ADFG,"Rockfish, Vermilion",184
+530,OBS,SCULPIN UNIDENTIFIED,400,700,ADFG,"Sculpin, Coastrange",161
+540,OBS,ARCTIC STAGHORN SCULPIN,423,1539,ADFG,"Sculpin, Other Small",160
+545,OBS,BASKETWEAVE CUSK-EEL,255,1158,ADFG,Eels or eel-like fish,210
+550,OBS,SPINYHEAD SCULPIN,401,1539,ADFG,"Sculpin, Other Small",160
+553,OBS,SWORDFISH,811,1389,ADFG,Swordfish,750
+564,OBS,GRENADIER UNIDENTIFIED,80,719,ADFG,Grenadier (Rattail),213
+1218,OBS,PARALOMIS MULTISPINA,17,611,ADFG,"Crab, Multispina",951
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,637,ADFG,"Clam, Eastern softshell",842
+1252,OBS,ICELUS UNIDENTIFIED,436,1539,ADFG,"Sculpin, Other Small",160
+1308,OBS,ERODED TURRET SNAIL,928,648,ADFG,Snails,890
+90,OBS,ROUGHEYE ROCKFISH,307,690,ADFG,"Rockfish, Rougheye",151
+94,OBS,CHINOOK SALMON,222,580,ADFG,"Salmon Roe, Chinook",401
+94,OBS,CHINOOK SALMON,222,586,ADFG,"Salmon, Chinook",410
+99,OBS,AMERICAN SHAD,606,733,ADFG,Shad,180
+101,OBS,THORNYHEAD ROCKFISH UNIDENTIFIED,349,682,ADFG,"Rockfish, Thornyhead (idiots)",143
+109,OBS,SOCKEYE SALMON,224,579,ADFG,"Salmon Roe, Unspecified",400
+117,OBS,ARROWTOOTH FLOUNDER,141,1508,ADFG,"Flounder, Arrowtooth",121
+131,OBS,CRAB UNIDENTIFIED,1,607,ADFG,"Crab, Opilio Tanner (Snow)",932
+136,OBS,LITHODID CRAB UNIDENTIFIED,14,601,ADFG,"Crab, Red King",921
+136,OBS,LITHODID CRAB UNIDENTIFIED,14,604,ADFG,"Crab, Scarlet, King",924
+160,OBS,PACIFIC SLEEPER SHARK,62,783,ADFG,"Shark, Pacific Sleeper",692
+161,OBS,SHARK UNIDENTIFIED,65,783,ADFG,"Shark, Pacific Sleeper",692
+161,OBS,SHARK UNIDENTIFIED,65,727,ADFG,"Shark, Spiny Dogfish",691
+167,OBS,GIANT GRENADIER,82,1381,ADFG,"Grenadier, Giant",214
+170,OBS,STARRY SKATE,96,1624,ADFG,"Skate, Other",700
+172,OBS,FLATHEAD SOLE,103,661,ADFG,"Sole, Flathead",122
+178,OBS,SLENDER SOLE,111,1516,ADFG,"Flounder, General",120
+187,OBS,PACIFIC COD,202,656,ADFG,"Cod, Pacific, (Grey)",110
+222,OBS,DARK BLOTCHED ROCKFISH,311,698,ADFG,"Rockfish, Darkblotched",159
+230,OBS,YELLOWTAIL ROCKFISH,321,694,ADFG,"Rockfish, Yellowtail",155
+254,OBS,BROWN IRISH LORD,410,1546,ADFG,"Sculpin, Other Large",286
+259,OBS,STURGEON POACHER,452,1522,ADFG,"Poacher, general",219
+263,OBS,ARMORHEAD SCULPIN,470,1539,ADFG,"Sculpin, Other Small",160
+268,OBS,LUMPSUCKER UNIDENTIFIED,525,1383,ADFG,"Lumpsucker, Smooth",216
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,138,ADFG,"Herring, with sac roe",234
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,740,ADFG,"Smelt, Surf",515
+274,OBS,SMELT UNIDENTIFIED,602,740,ADFG,"Smelt, Surf",515
+282,OBS,PACIFIC HERRING,611,593,ADFG,"Herring, Pacific  (directed fishery)",230
+283,OBS,PACIFIC SARDINE,614,732,ADFG,"Sardine, Pacific",170
+360,OBS,BROKENLINE LAMPFISH,704,1397,ADFG,Lanternfish,772
+369,OBS,SLENDER SNIPE EEL,560,1158,ADFG,Eels or eel-like fish,210
+371,OBS,SAWBACK POACHER,453,1522,ADFG,"Poacher, general",219
+386,OBS,THREADFIN SCULPIN,403,1539,ADFG,"Sculpin, Other Small",160
+412,OBS,SANDPAPER SKATE,98,1624,ADFG,"Skate, Other",700
+420,OBS,BLUE KING CRAB,6,602,ADFG,"Crab, Blue King",922
+424,OBS,YELLOWEYE ROCKFISH,322,684,ADFG,"Rockfish, Yelloweye",145
+438,OBS,DECORATED WARBONNET,757,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+445,OBS,ANTLERED SCULPIN,472,1539,ADFG,"Sculpin, Other Small",160
+447,OBS,RIBBON SNAILFISH,507,1520,ADFG,"Snailfish, general",218
+449,OBS,SAILFIN SCULPIN,419,1539,ADFG,"Sculpin, Other Small",160
+450,OBS,SILVERSPOTTED SCULPIN,396,1539,ADFG,"Sculpin, Other Small",160
+452,OBS,PYGMY ROCKFISH,335,1374,ADFG,"Rockfish, Pygmy",179
+454,OBS,SMALL RED ROCKFISH GROUP,348,680,ADFG,Pacific Ocean Perch,141
+469,OBS,BROWN CAT SHARK,68,725,ADFG,"Shark, Other",689
+475,OBS,BROAD BANDED THORNYHEAD,351,682,ADFG,"Rockfish, Thornyhead (idiots)",143
+481,OBS,WOLFFISH UNIDENTIFIED,779,1158,ADFG,Eels or eel-like fish,210
+495,OBS,NORTHERN SCULPIN,417,1539,ADFG,"Sculpin, Other Small",160
+511,OBS,SOUTHERN ROCK SOLE,121,662,ADFG,"Sole, Rock",123
+521,OBS,SPOTTED RATFISH,99,1388,ADFG,"Ratfish, Spotted",714
+522,OBS,ROCK SOLE UNIDENTIFIED,104,662,ADFG,"Sole, Rock",123
+530,OBS,SCULPIN UNIDENTIFIED,400,1542,ADFG,"Sculpin, Plain",282
+556,OBS,KING CRAB UNIDENTIFIED,2,597,ADFG,"Crab, Hanasaki (Spiny) King",925
+1181,OBS,BRISTLEMOUTHS,696,1380,ADFG,"Bristlemouth, Lightfish, Anglemouth",209
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,639,ADFG,"Scallop, Weathervane",850
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,647,ADFG,"Oyster, Pacific",880
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,624,ADFG,"Clam, Little-neck, Pacific",840
+1232,OBS,SEA CUCUMBER UNIDENTIFIED,41,651,ADFG,"Sea Cucumber, General",895
+89,OBS,SALMON UNIDENTIFIED,220,580,ADFG,"Salmon Roe, Chinook",401
+90,OBS,ROUGHEYE ROCKFISH,307,785,ADFG,"Rockfish, Shortraker/Rougheye",171
+94,OBS,CHINOOK SALMON,222,579,ADFG,"Salmon Roe, Unspecified",400
+119,OBS,POACHER UNIDENTIFIED,450,1522,ADFG,"Poacher, general",219
+121,OBS,COUESI KING CRAB,16,604,ADFG,"Crab, Scarlet, King",924
+127,OBS,CHUM SALMON,221,591,ADFG,"Salmon, Chum",450
+131,OBS,CRAB UNIDENTIFIED,1,597,ADFG,"Crab, Hanasaki (Spiny) King",925
+163,OBS,SALMON SHARK,67,726,ADFG,"Shark, Salmon",690
+182,OBS,KAMCHATKA FLOUNDER,147,1509,ADFG,"Flounder, Kamchatka",117
+183,OBS,PYGMY SHARK,155,725,ADFG,"Shark, Other",689
+184,OBS,GOLDEN SKATE,160,1624,ADFG,"Skate, Other",700
+199,OBS,DOLLY VARDEN,228,746,ADFG,Dolly Varden (anadromous),531
+209,OBS,SHORTFIN EELPOUT,259,1158,ADFG,Eels or eel-like fish,210
+229,OBS,YELLOWMOUTH ROCKFISH,320,709,ADFG,"Rockfish, Yellowmouth",175
+234,OBS,SHORTRAKER ROCKFISH,326,691,ADFG,"Rockfish, Shortraker",152
+241,OBS,P.O.P. GROUP,344,678,ADFG,"Rockfish, Other",139
+256,OBS,BUTTERFLY SCULPIN,415,1546,ADFG,"Sculpin, Other Large",286
+257,OBS,IRISH LORD UNIDENTIFIED,418,1545,ADFG,"Sculpin, Yellow Irish Lord",285
+260,OBS,GRAY STARSNOUT POACHER,456,1522,ADFG,"Poacher, general",219
+272,OBS,SMELT/HERRING UNIDENTIFIED,600,157,ADFG,"Herring, (groundfish fishery bycatch)",235
+276,OBS,RAINBOW SMELT,605,738,ADFG,"Smelt, Rainbow",513
+277,OBS,LONGFIN IRISH LORD SCULPIN,434,1539,ADFG,"Sculpin, Other Small",160
+282,OBS,PACIFIC HERRING,611,128,ADFG,"Herring, Bait",233
+308,OBS,FISH UNIDENTIFIED,901,655,ADFG,"Groundfish, General",100
+308,OBS,FISH UNIDENTIFIED,901,731,ADFG,Waste Fish (from trawl shrimp),101
+315,OBS,RUSTY MOONSNAIL,975,648,ADFG,Snails,890
+361,OBS,FROSTFISH,650,1158,ADFG,Eels or eel-like fish,210
+383,OBS,LEISTER SCULPIN,427,1539,ADFG,"Sculpin, Other Small",160
+398,OBS,CUTTHROAT TROUT,227,752,ADFG,"Trout, Cutthroat (general)",560
+423,OBS,BOCACCIO ROCKFISH,302,676,ADFG,"Rockfish, Bocaccio  ",137
+440,OBS,DAUBED SHANNY,753,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+444,OBS,BLACKLINE SNIPE EEL,561,1158,ADFG,Eels or eel-like fish,210
+464,OBS,TRIGLOPS SCULPIN UNIDENTIFIED,433,1539,ADFG,"Sculpin, Other Small",160
+478,OBS,SMOOTH LUMPSUCKER,531,1383,ADFG,"Lumpsucker, Smooth",216
+481,OBS,WOLFFISH UNIDENTIFIED,779,1384,ADFG,Wolf-eel,217
+489,OBS,WHITEBARRED PRICKLEBACK,755,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+490,OBS,BLUE LANTERNFISH,703,1397,ADFG,Lanternfish,772
+501,OBS,FLATHEAD SKATE,86,1624,ADFG,"Skate, Other",700
+530,OBS,SCULPIN UNIDENTIFIED,400,701,ADFG,"Sculpin, Slimy",162
+530,OBS,SCULPIN UNIDENTIFIED,400,1543,ADFG,"Sculpin, Threaded",283
+531,OBS,RED IRISH LORD,407,1546,ADFG,"Sculpin, Other Large",286
+556,OBS,KING CRAB UNIDENTIFIED,2,603,ADFG,"Crab, Golden King (Brown)",923
+562,OBS,DUSKY ROCKFISH UNIDENTIFIED,355,1524,ADFG,"Rockfish, Dark",173
+562,OBS,DUSKY ROCKFISH UNIDENTIFIED,355,1523,ADFG,"Rockfish, Dusky",172
+563,OBS,GREENLING UNIDENTIFIED,390,712,ADFG,"Greenling, Whitespotted",192
+563,OBS,GREENLING UNIDENTIFIED,390,711,ADFG,"Greenling, Rock",191
+566,OBS,LAMPREY UNIDENTIFIED,75,767,ADFG,"Lamprey, River",602
+568,OBS,OCTOPUS UNIDENTIFIED,60,644,ADFG,"Octopus, North Pacific",870
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,623,ADFG,"Clam, Razor, Pacific",830
+1247,OBS,THYRISCUS ANOPLUS,428,1539,ADFG,"Sculpin, Other Small",160
+1248,OBS,ICELUS CANALICULATUS,429,1539,ADFG,"Sculpin, Other Small",160
+1639,OBS,CALIFORNIA HALIBUT,122,1516,ADFG,"Flounder, General",120
+1647,OBS,STIFF SNOUT SKATE,167,1624,ADFG,"Skate, Other",700
+93,OBS,POLLOCK,201,730,ADFG,"Pollock, CDQ",970
+94,OBS,CHINOOK SALMON,222,587,ADFG,"Salmon, chinook, under 21 inches",411
+97,OBS,TANNER CRAB UNIDENTIFIED,3,607,ADFG,"Crab, Opilio Tanner (Snow)",932
+106,OBS,BROWN KING CRAB,8,603,ADFG,"Crab, Golden King (Brown)",923
+114,OBS,CURLFIN SOLE,117,1516,ADFG,"Flounder, General",120
+115,OBS,PACIFIC SANDDAB,137,1516,ADFG,"Flounder, General",120
+118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440,702,ADFG,"Sculpin, Fourhorn",163
+131,OBS,CRAB UNIDENTIFIED,1,603,ADFG,"Crab, Golden King (Brown)",923
+131,OBS,CRAB UNIDENTIFIED,1,606,ADFG,"Crab, Tanner Bairdi",931
+131,OBS,CRAB UNIDENTIFIED,1,608,ADFG,"Crab, Tanner, Grooved",933
+131,OBS,CRAB UNIDENTIFIED,1,609,ADFG,"Crab, Tanner, Triangle",934
+131,OBS,CRAB UNIDENTIFIED,1,611,ADFG,"Crab, Multispina",951
+131,OBS,CRAB UNIDENTIFIED,1,612,ADFG,"Crab, Verrilli",953
+136,OBS,LITHODID CRAB UNIDENTIFIED,14,602,ADFG,"Crab, Blue King",922
+165,OBS,SIXGILL SHARK,78,725,ADFG,"Shark, Other",689
+175,OBS,DOVER SOLE,107,663,ADFG,"Sole, Dover",124
+186,OBS,PACIFIC MACKEREL,199,1396,ADFG,"Mackerel, Chub",757
+190,OBS,PROWFISH,205,1431,ADFG,Prowfish,215
+193,OBS,SAFFRON COD,208,1505,ADFG,"Cod, Saffron",111
+213,OBS,PACIFIC OCEAN PERCH,301,680,ADFG,Pacific Ocean Perch,141
+214,OBS,NORTHERN ROCKFISH,303,675,ADFG,"Rockfish, Northern",136
+219,OBS,RED BANDED ROCKFISH,308,692,ADFG,"Rockfish, Redbanded",153
+223,OBS,GREENSTRIPED ROCKFISH,313,674,ADFG,"Rockfish, Greenstriped",135
+244,OBS,WHITESPOTTED GREENLING,391,712,ADFG,"Greenling, Whitespotted",192
+253,OBS,CRESTED SCULPIN,409,1539,ADFG,"Sculpin, Other Small",160
+274,OBS,SMELT UNIDENTIFIED,602,739,ADFG,"Smelt, Pond",514
+278,OBS,PACIFIC SAURY,607,720,ADFG,"Saury, Pacific",220
+279,OBS,KING-OF-THE-SALMON,608,1158,ADFG,Eels or eel-like fish,210
+370,OBS,LIPARIS GIBBUS,509,1520,ADFG,"Snailfish, general",218
+372,OBS,SMOOTH ALLIGATORFISH,454,1522,ADFG,"Poacher, general",219
+377,OBS,LOBEFIN SNAILFISH,506,1520,ADFG,"Snailfish, general",218
+378,OBS,THORNY SCULPIN,413,1539,ADFG,"Sculpin, Other Small",160
+379,OBS,SLIM SCULPIN,416,1539,ADFG,"Sculpin, Other Small",160
+402,OBS,BLUE SHARK,69,725,ADFG,"Shark, Other",689
+448,OBS,BUFFALO SCULPIN,412,1539,ADFG,"Sculpin, Other Small",160
+518,OBS,SHRIMP UNIDENTIFIED,70,615,ADFG,"Shrimp, Humpy",963
+530,OBS,SCULPIN UNIDENTIFIED,400,1546,ADFG,"Sculpin, Other Large",286
+530,OBS,SCULPIN UNIDENTIFIED,400,703,ADFG,"Sculpin, Prickly",164
+530,OBS,SCULPIN UNIDENTIFIED,400,704,ADFG,"Sculpin, Riffle",165
+532,OBS,YELLOW IRISH LORD,414,1545,ADFG,"Sculpin, Yellow Irish Lord",285
+554,OBS,DARK ROCKFISH UNIDENTIFIED,347,678,ADFG,"Rockfish, Other",139
+556,OBS,KING CRAB UNIDENTIFIED,2,604,ADFG,"Crab, Scarlet, King",924
+564,OBS,GRENADIER UNIDENTIFIED,80,1381,ADFG,"Grenadier, Giant",214
+566,OBS,LAMPREY UNIDENTIFIED,75,765,ADFG,"Lamprey, Pacific",600
+1169,OBS,TURBOT/KAM/ARROW - UNIDENTIFIED,143,1509,ADFG,"Flounder, Kamchatka",117
+1178,OBS,ALBACORE TUNA,784,780,ADFG,"Tuna, Albacore",720
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,642,ADFG,"Mussel, Blue",855
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,620,ADFG,"Clam, Surf, Arctic",812
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,622,ADFG,"Clam, Cockle",820
+1249,OBS,GYMNOCANTHUS UNIDENTIFIED,431,1539,ADFG,"Sculpin, Other Small",160
+1528,OBS,DARK ROCKFISH,345,1524,ADFG,"Rockfish, Dark",173
+1627,OBS,SKATE UNIDENTIFIED,90,1624,ADFG,"Skate, Other",700
+1636,OBS,MYCTOPHIDAE SPP,699,1397,ADFG,Lanternfish,772
+89,OBS,SALMON UNIDENTIFIED,220,579,ADFG,"Salmon Roe, Unspecified",400
+89,OBS,SALMON UNIDENTIFIED,220,582,ADFG,"Salmon Roe, Sockeye",402
+89,OBS,SALMON UNIDENTIFIED,220,589,ADFG,"Salmon, Coho",430
+89,OBS,SALMON UNIDENTIFIED,220,585,ADFG,"Salmon Roe, Chum",405
+91,OBS,PACIFIC HALIBUT,101,715,ADFG,Halibut,200
+97,OBS,TANNER CRAB UNIDENTIFIED,3,606,ADFG,"Crab, Tanner Bairdi",931
+97,OBS,TANNER CRAB UNIDENTIFIED,3,608,ADFG,"Crab, Tanner, Grooved",933
+105,OBS,OPILIO TANNER CRAB,5,607,ADFG,"Crab, Opilio Tanner (Snow)",932
+116,OBS,YELLOWFIN SOLE,140,666,ADFG,"Sole, Yellowfin",127
+118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440,1544,ADFG,"Sculpin, Warty",284
+118,OBS,MYOXOCEPHALUS SCULPIN UNIDENTIFIED,440,1542,ADFG,"Sculpin, Plain",282
+123,OBS,ANGULATUS TANNER,19,609,ADFG,"Crab, Tanner, Triangle",934
+129,OBS,COHO SALMON,223,579,ADFG,"Salmon Roe, Unspecified",400
+130,OBS,PINK SALMON,225,579,ADFG,"Salmon Roe, Unspecified",400
+131,OBS,CRAB UNIDENTIFIED,1,604,ADFG,"Crab, Scarlet, King",924
+164,OBS,HAGFISH UNIDENTIFIED,77,718,ADFG,"Hagfish, Pacific",212
+166,OBS,PACIFIC GRENADIER,81,719,ADFG,Grenadier (Rattail),213
+177,OBS,BUTTER SOLE,109,665,ADFG,"Sole, Butter",126
+194,OBS,PACIFIC TOMCOD,209,721,ADFG,"Tomcod, Pacific",250
+208,OBS,BLACK EELPOUT,254,1158,ADFG,Eels or eel-like fish,210
+212,OBS,ROCKFISH  UNIDENTIFIED,300,678,ADFG,"Rockfish, Other",139
+217,OBS,BLACK ROCKFISH,306,681,ADFG,"Rockfish, black",142
+225,OBS,SPLITNOSE ROCKFISH,315,1375,ADFG,"Rockfish, Splitnose",182
+226,OBS,BLUE ROCKFISH,316,706,ADFG,"Rockfish, Blue",167
+232,OBS,REDSTRIPE ROCKFISH,324,697,ADFG,"Rockfish, Redstripe",158
+236,OBS,TIGER ROCKFISH,329,687,ADFG,"Rockfish, Tiger",148
+246,OBS,TADPOLE SCULPIN,397,1539,ADFG,"Sculpin, Other Small",160
+255,OBS,BLACKFIN SCULPIN,411,1539,ADFG,"Sculpin, Other Small",160
+286,OBS,SAND LANCES,670,1399,ADFG,Pacific Sand Lance,774
+292,OBS,SNAKE PRICKLEBACK,751,1379,ADFG,Pricklebacks (Family  Stichaeidae),208
+353,OBS,WRYMOUTH UNIDENTIFIED,759,717,ADFG,Wrymouths,211
+381,OBS,MOSSHEAD SCULPIN,421,1539,ADFG,"Sculpin, Other Small",160
+382,OBS,SPECTACLED SCULPIN,426,1539,ADFG,"Sculpin, Other Small",160
+387,OBS,DUSKY SCULPIN,404,1539,ADFG,"Sculpin, Other Small",160
+393,OBS,CHINA ROCKFISH,346,688,ADFG,"Rockfish, China",149
+400,OBS,WATTLED EELPOUT,251,1158,ADFG,Eels or eel-like fish,210
+409,OBS,ROUGHTAIL SKATE,89,1624,ADFG,"Skate, Other",700
+415,OBS,SAND SOLE,115,671,ADFG,"Sole, sand",132
+421,OBS,PETRALE SOLE,112,670,ADFG,"Sole, Petrale",131
+422,OBS,GREENLAND TURBOT,102,673,ADFG,"Turbot, Greenland",134
+442,OBS,CALIFORNIA HEADLIGHTFISH,701,1397,ADFG,Lanternfish,772
+451,OBS,SHORTRAKER/ROUGHEYE ROCKFISH,354,691,ADFG,"Rockfish, Shortraker",152
+461,OBS,SAKHALIN SOLE,148,1516,ADFG,"Flounder, General",120
+472,OBS,PACIFIC FLATNOSE,210,722,ADFG,"Codling, Pacific Flatnose",260
+474,OBS,SHORTBELLY ROCKFISH,318,788,ADFG,"Rockfish, Shortbelly",181
+479,OBS,CAPELIN,604,741,ADFG,Capelin,516
+493,OBS,WARTY POACHER,451,1522,ADFG,"Poacher, general",219
+518,OBS,SHRIMP UNIDENTIFIED,70,614,ADFG,"Shrimp, Sidestripe",962
+519,OBS,PACIFIC LAMPREY,79,765,ADFG,"Lamprey, Pacific",600
+524,OBS,ARCTIC FLOUNDER,146,1516,ADFG,"Flounder, General",120
+529,OBS,KELP GREENLING,392,714,ADFG,"Greenling, Kelp",194
+535,OBS,SNAILFISH UNIDENTIFIED,500,1520,ADFG,"Snailfish, general",218
+544,OBS,BLACKBELLY EELPOUT,261,1158,ADFG,Eels or eel-like fish,210
+556,OBS,KING CRAB UNIDENTIFIED,2,602,ADFG,"Crab, Blue King",922
+566,OBS,LAMPREY UNIDENTIFIED,75,768,ADFG,"Lamprey, Brook",603
+1045,OBS,ARROWTOOTH/KAMCHATKA FLOUNDER,149,1508,ADFG,"Flounder, Arrowtooth",121
+1052,OBS,JELLYFISH UNIDENTIFIED,35,1385,ADFG,Jellyfish,625
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,640,ADFG,"Scallop, Pink or Calico",851
+1224,OBS,MUSSELS OYSTERS SCALLOPS CLAMS,29,1401,ADFG,"Clam, Horse",825
+1232,OBS,SEA CUCUMBER UNIDENTIFIED,41,650,ADFG,"Sea Cucumber, Red",894
+1527,OBS,DUSKY ROCKFISH,330,1523,ADFG,"Rockfish, Dusky",172
+1620,OBS,BUTTERFLY SKATE,168,1624,ADFG,"Skate, Other",700
+1634,OBS,BASKING SHARK,156,725,ADFG,"Shark, Other",689
+1637,OBS,MUD SKATE,165,1624,ADFG,"Skate, Other",700
