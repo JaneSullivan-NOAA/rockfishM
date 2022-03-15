@@ -161,8 +161,8 @@ rebs rockfish,AI,gsi,NA,NA,NA,1
 rebs rockfish,AI,maxage_yr,AI,afsc_allages_max_age,134,1
 rebs rockfish,AI,maxage_yr,AI,afsc_allages_mean_top5,122.8,2
 rebs rockfish,AI,temp_C,NA,NA,NA,1
-rebs rockfish,AI,vbgf_k_cm-1,NA,NA,NA,1
-rebs rockfish,AI,vbgf_linf_cm,NA,NA,NA,1
+rebs rockfish,AI,vbgf_k_cm-1,AI,Spencer et al. 2020 BSRE in the BSAI,0.06,1
+rebs rockfish,AI,vbgf_linf_cm,AI,Spencer et al. 2020 BSRE in the BSAI,51.53,1
 rebs rockfish,BC,dry_weight_g,NA,NA,NA,1
 rebs rockfish,BC,gsi,NA,NA,NA,1
 rebs rockfish,BC,maxage_yr,NA,NA,NA,1
@@ -474,7 +474,7 @@ yelloweye rockfish,AI,vbgf_k_cm-1,NA,NA,NA,1
 yelloweye rockfish,AI,vbgf_linf_cm,NA,NA,NA,1
 yelloweye rockfish,BC,dry_weight_g,NA,NA,NA,1
 yelloweye rockfish,BC,gsi,NA,NA,NA,1
-yelloweye rockfish,BC,maxage_yr,NA,NA,NA,1
+yelloweye rockfish,BC,maxage_yr,BC,Fisheries and Oceans Canada 2018,115,1
 yelloweye rockfish,BC,temp_C,NA,NA,NA,1
 yelloweye rockfish,BC,vbgf_k_cm-1,NA,NA,NA,1
 yelloweye rockfish,BC,vbgf_linf_cm,NA,NA,NA,1
@@ -484,12 +484,12 @@ yelloweye rockfish,BS,maxage_yr,NA,NA,NA,1
 yelloweye rockfish,BS,temp_C,NA,NA,NA,1
 yelloweye rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
 yelloweye rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
-yelloweye rockfish,GOA,dry_weight_g,NA,NA,NA,1
+yelloweye rockfish,GOA,dry_weight_g,GOA,"McCoy and Gillooly 2008, supplementary materials",4200,1
 yelloweye rockfish,GOA,gsi,PWS/NGOA,"Aurthur 2020, n = 13, mean GSI for stage 3, as per Gunderson",0.0285,1
 yelloweye rockfish,GOA,maxage_yr,GOA - Southern Southeast AK (SSEA),"ADFG - Age Determination Unit, Juneau, AK large sample size, specimen collected in 2001",122,1
 yelloweye rockfish,GOA,maxage_yr,Cook Inlet,Bechtol 1998,114,2
 yelloweye rockfish,GOA,maxage_yr,SEAK,O'Connell and Funk 1987,118,3
-yelloweye rockfish,GOA,temp_C,NA,NA,NA,1
+yelloweye rockfish,GOA,temp_C,GOA,"McCoy and Gillooly 2008, supplementary materials",6,1
 yelloweye rockfish,GOA,vbgf_k_cm-1,NA,NA,NA,1
 yelloweye rockfish,GOA,vbgf_linf_cm,NA,NA,NA,1
 yelloweye rockfish,multi_region,dry_weight_g,NA,NA,NA,1

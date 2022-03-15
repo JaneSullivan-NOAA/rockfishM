@@ -93,9 +93,8 @@ input_data <- input_data %>%
 species_ls <- unique(input_data$species)
 area_ls <- unique(input_data$input_area)
 
+# save inputs so they can be version controlled as we refine our spreadsheet
 write_csv(input_data, paste0('M_analysis_input_data.csv'))
-
-rm(out);rm(fullout)
 
 for(i in 1:length(species_ls)) {
   for(j in 1:length(area_ls)) {
@@ -135,7 +134,7 @@ for(i in 1:length(species_ls)) {
     # temp/dry mass estimator ----
     tmpdf <- df %>% filter(lh_param %in% c('dry_weight_g', 'temp_C'))
     
-    masstemp_out <- data.frame(method = 'mass_temp',
+    masstemp_out <- data.frame(method = 'temp',
                                version = unique(tmpdf$version),
                                Mest = NA,
                                method_or_source = unique(tmpdf$method_or_source))
@@ -175,6 +174,7 @@ for(i in 1:length(species_ls)) {
   }
 }
 
+# M results ----
 nrow(fullout)
 fullout %>% select(-method_or_source)
 write_csv(fullout, paste0(out_path, "/l_M_estimates.csv"))
@@ -188,6 +188,135 @@ fullout <- l_fullout %>%
   select(species, version, M_method, GOA, BS, AI, BC, WC, multi_region) %>%
   arrange(species, M_method, version) 
 
-fullout %>% View()
+fullout #%>% View()
 
 write_csv(fullout, paste0(out_path, "/M_estimates.csv"))
+
+# Figures ----
+
+l_fullout <- l_fullout %>% 
+  select(-method_or_source) %>% 
+  mutate(M_method2 = paste0(M_method, '.v', version)) %>% 
+  mutate(input_area = factor(input_area,
+                             labels = c('GOA', 'BS', 'AI', 'BC', 'WC', 'multi_region'),
+                             levels = c('GOA', 'BS', 'AI', 'BC', 'WC', 'multi_region'),
+                             ordered = TRUE))
+
+mybarplot <- function(df = plot_data,
+                      title = 'your plot title (e.g., species name)') {
+  df %>%
+    filter(!is.na(M_estimate)) %>% 
+    ggplot(aes(x = M_method2, y = M_estimate, fill = M_method, col = M_method)) +
+    geom_bar(stat = 'identity') +
+    facet_grid(species~input_area) +
+    labs(x = NULL, y = 'Natural mortality (M)',
+         title = title) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))  
+}
+
+# Rougheye/blackspotted rockfish ----
+
+# species specific when available, combined as 'rebs' when not
+plot_data <- l_fullout %>% 
+  filter(species %in% c('rebs rockfish', 'rougheye rockfish', 'blackspotted rockfish')) %>% 
+  mutate(species = factor(species,
+                          labels = c('rebs rockfish', 'rougheye rockfish', 'blackspotted rockfish'),
+                          levels = c('rebs rockfish', 'rougheye rockfish', 'blackspotted rockfish'),
+                          ordered = TRUE))
+
+mybarplot(title = 'Rougheye/blackspotted rockfish')
+ggsave(paste0(out_path, '/rebs_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 9)
+
+# Shortraker ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('shortraker rockfish')) 
+
+mybarplot(title = 'Shortraker rockfish')
+ggsave(paste0(out_path, '/shortraker_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Shortspine thornyhead ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('shortspine thornyhead')) 
+
+mybarplot(title = 'Shortspine thornyhead')
+ggsave(paste0(out_path, '/shortspine_thornyhead_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Dusky rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('dusky rockfish')) 
+
+mybarplot(title = 'Dusky rockfish')
+ggsave(paste0(out_path, '/dusky_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Harlequin rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('harlequin rockfish')) 
+
+mybarplot(title = 'Harlequin rockfish')
+ggsave(paste0(out_path, '/harlequin_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+
+# Redbanded, redstripe, sharpchin, slivergray, yelloweye rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('redbanded rockfish', 'redstripe rockfish',
+                        'sharpchin rockfish', 'silvergray rockfish',
+                        'yelloweye rockfish')) 
+
+mybarplot(title = 'Redbanded, redstripe, sharpchin, silvergray, and yelloweye rockfish')
+ggsave(paste0(out_path, '/orox_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 8)
+
+# Redbanded rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('redbanded rockfish')) 
+
+mybarplot(title = 'Redbanded rockfish')
+ggsave(paste0(out_path, '/redbanded_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Redstripe rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('redstripe rockfish')) 
+
+mybarplot(title = 'Redstripe rockfish')
+ggsave(paste0(out_path, '/redstripe_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Sharpchin rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('sharpchin rockfish')) 
+
+mybarplot(title = 'Sharpchin rockfish')
+ggsave(paste0(out_path, '/sharpchin_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Slivergray rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('silvergray rockfish')) 
+
+mybarplot(title = 'Silvergray rockfish')
+ggsave(paste0(out_path, '/silvergray_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)
+
+# Yelloweye rockfish ----
+
+plot_data <- l_fullout %>% 
+  filter(species %in% c('yelloweye rockfish')) 
+
+mybarplot(title = 'Yelloweye rockfish')
+ggsave(paste0(out_path, '/yelloweye_M_results.png'),
+       dpi = 300, units = 'in', width = 7, height = 3)

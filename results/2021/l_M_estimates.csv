@@ -2,349 +2,349 @@ species,input_area,M_method,M_estimate,version,method_or_source
 blackspotted rockfish,AI,amax,0.04029850746268657,1,afsc_allages_max_age
 blackspotted rockfish,AI,amax,0.05084745762711865,2,afsc_allages_mean_top5
 blackspotted rockfish,AI,gsi,NA,1,NA
-blackspotted rockfish,AI,mass_temp,NA,1,NA
+blackspotted rockfish,AI,temp,NA,1,NA
 blackspotted rockfish,AI,lvb,NA,1,NA
 blackspotted rockfish,BC,amax,NA,1,NA
 blackspotted rockfish,BC,gsi,NA,1,NA
-blackspotted rockfish,BC,mass_temp,NA,1,NA
+blackspotted rockfish,BC,temp,NA,1,NA
 blackspotted rockfish,BC,lvb,NA,1,NA
 blackspotted rockfish,BS,amax,0.0642857142857143,1,afsc_allages_max_age
 blackspotted rockfish,BS,amax,0.07438016528925621,2,afsc_allages_mean_top5
 blackspotted rockfish,BS,gsi,NA,1,NA
-blackspotted rockfish,BS,mass_temp,NA,1,NA
+blackspotted rockfish,BS,temp,NA,1,NA
 blackspotted rockfish,BS,lvb,NA,1,NA
 blackspotted rockfish,GOA,amax,0.05242718446601942,1,afsc_allages_max_age
 blackspotted rockfish,GOA,amax,0.05732484076433121,2,afsc_allages_mean_top5
 blackspotted rockfish,GOA,gsi,NA,1,NA
-blackspotted rockfish,GOA,mass_temp,NA,1,NA
+blackspotted rockfish,GOA,temp,NA,1,NA
 blackspotted rockfish,GOA,lvb,0.15179705437066454,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.
 blackspotted rockfish,multi_region,amax,NA,1,NA
 blackspotted rockfish,multi_region,gsi,NA,1,NA
-blackspotted rockfish,multi_region,mass_temp,NA,1,NA
+blackspotted rockfish,multi_region,temp,NA,1,NA
 blackspotted rockfish,multi_region,lvb,NA,1,NA
 blackspotted rockfish,WC,amax,NA,1,NA
 blackspotted rockfish,WC,gsi,NA,1,NA
-blackspotted rockfish,WC,mass_temp,NA,1,NA
+blackspotted rockfish,WC,temp,NA,1,NA
 blackspotted rockfish,WC,lvb,NA,1,NA
 dusky rockfish,AI,amax,0.08059701492537313,1,afsc_allages_max_age
 dusky rockfish,AI,amax,0.08544303797468354,2,afsc_allages_mean_top5
 dusky rockfish,AI,gsi,NA,1,NA
-dusky rockfish,AI,mass_temp,NA,1,NA
+dusky rockfish,AI,temp,NA,1,NA
 dusky rockfish,AI,lvb,NA,1,NA
 dusky rockfish,BC,amax,NA,1,NA
 dusky rockfish,BC,gsi,NA,1,NA
-dusky rockfish,BC,mass_temp,NA,1,NA
+dusky rockfish,BC,temp,NA,1,NA
 dusky rockfish,BC,lvb,NA,1,NA
 dusky rockfish,BS,amax,NA,1,NA
 dusky rockfish,BS,gsi,NA,1,NA
-dusky rockfish,BS,mass_temp,NA,1,NA
+dusky rockfish,BS,temp,NA,1,NA
 dusky rockfish,BS,lvb,NA,1,NA
 dusky rockfish,GOA,amax,0.07200000000000001,1,afsc_allages_max_age
 dusky rockfish,GOA,amax,0.07917888563049853,2,afsc_allages_mean_top5
 dusky rockfish,GOA,amax,0.08059701492537313,3,"Meyer 2000 reported in Munk 2001, specimen collected in 1992"
 dusky rockfish,GOA,gsi,0.029072,1,Conrath 2019 weighted mean (weighted by sample size) of the four mean values reported in Table 1
-dusky rockfish,GOA,mass_temp,NA,1,NA
+dusky rockfish,GOA,temp,NA,1,NA
 dusky rockfish,GOA,lvb,0.3269551612598937,1,Fenske et al. 2020.
 dusky rockfish,multi_region,amax,NA,1,NA
 dusky rockfish,multi_region,gsi,NA,1,NA
-dusky rockfish,multi_region,mass_temp,NA,1,NA
+dusky rockfish,multi_region,temp,NA,1,NA
 dusky rockfish,multi_region,lvb,NA,1,NA
 dusky rockfish,WC,amax,NA,1,NA
 dusky rockfish,WC,gsi,NA,1,NA
-dusky rockfish,WC,mass_temp,NA,1,NA
+dusky rockfish,WC,temp,NA,1,NA
 dusky rockfish,WC,lvb,NA,1,NA
 harlequin rockfish,AI,amax,0.06835443037974684,1,afsc_allages_max_age
 harlequin rockfish,AI,amax,0.08517350157728708,2,afsc_allages_mean_top5
 harlequin rockfish,AI,amax,0.06666666666666667,3,"Todd TenBrink personal communication 2022 unpublished manuscript, was this age adjusted for likely underestimation??"
 harlequin rockfish,AI,gsi,NA,1,NA
-harlequin rockfish,AI,mass_temp,NA,1,NA
+harlequin rockfish,AI,temp,NA,1,NA
 harlequin rockfish,AI,lvb,NA,1,NA
 harlequin rockfish,BC,amax,NA,1,NA
 harlequin rockfish,BC,gsi,NA,1,NA
-harlequin rockfish,BC,mass_temp,NA,1,NA
+harlequin rockfish,BC,temp,NA,1,NA
 harlequin rockfish,BC,lvb,NA,1,NA
 harlequin rockfish,BS,amax,NA,1,NA
 harlequin rockfish,BS,gsi,NA,1,NA
-harlequin rockfish,BS,mass_temp,NA,1,NA
+harlequin rockfish,BS,temp,NA,1,NA
 harlequin rockfish,BS,lvb,NA,1,NA
 harlequin rockfish,GOA,amax,0.11489361702127661,1,afsc_allages_max_age
 harlequin rockfish,GOA,amax,0.13117408906882594,2,afsc_allages_mean_top5
 harlequin rockfish,GOA,amax,0.07500000000000001,3,"TenBrink and Helser 2021, note that this manuscript and Kastelle suggest it's probably underestimted, need to add some buffer to sensitivity"
 harlequin rockfish,GOA,gsi,0.049059,1,"Ten Brink pers comm, n = 26, mean GSI for stage 3, as per Gunderson"
-harlequin rockfish,GOA,mass_temp,0.27829267327359847,1,"McCoy and Gillooly 2008, supplementary materials"
+harlequin rockfish,GOA,temp,0.27829267327359847,1,"McCoy and Gillooly 2008, supplementary materials"
 harlequin rockfish,GOA,lvb,NA,1,NA
 harlequin rockfish,multi_region,amax,NA,1,NA
 harlequin rockfish,multi_region,gsi,NA,1,NA
-harlequin rockfish,multi_region,mass_temp,NA,1,NA
+harlequin rockfish,multi_region,temp,NA,1,NA
 harlequin rockfish,multi_region,lvb,NA,1,NA
 harlequin rockfish,WC,amax,NA,1,NA
 harlequin rockfish,WC,gsi,NA,1,NA
-harlequin rockfish,WC,mass_temp,NA,1,NA
+harlequin rockfish,WC,temp,NA,1,NA
 harlequin rockfish,WC,lvb,NA,1,NA
 northern rockfish,AI,amax,0.06136363636363637,1,afsc_allages_max_age
 northern rockfish,AI,amax,0.06818181818181819,2,afsc_allages_mean_top5
 northern rockfish,AI,gsi,NA,1,NA
-northern rockfish,AI,mass_temp,NA,1,NA
+northern rockfish,AI,temp,NA,1,NA
 northern rockfish,AI,lvb,NA,1,NA
 northern rockfish,BC,amax,NA,1,NA
 northern rockfish,BC,gsi,NA,1,NA
-northern rockfish,BC,mass_temp,NA,1,NA
+northern rockfish,BC,temp,NA,1,NA
 northern rockfish,BC,lvb,NA,1,NA
 northern rockfish,BS,amax,0.07105263157894737,1,afsc_allages_max_age
 northern rockfish,BS,amax,0.07894736842105263,2,afsc_allages_mean_top5
 northern rockfish,BS,gsi,NA,1,NA
-northern rockfish,BS,mass_temp,NA,1,NA
+northern rockfish,BS,temp,NA,1,NA
 northern rockfish,BS,lvb,NA,1,NA
 northern rockfish,GOA,amax,0.07500000000000001,1,afsc_allages_max_age
 northern rockfish,GOA,amax,0.08202531645569622,2,afsc_allages_mean_top5
 northern rockfish,GOA,gsi,NA,1,NA
-northern rockfish,GOA,mass_temp,NA,1,NA
+northern rockfish,GOA,temp,NA,1,NA
 northern rockfish,GOA,lvb,NA,1,NA
 northern rockfish,multi_region,amax,NA,1,NA
 northern rockfish,multi_region,gsi,NA,1,NA
-northern rockfish,multi_region,mass_temp,NA,1,NA
+northern rockfish,multi_region,temp,NA,1,NA
 northern rockfish,multi_region,lvb,NA,1,NA
 northern rockfish,WC,amax,NA,1,NA
 northern rockfish,WC,gsi,NA,1,NA
-northern rockfish,WC,mass_temp,NA,1,NA
+northern rockfish,WC,temp,NA,1,NA
 northern rockfish,WC,lvb,NA,1,NA
 rebs rockfish,AI,amax,0.04029850746268657,1,afsc_allages_max_age
 rebs rockfish,AI,amax,0.04397394136807818,2,afsc_allages_mean_top5
 rebs rockfish,AI,gsi,NA,1,NA
-rebs rockfish,AI,mass_temp,NA,1,NA
-rebs rockfish,AI,lvb,NA,1,NA
+rebs rockfish,AI,temp,NA,1,NA
+rebs rockfish,AI,lvb,0.14351998742373387,1,Spencer et al. 2020 BSRE in the BSAI
 rebs rockfish,BC,amax,NA,1,NA
 rebs rockfish,BC,gsi,NA,1,NA
-rebs rockfish,BC,mass_temp,NA,1,NA
+rebs rockfish,BC,temp,NA,1,NA
 rebs rockfish,BC,lvb,NA,1,NA
 rebs rockfish,BS,amax,0.04153846153846154,1,afsc_allages_max_age
 rebs rockfish,BS,amax,0.04492512479201331,2,afsc_allages_mean_top5
 rebs rockfish,BS,gsi,NA,1,NA
-rebs rockfish,BS,mass_temp,NA,1,NA
+rebs rockfish,BS,temp,NA,1,NA
 rebs rockfish,BS,lvb,NA,1,NA
 rebs rockfish,GOA,amax,0.04,1,afsc_allages_max_age
 rebs rockfish,GOA,amax,0.04507512520868114,2,afsc_allages_mean_top5
 rebs rockfish,GOA,amax,0.02634146341463415,3,"ADFG - Age Determination Unit, Juneau, AK, also reported in Munk. no species ID"
 rebs rockfish,GOA,gsi,0.03634,1,"Gunderson 1997, data from McDermott 1994"
-rebs rockfish,GOA,mass_temp,0.09230928906332918,1,"McCoy and Gillooly 2008, supplementary materials"
+rebs rockfish,GOA,temp,0.09230928906332918,1,"McCoy and Gillooly 2008, supplementary materials"
 rebs rockfish,GOA,lvb,0.19540240312888654,1,"Shotwell and Hanselman 2019, last updated in 2015"
 rebs rockfish,multi_region,amax,NA,1,NA
 rebs rockfish,multi_region,gsi,NA,1,NA
-rebs rockfish,multi_region,mass_temp,NA,1,NA
+rebs rockfish,multi_region,temp,NA,1,NA
 rebs rockfish,multi_region,lvb,NA,1,NA
 rebs rockfish,WC,amax,NA,1,NA
 rebs rockfish,WC,gsi,NA,1,NA
-rebs rockfish,WC,mass_temp,NA,1,NA
+rebs rockfish,WC,temp,NA,1,NA
 rebs rockfish,WC,lvb,NA,1,NA
 redbanded rockfish,AI,amax,NA,1,NA
 redbanded rockfish,AI,gsi,NA,1,NA
-redbanded rockfish,AI,mass_temp,NA,1,NA
+redbanded rockfish,AI,temp,NA,1,NA
 redbanded rockfish,AI,lvb,NA,1,NA
 redbanded rockfish,BC,amax,NA,1,NA
 redbanded rockfish,BC,gsi,NA,1,NA
-redbanded rockfish,BC,mass_temp,NA,1,NA
+redbanded rockfish,BC,temp,NA,1,NA
 redbanded rockfish,BC,lvb,0.1231097192026033,1,Haigh and Starr 2006
 redbanded rockfish,BS,amax,NA,1,NA
 redbanded rockfish,BS,gsi,NA,1,NA
-redbanded rockfish,BS,mass_temp,NA,1,NA
+redbanded rockfish,BS,temp,NA,1,NA
 redbanded rockfish,BS,lvb,NA,1,NA
 redbanded rockfish,GOA,amax,0.0509433962264151,1,"ADFG - Age Determination Unit, Juneau, AK. large sample size >1000, specimen from 1985"
 redbanded rockfish,GOA,gsi,NA,1,NA
-redbanded rockfish,GOA,mass_temp,0.1553108912622629,1,"McCoy and Gillooly 2008, supplementary materials"
+redbanded rockfish,GOA,temp,0.1553108912622629,1,"McCoy and Gillooly 2008, supplementary materials"
 redbanded rockfish,GOA,lvb,NA,1,NA
 redbanded rockfish,multi_region,amax,NA,1,NA
 redbanded rockfish,multi_region,gsi,NA,1,NA
-redbanded rockfish,multi_region,mass_temp,NA,1,NA
+redbanded rockfish,multi_region,temp,NA,1,NA
 redbanded rockfish,multi_region,lvb,NA,1,NA
 redbanded rockfish,WC,amax,NA,1,NA
 redbanded rockfish,WC,gsi,NA,1,NA
-redbanded rockfish,WC,mass_temp,NA,1,NA
+redbanded rockfish,WC,temp,NA,1,NA
 redbanded rockfish,WC,lvb,NA,1,NA
 redstripe rockfish,AI,amax,NA,1,NA
 redstripe rockfish,AI,gsi,NA,1,NA
-redstripe rockfish,AI,mass_temp,NA,1,NA
+redstripe rockfish,AI,temp,NA,1,NA
 redstripe rockfish,AI,lvb,NA,1,NA
 redstripe rockfish,BC,amax,0.09818181818181819,1,"personal communication, Shayne MacLellan, CDFO, Nanaimo. Reported on ADFG ADU website. large sample size >2000, specimen from 1999. don't see a reason to omit necessarily, though this age is greater than AFSC max age of 46 yrs n=611"
 redstripe rockfish,BC,gsi,NA,1,NA
-redstripe rockfish,BC,mass_temp,NA,1,NA
+redstripe rockfish,BC,temp,NA,1,NA
 redstripe rockfish,BC,lvb,NA,1,NA
 redstripe rockfish,BS,amax,NA,1,NA
 redstripe rockfish,BS,gsi,NA,1,NA
-redstripe rockfish,BS,mass_temp,NA,1,NA
+redstripe rockfish,BS,temp,NA,1,NA
 redstripe rockfish,BS,lvb,NA,1,NA
 redstripe rockfish,GOA,amax,0.11739130434782609,1,afsc_allages_max_age
 redstripe rockfish,GOA,amax,0.1377551020408163,2,afsc_allages_mean_top5
 redstripe rockfish,GOA,gsi,NA,1,NA
-redstripe rockfish,GOA,mass_temp,NA,1,NA
+redstripe rockfish,GOA,temp,NA,1,NA
 redstripe rockfish,GOA,lvb,NA,1,NA
 redstripe rockfish,multi_region,amax,NA,1,NA
 redstripe rockfish,multi_region,gsi,NA,1,NA
-redstripe rockfish,multi_region,mass_temp,NA,1,NA
+redstripe rockfish,multi_region,temp,NA,1,NA
 redstripe rockfish,multi_region,lvb,NA,1,NA
 redstripe rockfish,WC,amax,NA,1,NA
 redstripe rockfish,WC,gsi,NA,1,NA
-redstripe rockfish,WC,mass_temp,NA,1,NA
+redstripe rockfish,WC,temp,NA,1,NA
 redstripe rockfish,WC,lvb,NA,1,NA
 rougheye rockfish,AI,amax,0.04122137404580153,1,afsc_allages_max_age
 rougheye rockfish,AI,amax,0.04599659284497445,2,afsc_allages_mean_top5
 rougheye rockfish,AI,gsi,NA,1,NA
-rougheye rockfish,AI,mass_temp,NA,1,NA
+rougheye rockfish,AI,temp,NA,1,NA
 rougheye rockfish,AI,lvb,NA,1,NA
 rougheye rockfish,BC,amax,NA,1,NA
 rougheye rockfish,BC,gsi,NA,1,NA
-rougheye rockfish,BC,mass_temp,NA,1,NA
+rougheye rockfish,BC,temp,NA,1,NA
 rougheye rockfish,BC,lvb,NA,1,NA
 rougheye rockfish,BS,amax,0.04153846153846154,1,afsc_allages_max_age
 rougheye rockfish,BS,amax,0.04492512479201331,2,afsc_allages_mean_top5
 rougheye rockfish,BS,gsi,NA,1,NA
-rougheye rockfish,BS,mass_temp,NA,1,NA
+rougheye rockfish,BS,temp,NA,1,NA
 rougheye rockfish,BS,lvb,NA,1,NA
 rougheye rockfish,GOA,amax,0.04,1,afsc_allages_max_age
 rougheye rockfish,GOA,amax,0.04507512520868114,2,afsc_allages_mean_top5
 rougheye rockfish,GOA,amax,0.02634146341463415,3,FishBase. Munk 2001.
 rougheye rockfish,GOA,gsi,NA,1,NA
-rougheye rockfish,GOA,mass_temp,NA,1,NA
+rougheye rockfish,GOA,temp,NA,1,NA
 rougheye rockfish,GOA,lvb,0.21904774404531713,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.
 rougheye rockfish,multi_region,amax,NA,1,NA
 rougheye rockfish,multi_region,gsi,NA,1,NA
-rougheye rockfish,multi_region,mass_temp,NA,1,NA
+rougheye rockfish,multi_region,temp,NA,1,NA
 rougheye rockfish,multi_region,lvb,NA,1,NA
 rougheye rockfish,WC,amax,NA,1,NA
 rougheye rockfish,WC,gsi,NA,1,NA
-rougheye rockfish,WC,mass_temp,NA,1,NA
+rougheye rockfish,WC,temp,NA,1,NA
 rougheye rockfish,WC,lvb,NA,1,NA
 sharpchin rockfish,AI,amax,NA,1,NA
 sharpchin rockfish,AI,gsi,NA,1,NA
-sharpchin rockfish,AI,mass_temp,NA,1,NA
+sharpchin rockfish,AI,temp,NA,1,NA
 sharpchin rockfish,AI,lvb,NA,1,NA
 sharpchin rockfish,BC,amax,NA,1,NA
 sharpchin rockfish,BC,gsi,NA,1,NA
-sharpchin rockfish,BC,mass_temp,NA,1,NA
+sharpchin rockfish,BC,temp,NA,1,NA
 sharpchin rockfish,BC,lvb,0.22826938189279367,1,Archibald 1981
 sharpchin rockfish,BS,amax,NA,1,NA
 sharpchin rockfish,BS,gsi,NA,1,NA
-sharpchin rockfish,BS,mass_temp,NA,1,NA
+sharpchin rockfish,BS,temp,NA,1,NA
 sharpchin rockfish,BS,lvb,NA,1,NA
 sharpchin rockfish,GOA,amax,0.1125,1,afsc_allages_max_age
 sharpchin rockfish,GOA,amax,0.12442396313364057,2,afsc_allages_mean_top5
 sharpchin rockfish,GOA,gsi,NA,1,NA
-sharpchin rockfish,GOA,mass_temp,0.2317214534391276,1,"McCoy and Gillooly 2008, supplementary materials"
+sharpchin rockfish,GOA,temp,0.2317214534391276,1,"McCoy and Gillooly 2008, supplementary materials"
 sharpchin rockfish,GOA,lvb,0.2950613452846096,1,Malecha et al. 2007
 sharpchin rockfish,multi_region,amax,NA,1,NA
 sharpchin rockfish,multi_region,gsi,NA,1,NA
-sharpchin rockfish,multi_region,mass_temp,NA,1,NA
+sharpchin rockfish,multi_region,temp,NA,1,NA
 sharpchin rockfish,multi_region,lvb,NA,1,NA
 sharpchin rockfish,WC,amax,0.09310344827586207,1,Cope et al. 2015
 sharpchin rockfish,WC,gsi,NA,1,NA
-sharpchin rockfish,WC,mass_temp,NA,1,NA
+sharpchin rockfish,WC,temp,NA,1,NA
 sharpchin rockfish,WC,lvb,0.3548548991748058,1,"Cope et al. 2015 female only, male Linf = 26.98, male k = 0.2, note model fit to cm"
 shortraker rockfish,AI,amax,0.043548387096774194,1,afsc_allages_max_age
 shortraker rockfish,AI,amax,0.049090909090909095,2,afsc_allages_mean_top5
 shortraker rockfish,AI,gsi,NA,1,NA
-shortraker rockfish,AI,mass_temp,NA,1,NA
+shortraker rockfish,AI,temp,NA,1,NA
 shortraker rockfish,AI,lvb,NA,1,NA
 shortraker rockfish,BC,amax,0.045000000000000005,1,Chilton and Beamish 1982
 shortraker rockfish,BC,gsi,NA,1,NA
-shortraker rockfish,BC,mass_temp,NA,1,NA
+shortraker rockfish,BC,temp,NA,1,NA
 shortraker rockfish,BC,lvb,NA,1,NA
 shortraker rockfish,BS,amax,NA,1,NA
 shortraker rockfish,BS,gsi,NA,1,NA
-shortraker rockfish,BS,mass_temp,NA,1,NA
+shortraker rockfish,BS,temp,NA,1,NA
 shortraker rockfish,BS,lvb,NA,1,NA
 shortraker rockfish,GOA,amax,0.036986301369863014,1,afsc_allages_max_age
 shortraker rockfish,GOA,amax,0.04225352112676057,2,afsc_allages_mean_top5
 shortraker rockfish,GOA,amax,0.034394904458598725,3,Munk 2001
 shortraker rockfish,GOA,amax,0.03375,4,ADFG Age Determiation Unit - McNeal 2002
 shortraker rockfish,GOA,gsi,NA,1,NA
-shortraker rockfish,GOA,mass_temp,0.09252301499463407,1,"McCoy and Gillooly 2008, supplementary materials"
+shortraker rockfish,GOA,temp,0.09252301499463407,1,"McCoy and Gillooly 2008, supplementary materials"
 shortraker rockfish,GOA,lvb,NA,1,NA
 shortraker rockfish,multi_region,amax,NA,1,NA
 shortraker rockfish,multi_region,gsi,NA,1,NA
-shortraker rockfish,multi_region,mass_temp,NA,1,NA
+shortraker rockfish,multi_region,temp,NA,1,NA
 shortraker rockfish,multi_region,lvb,0.07346967488366232,1,uses ages from Hutchinson 2004 partially validated analysis
 shortraker rockfish,WC,amax,NA,1,NA
 shortraker rockfish,WC,gsi,NA,1,NA
-shortraker rockfish,WC,mass_temp,NA,1,NA
+shortraker rockfish,WC,temp,NA,1,NA
 shortraker rockfish,WC,lvb,NA,1,NA
 shortspine thornyhead,AI,amax,NA,1,NA
 shortspine thornyhead,AI,gsi,0.0170798,1,Pearson and Gunderson 2003
-shortspine thornyhead,AI,mass_temp,NA,1,NA
+shortspine thornyhead,AI,temp,NA,1,NA
 shortspine thornyhead,AI,lvb,NA,1,NA
 shortspine thornyhead,BC,amax,NA,1,NA
 shortspine thornyhead,BC,gsi,NA,1,NA
-shortspine thornyhead,BC,mass_temp,NA,1,NA
+shortspine thornyhead,BC,temp,NA,1,NA
 shortspine thornyhead,BC,lvb,NA,1,NA
 shortspine thornyhead,BS,amax,NA,1,NA
 shortspine thornyhead,BS,gsi,0.0165347,1,Pearson and Gunderson 2003
-shortspine thornyhead,BS,mass_temp,NA,1,NA
+shortspine thornyhead,BS,temp,NA,1,NA
 shortspine thornyhead,BS,lvb,NA,1,NA
 shortspine thornyhead,GOA,amax,0.08709677419354839,1,Miller 1985
 shortspine thornyhead,GOA,amax,0.0406015037593985,2,ADFG Age Determiation Unit - McNeal 1998
 shortspine thornyhead,GOA,gsi,0.0130824,1,Pearson and Gunderson 2003
-shortspine thornyhead,GOA,mass_temp,0.11193769102421136,1,"McCoy and Gillooly 2008, supplementary materials"
+shortspine thornyhead,GOA,temp,0.11193769102421136,1,"McCoy and Gillooly 2008, supplementary materials"
 shortspine thornyhead,GOA,lvb,NA,1,NA
 shortspine thornyhead,multi_region,amax,0.10800000000000001,1,"minimum in Kastelle et al 2000, Cailliet et al 2001 - radiochemical ageing technique"
 shortspine thornyhead,multi_region,amax,0.054000000000000006,2,"maximum in Kastelle et al 2000, Cailliet et al 2001 - radiochemical ageing technique"
 shortspine thornyhead,multi_region,amax,0.0216,3,minimum in Pearson and Gunderson 2003 - gonadosomatic index (GSI)
 shortspine thornyhead,multi_region,amax,0.017252396166134186,4,maximum in Pearson and Gunderson 2003 - gonadosomatic index (GSI)
 shortspine thornyhead,multi_region,gsi,NA,1,NA
-shortspine thornyhead,multi_region,mass_temp,NA,1,NA
+shortspine thornyhead,multi_region,temp,NA,1,NA
 shortspine thornyhead,multi_region,lvb,NA,1,NA
 shortspine thornyhead,WC,amax,0.036000000000000004,1,Jacobson 1990
 shortspine thornyhead,WC,amax,0.04695652173913044,2,Kline 1996 - conventional ageing method
 shortspine thornyhead,WC,amax,0.054000000000000006,3,Kline 1996 - radiochemical ageing technique
 shortspine thornyhead,WC,gsi,NA,1,NA
-shortspine thornyhead,WC,mass_temp,NA,1,NA
+shortspine thornyhead,WC,temp,NA,1,NA
 shortspine thornyhead,WC,lvb,NA,1,NA
 silvergray rockfish,AI,amax,NA,1,NA
 silvergray rockfish,AI,gsi,NA,1,NA
-silvergray rockfish,AI,mass_temp,NA,1,NA
+silvergray rockfish,AI,temp,NA,1,NA
 silvergray rockfish,AI,lvb,NA,1,NA
 silvergray rockfish,BC,amax,0.06666666666666667,1,"personal communication, Shayne MacLellan, CDFO, Nanaimo. Reported on ADFG ADU website and in Munk 2001. Specimen collected in 1981. Decided to use=1 because sample size is large >10000 and AFSC max age is very close at 79 yrs, also in Stanley and Kronlund 2005"
 silvergray rockfish,BC,gsi,NA,1,NA
-silvergray rockfish,BC,mass_temp,NA,1,NA
+silvergray rockfish,BC,temp,NA,1,NA
 silvergray rockfish,BC,lvb,NA,1,NA
 silvergray rockfish,BS,amax,NA,1,NA
 silvergray rockfish,BS,gsi,NA,1,NA
-silvergray rockfish,BS,mass_temp,NA,1,NA
+silvergray rockfish,BS,temp,NA,1,NA
 silvergray rockfish,BS,lvb,NA,1,NA
 silvergray rockfish,GOA,amax,0.06835443037974684,1,afsc_allages_max_age
 silvergray rockfish,GOA,amax,0.07627118644067797,2,afsc_allages_mean_top5
 silvergray rockfish,GOA,amax,0.07200000000000001,3,Malecha et a. 2007
 silvergray rockfish,GOA,gsi,NA,1,NA
-silvergray rockfish,GOA,mass_temp,0.17955221323996598,1,"McCoy and Gillooly 2008, supplementary materials"
+silvergray rockfish,GOA,temp,0.17955221323996598,1,"McCoy and Gillooly 2008, supplementary materials"
 silvergray rockfish,GOA,lvb,NA,1,NA
 silvergray rockfish,multi_region,amax,NA,1,NA
 silvergray rockfish,multi_region,gsi,NA,1,NA
-silvergray rockfish,multi_region,mass_temp,NA,1,NA
+silvergray rockfish,multi_region,temp,NA,1,NA
 silvergray rockfish,multi_region,lvb,NA,1,NA
 silvergray rockfish,WC,amax,NA,1,NA
 silvergray rockfish,WC,gsi,NA,1,NA
-silvergray rockfish,WC,mass_temp,NA,1,NA
+silvergray rockfish,WC,temp,NA,1,NA
 silvergray rockfish,WC,lvb,NA,1,NA
 yelloweye rockfish,AI,amax,NA,1,NA
 yelloweye rockfish,AI,gsi,NA,1,NA
-yelloweye rockfish,AI,mass_temp,NA,1,NA
+yelloweye rockfish,AI,temp,NA,1,NA
 yelloweye rockfish,AI,lvb,NA,1,NA
-yelloweye rockfish,BC,amax,NA,1,NA
+yelloweye rockfish,BC,amax,0.04695652173913044,1,Fisheries and Oceans Canada 2018
 yelloweye rockfish,BC,gsi,NA,1,NA
-yelloweye rockfish,BC,mass_temp,NA,1,NA
+yelloweye rockfish,BC,temp,NA,1,NA
 yelloweye rockfish,BC,lvb,NA,1,NA
 yelloweye rockfish,BS,amax,NA,1,NA
 yelloweye rockfish,BS,gsi,NA,1,NA
-yelloweye rockfish,BS,mass_temp,NA,1,NA
+yelloweye rockfish,BS,temp,NA,1,NA
 yelloweye rockfish,BS,lvb,NA,1,NA
 yelloweye rockfish,GOA,amax,0.04426229508196722,1,"ADFG - Age Determination Unit, Juneau, AK large sample size, specimen collected in 2001"
 yelloweye rockfish,GOA,amax,0.04736842105263158,2,Bechtol 1998
 yelloweye rockfish,GOA,amax,0.04576271186440678,3,O'Connell and Funk 1987
 yelloweye rockfish,GOA,gsi,0.0517845,1,"Aurthur 2020, n = 13, mean GSI for stage 3, as per Gunderson"
-yelloweye rockfish,GOA,mass_temp,NA,1,NA
+yelloweye rockfish,GOA,temp,0.1327104989275052,1,"McCoy and Gillooly 2008, supplementary materials"
 yelloweye rockfish,GOA,lvb,NA,1,NA
 yelloweye rockfish,multi_region,amax,NA,1,NA
 yelloweye rockfish,multi_region,gsi,NA,1,NA
-yelloweye rockfish,multi_region,mass_temp,NA,1,NA
+yelloweye rockfish,multi_region,temp,NA,1,NA
 yelloweye rockfish,multi_region,lvb,NA,1,NA
 yelloweye rockfish,WC,amax,NA,1,NA
 yelloweye rockfish,WC,gsi,NA,1,NA
-yelloweye rockfish,WC,mass_temp,NA,1,NA
+yelloweye rockfish,WC,temp,NA,1,NA
 yelloweye rockfish,WC,lvb,NA,1,NA
