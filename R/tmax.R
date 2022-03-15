@@ -1,11 +1,11 @@
-# get tmax
-# jane.sullivan@noaa.gov
-# february 2022
+# get tmax using data available from Alaska-based surveys and fisheries
+# contact jane.sullivan@noaa.gov
+# last updated 2022-03-14
 
 # get three options for tmax 
-# 1) max age in sample
-# 2) mean of top 5 ages in sample
-# 3) 99th percentile in sample
+# 1) max age in sample - use
+# 2) mean of top 5 ages in sample - use
+# 3) 99th percentile in sample - don't use
 
 # setup ----
 libs <- c("tidyverse")
@@ -100,12 +100,16 @@ comb <- comb %>%
 
 combsum <- comb %>% 
   group_by(common_name, area) %>% 
-  summarise(n = n(),
+  summarise(n_total = n(),
+            n_survey = length(which(source == 'survey')),
+            n_fishery = length(which(source == 'fishery')),
             q99 = quantile(age, 0.99),
             max_age = max(age)) %>% 
   left_join(comb %>% 
               group_by(common_name, area) %>% 
               slice_max(order_by = age, n = 5) %>% 
               summarize(mean_top5 = mean(age))) 
-
+combsum %>% print(n=Inf)
+combsum <- combsum %>% 
+  filter(!is.na(area))
 write_csv(combsum, paste0(out_path, '/alldat_tmax.csv'))

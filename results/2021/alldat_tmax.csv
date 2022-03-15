@@ -1,0 +1,22 @@
+common_name,area,n_total,n_survey,n_fishery,q99,max_age,mean_top5
+blackspotted rockfish,AI,2426,2426,0,57,134,106.2
+blackspotted rockfish,BS,439,439,0,59.620000000000005,84,72.6
+blackspotted rockfish,GOA,2037,2037,0,59.279999999999745,103,94.2
+dusky rockfish,AI,1020,1020,0,41,67,63.2
+dusky rockfish,GOA,9418,5479,3939,39,75,68.2
+harlequin rockfish,AI,227,227,0,59.700000000000045,79,63.4
+harlequin rockfish,GOA,1016,1016,0,34.85000000000002,47,41.166666666666664
+northern rockfish,AI,13016,8042,4974,54,88,79.2
+northern rockfish,BS,628,0,628,53,76,68.4
+northern rockfish,GOA,15344,7115,8229,46,72,65.83333333333333
+rebs rockfish,AI,4677,2576,2101,73,134,122.8
+rebs rockfish,BS,1285,647,638,100.32000000000016,130,120.2
+rebs rockfish,GOA,7948,4233,3715,80,135,119.8
+redstripe rockfish,GOA,611,611,0,35,46,39.2
+rougheye rockfish,AI,2251,150,2101,83,131,117.4
+rougheye rockfish,BS,846,208,638,104.09999999999991,130,120.2
+rougheye rockfish,GOA,5911,2196,3715,83,135,119.8
+sharpchin rockfish,GOA,567,567,0,37.34000000000003,48,43.4
+shortraker rockfish,AI,1084,1084,0,87.17000000000007,124,110
+shortraker rockfish,GOA,1826,1826,0,92.75,146,127.8
+silvergray rockfish,GOA,927,927,0,63,79,70.8

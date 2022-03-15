@@ -1,5 +1,7 @@
+# Formulas for the four natural mortality estimators selected for this study.
+# See further rationale for the selection of these estimators at
+# https://docs.google.com/spreadsheets/d/1NQJJwwhiUOaMHUCJ4ETbPH_UBzjgCfqsWeowf-lTmF0/edit#gid=0
 
-# Credit: Natural Jason Cope https://github.com/shcaba/Natural-Mortality-Tool
 # Last updated Feb 2022
 
 # References ----
@@ -13,6 +15,7 @@
 # predictive performance of empirical estimators of natural mortality rate using
 # information on over 200 fish species. – ICES Journal of Marine Science, 72:
 # 82–92.
+# Natural Mortality Tool (NMT) Jason Cope https://github.com/shcaba/Natural-Mortality-Tool
 
 # M estimator functions ----
 
@@ -35,7 +38,7 @@ M_amax <- function(input_tmax # years
 # regression was forced to have a slope of 1 in log space, which makes them
 # linear in real space.
 M_gsi <- function(input_gsi) {
-  out <- 1.817 * input_gsi # GnD_GSI_M in Cope's NMT
+  out <- 1.817 * input_gsi # GSI = weight oavry / somatic weight. GnD_GSI_M in Cope's NMT
   return(out)
 }
 

@@ -1,8 +1,10 @@
 # Max age REBS
+# contact jane.sullivan@noaa.gov
+# last updated 2022-03-14
 
 # Set up ----
 
-# Assessment year (most recent year with complete data set)
+# most recent year with complete data set
 YEAR <- 2021
 
 libs <- c("tidyverse", "RODBC")
@@ -141,28 +143,3 @@ fshbio <- fshbio %>%
               select(akr_species_codes = akr_code, common_name))
 
 write_csv(fshbio, paste0(dat_path, "/fishery_ages.csv"))
-
-
-# dusky lengths for Todd Tenbrink 2022-02-09 ----
-
-query <- paste0("select   *
-                 from     norpac.debriefed_age_flat_mv
-                 where    akr_species_codes in ('172') and
-                          fmp_area in ('BSAI')")
-
-duskylengths <- sqlQuery(channel_akfin, query) %>% 
-  rename_all(tolower)
-
-write_csv(duskylengths, paste0(dat_path, "/bsai_fishery_dusky_specimens_20220209.csv"))
-
-# check on AI harlequin 2022-02-10 ----
-
-query <- paste0("select   *
-                 from     afsc.race_specimenaigoa
-                 where    species_code in ('30535') and
-                          region in ('AI') and
-                          age IS NOT NULL")
-
-harl <- sqlQuery(channel_akfin, query) %>% 
-  rename_all(tolower)
-harl
