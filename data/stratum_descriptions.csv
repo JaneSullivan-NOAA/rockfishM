@@ -1,0 +1,28 @@
+region,stratum,description,area
+GOA,241,Yakutat Slope                 ,Eastern
+GOA,341,Yakutat Slope                 ,Eastern
+GOA,50,Southeastern Shallows         ,Eastern
+GOA,251,Prince of Wales Slope/Gullies ,Eastern
+GOA,350,Southeastern Deep Gullies     ,Eastern
+GOA,340,Yakutat Gullies               ,Eastern
+GOA,130,Albatross Gullies             ,Kodiak
+GOA,131,Portlock Flats                ,Kodiak
+GOA,133,Kenai Flats                   ,Kodiak
+GOA,134,Kodiak Outer Shelf            ,Kodiak
+GOA,141,Yakataga Shelf                ,Eastern
+GOA,210,Shumagin Slope                ,Western
+GOA,221,Chirikof Slope                ,Kodiak
+GOA,230,Kenai Gullies                 ,Kodiak
+GOA,320,Chirikof Slope                ,Kodiak
+GOA,330,Kodiak Slope                  ,Kodiak
+GOA,351,Southeastern Slope            ,Eastern
+GOA,31,Albatross Banks               ,Kodiak
+GOA,112,West Shumagin Gully           ,Western
+GOA,450,Southeastern Slope            ,Eastern
+GOA,550,Southeastern Slope            ,Eastern
+GOA,12,Lower Alaska Peninsula        ,Western
+GOA,111,Shumagin Outer Shelf          ,Western
+GOA,310,Shumagin Slope                ,Western
+GOA,220,Lower Shelikof Gully          ,Kodiak
+GOA,231,Kodiak Slope                  ,Kodiak
+GOA,140,Middleton Shelf               ,Eastern

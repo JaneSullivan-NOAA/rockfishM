@@ -1,0 +1,13 @@
+species,lh_param,estimate,version,method_or_source,Data_area
+rougheye_rockfish,maxage_yr,205,1,FishBase. Munk 2001.,GOA
+rougheye_rockfish,vbgf_linf_cm,53.6,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.,GOA
+rougheye_rockfish,vbgf_k_cm-1,0.109,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.,GOA
+rougheye_rockfish,vbgf_t0_yr,0.25,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.,GOA
+rougheye_rockfish,agemat_yr,19.6,1,Conrath 2017,GOA
+blackspotted_rockfish,vbgf_linf_cm,51.9,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.,GOA
+blackspotted_rockfish,vbgf_k_cm-1,0.065,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.,GOA
+blackspotted_rockfish,vbgf_t0_yr,0.25,1,2009 GOA trawl survey genetic species ID. Appendix 13B of the 2019 SAFE. Shotwell and Hanselman 2019.,GOA
+blackspotted_rockfish,agemat_yr,27.4,1,Conrath 2017,GOA
+rebs_rockfish,vbgf_linf_cm,49.6,1,"Shotwell and Hanselman 2019, last updated in 2015",GOA
+rebs_rockfish,vbgf_k_cm-1,0.09,1,"Shotwell and Hanselman 2019, last updated in 2015",GOA
+rebs_rockfish,vbgf_t0_yr,-0.69,1,"Shotwell and Hanselman 2019, last updated in 2015",GOA
