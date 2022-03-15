@@ -177,7 +177,7 @@ rebs rockfish,BS,temp_C,NA,NA,NA,1
 rebs rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
 rebs rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
 rebs rockfish,GOA,dry_weight_g,GOA,"McCoy and Gillooly 2008, supplementary materials",9380,1
-rebs rockfish,GOA,gsi,NA,NA,NA,1
+rebs rockfish,GOA,gsi,GOA,"Gunderson 1997, data from McDermott 1994",0.02,1
 rebs rockfish,GOA,maxage_yr,GOA,afsc_allages_max_age,135,1
 rebs rockfish,GOA,maxage_yr,GOA,afsc_allages_mean_top5,119.8,2
 rebs rockfish,GOA,maxage_yr,GOA - Southern Southeast AK (SSEA),"ADFG - Age Determination Unit, Juneau, AK, also reported in Munk. no species ID",205,3
@@ -206,8 +206,8 @@ redbanded rockfish,BC,dry_weight_g,NA,NA,NA,1
 redbanded rockfish,BC,gsi,NA,NA,NA,1
 redbanded rockfish,BC,maxage_yr,NA,NA,NA,1
 redbanded rockfish,BC,temp_C,NA,NA,NA,1
-redbanded rockfish,BC,vbgf_k_cm-1,BC,Haigh and Starr 2008,0.05,1
-redbanded rockfish,BC,vbgf_linf_cm,BC,Haigh and Starr 2007,54.8,1
+redbanded rockfish,BC,vbgf_k_cm-1,BC,Haigh and Starr 2006,0.05,1
+redbanded rockfish,BC,vbgf_linf_cm,BC,Haigh and Starr 2006,54.8,1
 redbanded rockfish,BS,dry_weight_g,NA,NA,NA,1
 redbanded rockfish,BS,gsi,NA,NA,NA,1
 redbanded rockfish,BS,maxage_yr,NA,NA,NA,1
@@ -290,7 +290,7 @@ rougheye rockfish,BS,temp_C,NA,NA,NA,1
 rougheye rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
 rougheye rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
 rougheye rockfish,GOA,dry_weight_g,NA,NA,NA,1
-rougheye rockfish,GOA,gsi,GOA,"Gunderson 1997, data from McDermott 1994",0.02,1
+rougheye rockfish,GOA,gsi,NA,NA,NA,1
 rougheye rockfish,GOA,maxage_yr,GOA,afsc_allages_max_age,135,1
 rougheye rockfish,GOA,maxage_yr,GOA,afsc_allages_mean_top5,119.8,2
 rougheye rockfish,GOA,maxage_yr,GOA,FishBase. Munk 2001.,205,3
@@ -342,10 +342,10 @@ sharpchin rockfish,multi_region,vbgf_k_cm-1,NA,NA,NA,1
 sharpchin rockfish,multi_region,vbgf_linf_cm,NA,NA,NA,1
 sharpchin rockfish,WC,dry_weight_g,NA,NA,NA,1
 sharpchin rockfish,WC,gsi,NA,NA,NA,1
-sharpchin rockfish,WC,maxage_yr,WC,"Cope et al. 2015, see comments above",58,1
+sharpchin rockfish,WC,maxage_yr,WC,Cope et al. 2015,58,1
 sharpchin rockfish,WC,temp_C,NA,NA,NA,1
-sharpchin rockfish,WC,vbgf_k_cm-1,WC,"Cope et al. 2015 female only, male = 0.2, note model fit to cm",0.17,1
-sharpchin rockfish,WC,vbgf_linf_cm,WC,"Cope et al. 2015 female only, male = 26.98",33.21,1
+sharpchin rockfish,WC,vbgf_k_cm-1,WC,"Cope et al. 2015 female only, male Linf = 26.98, male k = 0.2, note model fit to cm",0.17,1
+sharpchin rockfish,WC,vbgf_linf_cm,WC,"Cope et al. 2015 female only, male Linf = 26.98, male k = 0.2, note model fit to cm",33.21,1
 shortraker rockfish,AI,dry_weight_g,NA,NA,NA,1
 shortraker rockfish,AI,gsi,NA,NA,NA,1
 shortraker rockfish,AI,maxage_yr,AI,afsc_allages_max_age,124,1
@@ -452,8 +452,8 @@ silvergray rockfish,GOA,maxage_yr,GOA,afsc_allages_max_age,79,1
 silvergray rockfish,GOA,maxage_yr,GOA,afsc_allages_mean_top5,70.8,2
 silvergray rockfish,GOA,maxage_yr,EGOA,Malecha et a. 2007,75,3
 silvergray rockfish,GOA,temp_C,GOA,"McCoy and Gillooly 2008, supplementary materials",7,1
-silvergray rockfish,GOA,vbgf_k_cm-1,EGOA,"Malecha et a. 2007, model estimated in mm, k not converted here",0.1,1
-silvergray rockfish,GOA,vbgf_linf_cm,EGOA,"Malecha et a. 2007, models struggled to converge",59.8,1
+silvergray rockfish,GOA,vbgf_k_cm-1,NA,NA,NA,1
+silvergray rockfish,GOA,vbgf_linf_cm,NA,NA,NA,1
 silvergray rockfish,multi_region,dry_weight_g,NA,NA,NA,1
 silvergray rockfish,multi_region,gsi,NA,NA,NA,1
 silvergray rockfish,multi_region,maxage_yr,NA,NA,NA,1

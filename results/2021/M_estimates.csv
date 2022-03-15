@@ -24,7 +24,7 @@ northern rockfish,1,mass_temp,NA,NA,NA,NA,NA,NA
 rebs rockfish,1,amax,0.04,0.04153846153846154,0.04029850746268657,NA,NA,NA
 rebs rockfish,2,amax,0.04507512520868114,0.04492512479201331,0.04397394136807818,NA,NA,NA
 rebs rockfish,3,amax,0.02634146341463415,NA,NA,NA,NA,NA
-rebs rockfish,1,gsi,NA,NA,NA,NA,NA,NA
+rebs rockfish,1,gsi,0.03634,NA,NA,NA,NA,NA
 rebs rockfish,1,lvb,0.19540240312888654,NA,NA,NA,NA,NA
 rebs rockfish,1,mass_temp,0.09230928906332918,NA,NA,NA,NA,NA
 redbanded rockfish,1,amax,0.0509433962264151,NA,NA,NA,NA,NA
@@ -39,7 +39,7 @@ redstripe rockfish,1,mass_temp,NA,NA,NA,NA,NA,NA
 rougheye rockfish,1,amax,0.04,0.04153846153846154,0.04122137404580153,NA,NA,NA
 rougheye rockfish,2,amax,0.04507512520868114,0.04492512479201331,0.04599659284497445,NA,NA,NA
 rougheye rockfish,3,amax,0.02634146341463415,NA,NA,NA,NA,NA
-rougheye rockfish,1,gsi,0.03634,NA,NA,NA,NA,NA
+rougheye rockfish,1,gsi,NA,NA,NA,NA,NA,NA
 rougheye rockfish,1,lvb,0.21904774404531713,NA,NA,NA,NA,NA
 rougheye rockfish,1,mass_temp,NA,NA,NA,NA,NA,NA
 sharpchin rockfish,1,amax,0.1125,NA,NA,NA,0.09310344827586207,NA
@@ -65,7 +65,7 @@ silvergray rockfish,1,amax,0.06835443037974684,NA,NA,0.06666666666666667,NA,NA
 silvergray rockfish,2,amax,0.07627118644067797,NA,NA,NA,NA,NA
 silvergray rockfish,3,amax,0.07200000000000001,NA,NA,NA,NA,NA
 silvergray rockfish,1,gsi,NA,NA,NA,NA,NA,NA
-silvergray rockfish,1,lvb,0.19839486679142215,NA,NA,NA,NA,NA
+silvergray rockfish,1,lvb,NA,NA,NA,NA,NA,NA
 silvergray rockfish,1,mass_temp,0.17955221323996598,NA,NA,NA,NA,NA
 yelloweye rockfish,1,amax,0.04426229508196722,NA,NA,NA,NA,NA
 yelloweye rockfish,2,amax,0.04736842105263158,NA,NA,NA,NA,NA

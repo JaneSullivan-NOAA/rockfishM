@@ -38,7 +38,7 @@ unique(tmax$area)
 # data represent. Should be zero rows, and if it's not GOA:WC should be 0 and
 # multi_region should be 1
 lh %>% 
-  mutate(multi_region_test = GOA+BS+AI+BC+WC) %>% 
+  mutate(multi_region_test = GOA+BS+AI+BC+WC+multi_region) %>% 
   filter(multi_region_test > 1)
 
 # bind tmax estimates from AFSC fishery and survey data to user-defined life
@@ -86,10 +86,16 @@ input_data <- input_data %>%
   mutate(version = row_number()) %>% 
   ungroup()
 
+# Run analysis ----
+
+# calculate four M estimators for each input species and area combo
+
 species_ls <- unique(input_data$species)
 area_ls <- unique(input_data$input_area)
 
 write_csv(input_data, paste0('M_analysis_input_data.csv'))
+
+rm(out);rm(fullout)
 
 for(i in 1:length(species_ls)) {
   for(j in 1:length(area_ls)) {
@@ -105,7 +111,8 @@ for(i in 1:length(species_ls)) {
     # specific life history parameters. loop through these
     amax_out <- data.frame(method = 'amax',
                            version = unique(tmpdf$version),
-                           Mest = NA)
+                           Mest = NA,
+                           method_or_source = unique(tmpdf$method_or_source))
     
     for(k in 1:length(unique(tmpdf$version))) {
       v_tmpdf <- tmpdf %>% filter(version == k)
@@ -117,7 +124,8 @@ for(i in 1:length(species_ls)) {
     
     gsi_out <- data.frame(method = 'gsi',
                           version = unique(tmpdf$version),
-                          Mest = NA)
+                          Mest = NA,
+                          method_or_source = unique(tmpdf$method_or_source))
     
     for(k in 1:length(unique(tmpdf$version))) {
       v_tmpdf <- tmpdf %>% filter(version == k)
@@ -129,7 +137,8 @@ for(i in 1:length(species_ls)) {
     
     masstemp_out <- data.frame(method = 'mass_temp',
                                version = unique(tmpdf$version),
-                               Mest = NA)
+                               Mest = NA,
+                               method_or_source = unique(tmpdf$method_or_source))
     
     for(k in 1:length(unique(tmpdf$version))) {
       v_tmpdf <- tmpdf %>% filter(version == k)
@@ -142,7 +151,8 @@ for(i in 1:length(species_ls)) {
     
     lvb_out <- data.frame(method = 'lvb',
                           version = unique(tmpdf$version),
-                          Mest = NA)
+                          Mest = NA,
+                          method_or_source = unique(tmpdf$method_or_source))
     
     for(k in 1:length(unique(tmpdf$version))) {
       v_tmpdf <- tmpdf %>% filter(version == k)
@@ -154,7 +164,8 @@ for(i in 1:length(species_ls)) {
     out <- bind_rows(amax_out, gsi_out, masstemp_out, lvb_out) %>% 
       mutate(species = species_ls[i],
              input_area = area_ls[j]) %>% 
-      select(species, input_area, M_method = method, M_estimate = Mest, version)
+      select(species, input_area, M_method = method, M_estimate = Mest, 
+             version, method_or_source)
     
     if(i == 1 & j == 1) {
       fullout <- out 
@@ -165,24 +176,18 @@ for(i in 1:length(species_ls)) {
 }
 
 nrow(fullout)
+fullout %>% select(-method_or_source)
 write_csv(fullout, paste0(out_path, "/l_M_estimates.csv"))
 l_fullout <- fullout
 
 fullout <- l_fullout %>% 
+  select(-method_or_source) %>% 
   pivot_wider(id_cols = c(species, version, M_method),
               names_from = input_area,
               values_from = M_estimate) %>% 
-  select(species, version, M_method, GOA, BS, AI, BC, WC, multi_region) %>% 
-  arrange(species, M_method, version)
+  select(species, version, M_method, GOA, BS, AI, BC, WC, multi_region) %>%
+  arrange(species, M_method, version) 
+
+fullout %>% View()
 
 write_csv(fullout, paste0(out_path, "/M_estimates.csv"))
-
-# test lvb k
-linf <- 519
-kapp <- 0.065
-t0 <- 0.25
-agevec <- 2:25
-lens1 <- linf * (1 - exp(-k * (agevec - t0)))
-lens2 <- ((linf/10) * (1 - exp(-(k) * (agevec - t0)))) * 10
-lens1;lens2
-round(lens2, 5) == round(lens1, 5)
