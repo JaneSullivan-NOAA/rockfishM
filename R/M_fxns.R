@@ -22,9 +22,13 @@
 # Hamel 2022 update to Then et al 2015. Use log-log transformation on the linear
 # regression due to underlying heteroscedasticity in the data.
 # M_vals[3]=Hamel_amax in Cope's NMT
-M_amax <- function(input_tmax # years
+calcM_amax <- function(input_amax # years
 ) {
-  out <- 5.4 / input_tmax 
+  if(is.na(input_amax)) {
+    out <- NA
+    } else { 
+  out <- 5.4 / input_amax
+  }
   return(out)
 }
 
@@ -37,22 +41,29 @@ M_amax <- function(input_tmax # years
 # transformation forces the relationship through the origin in real space. The
 # regression was forced to have a slope of 1 in log space, which makes them
 # linear in real space.
-M_gsi <- function(input_gsi) {
+calcM_gsi <- function(input_gsi) {
+  if(is.na(input_gsi)) {
+    out <- NA
+  } else { 
   out <- 1.817 * input_gsi # GSI = weight oavry / somatic weight. GnD_GSI_M in Cope's NMT
+  }
   return(out)
 }
 
-
 # McCoy and Gillooly 2008 and reformulation in Hamel 2015. 
-M_temp <-function(input_dry_mass, # grams
-                  input_temp # Celsius
+calcM_mass_temp <-function(input_dry_mass, # grams
+                           input_temp # Celsius
 ) {
   # see equations 1 and 2 in McCoy and Gillooly 2008  and equation 17 in Hamel
   # 2015 for definitions. The one difference is that the value of -7540 is
   # expressed as -eV/K in equation 17 in Hamel 2015, where K=Boltzmann's
   # constant=8.62e-5, and
   # eV=0.65.
+  if(is.na(input_dry_mass) | is.na(input_temp)) {
+    out <- NA
+  } else { 
   out <- 3.2 * ((input_dry_mass / 4)^ -0.27) * exp(-7540 * ((1 / (273 + input_temp))- (1 / 293.15)))
+  }
   return(out)
 }
 
@@ -61,11 +72,15 @@ M_temp <-function(input_dry_mass, # grams
 # 2015 estimated the coefficients to be equal to
 # Mest=4.111*K^(0.73)*Linf^(-0.333) with length in cm using non-linear least
 # squares regression methods. Recommendation to use this estimator IF RELIABLE
-# ESTIMATES OF TMAX WERE NOT AVAILABLE.
-M_lvb <-function(input_linf, # cm
+# ESTIMATES OF A_MAX WERE NOT AVAILABLE.
+calcM_lvb <-function(input_linf, # cm
                  input_k # cm^-1
 ) {
+  if(is.na(input_linf) | is.na(input_k)) {
+    out <- NA
+  } else { 
   out <- 4.11 * input_k ^ 0.73 * input_linf ^ -0.33
+  }
   return(out)
 }
 
