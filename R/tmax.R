@@ -25,9 +25,16 @@ dat_path <- paste0("data/", YEAR)
 
 # data ----
 
-srvbio <- read_csv(paste0(dat_path, "/survey_ages.csv"))
+srvbio <- read_csv(paste0(dat_path, "/survey_ages.csv")) # use survey_ages_akfin.csv to reproduce what's in results/YEAR/using_akfin_survey_specimen_data. RACE only delivers data once to AKFIN per year
 fshbio <- read_csv(paste0(dat_path, "/fishery_ages.csv"))
 spp <- read_csv(paste0(dat_path, '/race_spp.csv'))
+
+# note that there are a lot of survey = NA specimens from RACEBASE. 
+srvbio %>% 
+  distinct(survey, region)
+
+srbio <- srvbio %>% 
+  mutate(survey = ifelse(is.na(survey), region, survey))
 
 # survey ----
 srvsum <- srvbio %>% 
@@ -85,6 +92,11 @@ tmpfsh <- fshbio %>%
 # combined ----
 
 comb <- bind_rows(tmpsrv, tmpfsh) 
+
+comb <- comb %>% 
+  bind_rows(comb %>% 
+              filter(common_name %in% c('rougheye rockfish', 'blackspotted rockfish')) %>% 
+              mutate(common_name = 'rebs rockfish'))
 
 combsum <- comb %>% 
   group_by(common_name, area) %>% 

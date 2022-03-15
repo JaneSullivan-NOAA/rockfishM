@@ -10,12 +10,17 @@ if(length(libs[which(libs %in% rownames(installed.packages()) == FALSE )]) > 0) 
   install.packages(libs[which(libs %in% rownames(installed.packages()) == FALSE)])}
 lapply(libs, library, character.only = TRUE)
 
-
 db <- read_csv("database.csv")
 database_akfin <- db$database
 username_akfin <- db$username 
 password_akfin <- db$password
 channel_akfin <- odbcConnect(database_akfin, uid = username_akfin, pwd = password_akfin, believeNRows=FALSE)
+
+database_afsc <- "afsc"
+username_afsc <- db$un_afsc 
+password_afsc <- db$pw_afsc 
+channel_afsc <- odbcConnect(database_afsc, uid = username_afsc, pwd = password_afsc, believeNRows=FALSE)
+
 
 # Create a year subdirectory to store annual data
 dat_path <- paste0("data")
@@ -85,6 +90,18 @@ srvbio <- sqlQuery(channel_akfin, sprintf(query1, myspp_string)) %>%
   select(-akfin_load_date) %>% 
   left_join(cruise)
   
+write_csv(srvbio, paste0(dat_path, "/survey_ages_akfin.csv"))
+
+# using AFSC specimen table from RACEBASE
+query <- paste0("select   *
+                 from     racebase.specimen
+                 where    species_code in (%s) and
+                          age IS NOT NULL")
+
+srvbio <- sqlQuery(channel_afsc, sprintf(query, myspp_string)) %>% 
+   rename_all(tolower) %>% 
+  left_join(cruise)
+
 write_csv(srvbio, paste0(dat_path, "/survey_ages.csv"))
 
 # fishery data ----
@@ -126,4 +143,26 @@ fshbio <- fshbio %>%
 write_csv(fshbio, paste0(dat_path, "/fishery_ages.csv"))
 
 
+# dusky lengths for Todd Tenbrink 2022-02-09 ----
 
+query <- paste0("select   *
+                 from     norpac.debriefed_age_flat_mv
+                 where    akr_species_codes in ('172') and
+                          fmp_area in ('BSAI')")
+
+duskylengths <- sqlQuery(channel_akfin, query) %>% 
+  rename_all(tolower)
+
+write_csv(duskylengths, paste0(dat_path, "/bsai_fishery_dusky_specimens_20220209.csv"))
+
+# check on AI harlequin 2022-02-10 ----
+
+query <- paste0("select   *
+                 from     afsc.race_specimenaigoa
+                 where    species_code in ('30535') and
+                          region in ('AI') and
+                          age IS NOT NULL")
+
+harl <- sqlQuery(channel_akfin, query) %>% 
+  rename_all(tolower)
+harl
