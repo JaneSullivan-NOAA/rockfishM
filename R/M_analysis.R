@@ -216,6 +216,8 @@ mybarplot <- function(df = plot_data,
 
 # Rougheye/blackspotted rockfish ----
 
+theme_set(theme_bw(base_size = 12))
+
 # species specific when available, combined as 'rebs' when not
 plot_data <- l_fullout %>% 
   filter(species %in% c('rebs rockfish', 'rougheye rockfish', 'blackspotted rockfish')) %>% 
