@@ -61,7 +61,7 @@ write_csv(top5_srvsum, paste0(out_path, '/srv_top5.csv'))
 tmpsrv <- srvbio %>% 
   mutate(source = 'survey') %>% 
   left_join(spp) %>% 
-  select(source, common_name, area = survey, age) %>% 
+  select(source, year, common_name, area = survey, age) %>% 
   mutate(area = ifelse(area == 'EBS_SLOPE', 'BS', area))
 names(tmpsrv)
 
@@ -87,7 +87,7 @@ write_csv(top5_fshsum, paste0(out_path, '/fsh_top5.csv'))
 
 tmpfsh <- fshbio %>% 
   mutate(source = 'fishery') %>% 
-  select(source, common_name, area, age)
+  select(source, year, common_name, area, age)
 
 # combined ----
 
@@ -108,8 +108,15 @@ combsum <- comb %>%
   left_join(comb %>% 
               group_by(common_name, area) %>% 
               slice_max(order_by = age, n = 5) %>% 
-              summarize(mean_top5 = mean(age))) 
+              summarize(mean_top5 = mean(age))) %>% 
+  left_join(comb %>%
+              group_by(common_name, area) %>% 
+              summarise(years_survey = paste(sort(unique(year[which(source == 'survey')])), collapse = ', '),
+                        years_fishery = paste(sort(unique(year[which(source == 'fishery')])), collapse = ', ')))
+
 combsum %>% print(n=Inf)
 combsum <- combsum %>% 
   filter(!is.na(area))
+combsum %>% print(n=Inf)
+
 write_csv(combsum, paste0(out_path, '/alldat_tmax.csv'))
