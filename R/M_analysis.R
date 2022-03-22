@@ -46,7 +46,7 @@ lh %>%
 lhfull <- tmax %>% 
   select(species = common_name, data_area = area, 
          # afsc_allages_q99 = q99, # decided as a group not to use this one
-         afsc_allages_max_age = max_age, afsc_allages_mean_top5 = mean_top5) %>% 
+         `AFSC max age` = max_age, `AFSC mean top 5` = mean_top5) %>% 
   pivot_longer(cols = -c(species, data_area), names_to = 'method_or_source', values_to = 'estimate') %>% 
   mutate(lh_param = 'maxage_yr',
          use = 1,
@@ -56,7 +56,8 @@ lhfull <- tmax %>%
          BC = 0,
          WC = 0,
          multi_region = 0) %>% 
-  bind_rows(lh) 
+  bind_rows(lh %>% 
+              select(-notes)) 
 
 unique(lhfull$lh_param)
 
@@ -78,13 +79,15 @@ input_data %>% filter(BC == 1 | WC == 1)
 # for each species, input_area, and lh_param
 input_data <- input_data %>% 
   pivot_longer(cols = c('GOA', 'BS', 'AI', 'BC', 'WC', 'multi_region'),
-               names_to = 'input_area', values_to = 'use') %>% 
+               names_to = 'input_area', values_to = 'use') %>% # print(n=Inf)
   filter(use == 1) %>% 
   select(-use) %>% 
   tidyr::complete(species, input_area, lh_param) %>% 
   group_by(species, input_area, lh_param) %>% 
   mutate(version = row_number()) %>% 
   ungroup()
+
+input_data %>% print(n=Inf)
 
 # Run analysis ----
 
@@ -191,6 +194,74 @@ fullout <- l_fullout %>%
 fullout #%>% View()
 
 write_csv(fullout, paste0(out_path, "/M_estimates.csv"))
+
+# join inputs to M outputs
+l_fullout %>% as_tibble()
+unique(l_fullout$M_method)
+unique(input_data$lh_param)
+
+summ <- input_data %>% 
+  mutate(M_method = case_when(lh_param %in% c('maxage_yr') ~ 'amax',
+                              lh_param %in% c('dry_weight_g', 'temp_C') ~ 'temp',
+                              lh_param %in% c('gsi') ~ 'gsi',
+                              lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm') ~ 'lvb'))
+summ <- summ %>% 
+  filter(M_method %in% c('gsi', 'amax')) %>% 
+  mutate(lh_param = ifelse(lh_param == 'gsi', 'GSI', 'Max age (y)')) %>% 
+  rename(input_names = lh_param, input_values = estimate) %>%
+  mutate(input_values = ifelse(input_names == 'GSI',
+                               formatC(round(input_values, 4), format = 'f', digits = 4),
+                               ifelse(grepl('mean top five', method_or_source),
+                                      formatC(round(input_values, 1), format = 'f', digits = 1),
+                                      formatC(round(input_values, 0), format = 'f', digits = 0)))) %>% 
+  bind_rows(summ %>% 
+              filter(M_method %in% c('lvb')) %>% 
+              mutate(lh_param = ifelse(lh_param == 'vbgf_k_cm-1', 'k', 'linf')) %>% 
+              pivot_wider(id_cols = c('species', 'input_area', 'data_area', 'version', 'M_method', 'method_or_source'),
+                          names_from = lh_param, values_from = estimate) %>% 
+              mutate(input_names = 'VBGF Linf (cm) / k',
+                     input_values = ifelse(is.na(k), NA,
+                                           paste0(formatC(round(linf, 1), digits = 1, format = 'f'), 
+                                                  " / ", 
+                                                  formatC(round(k, 3), format = 'f', digits = 3)))) %>% 
+              select(-k, -linf)) %>% 
+  bind_rows(summ %>% 
+              filter(M_method %in% c('temp')) %>% 
+              pivot_wider(id_cols = c('species', 'input_area', 'data_area', 'version', 'M_method', 'method_or_source'),
+                          names_from = lh_param, values_from = estimate) %>% 
+              mutate(input_names = 'Temperature (C) / Dry weight (g)',
+                     input_values = ifelse(is.na(temp_C), NA,
+                                           paste0(formatC(round(temp_C, 1), digits = 1, format = 'f'), 
+                                                  " / ", 
+                                                  prettyNum(round(dry_weight_g, 0), format = 'f', big.mark = ',')))) %>% 
+              select(-temp_C, -dry_weight_g))
+
+summ
+nrow(summ) == nrow(l_fullout) # should be true. if not you probably messed up reformatting the data input values
+
+summ <- l_fullout %>% 
+  left_join(summ, by = c("species", "input_area", "M_method", "version", "method_or_source")) %>% 
+  filter(!is.na(M_estimate)) %>% 
+  mutate(M_estimate = formatC(round(M_estimate, 4), format = 'f', digits = 4),
+         M_method = paste0(M_method, '.v', version),
+         area = ifelse(input_area == 'multi_region', data_area, input_area)) %>% 
+  select(species, area, version, data_input = input_names, 
+         data_input_values = input_values, M_estimate,
+         references = method_or_source) 
+
+
+summ <- summ %>% filter(species != 'northern rockfish') 
+summ %>% 
+  mutate(species = factor(species, 
+                          labels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
+                                             'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
+                                             'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
+                          levels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
+                                     'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
+                                     'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
+                          ordered = TRUE)) %>% 
+  arrange(species, area, data_input, version)
+summ %>% write_csv(paste0(out_path, '/formatted_M_results.csv'))
 
 # Figures ----
 
