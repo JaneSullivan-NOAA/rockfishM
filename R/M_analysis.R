@@ -254,7 +254,7 @@ summ <- l_fullout %>%
 
 
 summ <- summ %>% filter(species != 'northern rockfish') 
-summ %>% 
+summ <- summ %>% 
   mutate(species = factor(species, 
                           labels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
                                              'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
