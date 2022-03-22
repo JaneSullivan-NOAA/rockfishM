@@ -1,8 +1,11 @@
-# prep life history parameters
+# M analysis
 # jane.sullivan@noaa.gov
-# february 2022
+# march 2022
 
-# 1) pull 
+# 1) pull in life history parameters from google sheets
+# 2) append tmax estimates obtained from norpac and racebase specimen data
+# 3) use selected empirical estimators for M
+# 4) format output, save
 
 # setup ----
 libs <- c("tidyverse", "googlesheets4")
