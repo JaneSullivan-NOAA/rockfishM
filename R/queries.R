@@ -7,7 +7,7 @@
 # most recent year with complete data set
 YEAR <- 2021
 
-libs <- c("tidyverse", "RODBC")
+libs <- c("tidyverse", "RODBC", "lubridate")
 if(length(libs[which(libs %in% rownames(installed.packages()) == FALSE )]) > 0) {
   install.packages(libs[which(libs %in% rownames(installed.packages()) == FALSE)])}
 lapply(libs, library, character.only = TRUE)
@@ -40,8 +40,9 @@ spp <- sqlQuery(channel_akfin, query) %>%
   rename_all(tolower) 
 
 spp <- spp %>% 
-  filter((grepl("rougheye|blackspotted|dusky|harlequin|northern|yelloweye|shortspine|sharpchin|silvergray|redbanded|redstripe|shortraker|thornyhead", common_name)) &
-           (grepl('Sebastolobus|Sebastes', species_name))) %>% 
+  filter((grepl("rougheye|blackspotted|dusky|harlequin|northern|yelloweye|shortspine|sharpchin|silvergray|redbanded|redstripe|shortraker|thornyhead|rougheye and blackspotted", 
+                common_name)) &
+           (grepl('Sebastolobus|Sebastes', species_name) | is.na(species_name))) %>% 
   # grepl("rockfish", common_name)
   # remove the 'black and dusky unid' species code
   filter(!species_code %in% c(30150)) %>% 
@@ -54,18 +55,10 @@ myspp_string <- toString(sprintf("'%s'", myspp)) # allows you to pass vector int
 write_csv(spp, paste0(dat_path, '/race_spp.csv'))
 
 # survey cruise metadata ----
-query1 <- paste0("select   *
-                 from     afsc.race_biennialsurveysaigoa")
-query2 <- paste0("select   *
-                 from     afsc.race_surveys_ebsshelf")
-query3 <- paste0("select   *
-                 from     afsc.race_surveys_ebsslope")
 
-cruise <- sqlQuery(channel_akfin, query1) %>% 
-  bind_rows(sqlQuery(channel_akfin, query2)) %>% 
-  bind_rows(sqlQuery(channel_akfin, query3)) %>% 
+cruise <- sqlQuery(channel_afsc, query = 'select * from racebase.cruise') %>% 
   rename_all(tolower) %>% 
-  select(-akfin_load_date)
+  mutate(year = lubridate::year(start_date))
 
 # survey age data ----
 query1 <- paste0("select   *
@@ -84,15 +77,15 @@ query3 <- paste0("select   *
                           age IS NOT NULL")
 
 
-srvbio <- sqlQuery(channel_akfin, sprintf(query1, myspp_string)) %>% 
-  rbind(sqlQuery(channel_akfin, sprintf(query2, myspp_string))) %>% 
-  rbind(sqlQuery(channel_akfin, sprintf(query3, myspp_string)) %>% 
-              select(-SURVEY)) %>% 
-  rename_all(tolower) %>% 
-  select(-akfin_load_date) %>% 
-  left_join(cruise)
-  
-write_csv(srvbio, paste0(dat_path, "/survey_ages_akfin.csv"))
+# srvbio <- sqlQuery(channel_akfin, sprintf(query1, myspp_string)) %>% 
+  # rbind(sqlQuery(channel_akfin, sprintf(query2, myspp_string))) %>%
+#   rbind(sqlQuery(channel_akfin, sprintf(query3, myspp_string)) %>% 
+#               select(-SURVEY)) %>% 
+#   rename_all(tolower) %>% 
+#   select(-akfin_load_date) %>% 
+#   left_join(cruise)
+#   
+# write_csv(srvbio, paste0(dat_path, "/survey_ages_akfin.csv"))
 
 # using AFSC specimen table from RACEBASE
 query <- paste0("select   *
@@ -101,8 +94,11 @@ query <- paste0("select   *
                           age IS NOT NULL")
 
 srvbio <- sqlQuery(channel_afsc, sprintf(query, myspp_string)) %>% 
-   rename_all(tolower) %>% 
-  left_join(cruise)
+   rename_all(tolower)
+  
+srvbio <- cruise %>% 
+  select(cruisejoin, survey = region, cruise, year, survey_name) %>% 
+  right_join(srvbio)
 
 write_csv(srvbio, paste0(dat_path, "/survey_ages.csv"))
 

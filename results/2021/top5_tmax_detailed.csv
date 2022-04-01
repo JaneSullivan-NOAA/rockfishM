@@ -1,0 +1,92 @@
+Species,Region,Year sampled,Sex,Age (yr),Fork length (cm),Weight (kg),Gear,Source
+dusky rockfish,AI,2014,F,62,49,1.62,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,AI,2014,F,61,47,1.638,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,AI,2014,F,60,41,1.398,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,AI,2016,F,67,49,1.88,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,AI,2016,F,66,49,2.124,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,GOA,2008,M,66,45,1.71,Bottom trawl fishery,NORPAC
+dusky rockfish,GOA,2012,M,66,46,1.71,Bottom trawl fishery,NORPAC
+dusky rockfish,GOA,2013,F,75,50,2.32,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,GOA,2015,M,65,45,1.436,AFSC bottom trawl survey,RACEBASE
+dusky rockfish,GOA,2017,F,69,50,1.928,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,AI,2004,F,79,33,0.424,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,AI,2004,F,69,35,0.492,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,AI,2004,M,61,30,0.4,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,AI,2004,M,52,28,0.316,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,AI,2006,F,56,33,0.468,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,GOA,1996,M,47,28,0.256,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,GOA,1996,F,41,34,0.552,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,GOA,1996,M,41,27,0.268,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,GOA,1996,F,37,33,0.52,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,GOA,1996,M,37,29,0.332,AFSC bottom trawl survey,RACEBASE
+harlequin rockfish,GOA,2011,M,44,29,0.32,AFSC bottom trawl survey,RACEBASE
+silvergray rockfish,GOA,1996,M,67,64,3.408,AFSC bottom trawl survey,RACEBASE
+silvergray rockfish,GOA,1999,M,75,65,4.23,AFSC bottom trawl survey,RACEBASE
+silvergray rockfish,GOA,1999,M,66,59,2.436,AFSC bottom trawl survey,RACEBASE
+silvergray rockfish,GOA,2005,M,79,68,4.724,AFSC bottom trawl survey,RACEBASE
+silvergray rockfish,GOA,2005,F,67,64,3.27,AFSC bottom trawl survey,RACEBASE
+redstripe rockfish,GOA,1996,M,36,36,0.592,AFSC bottom trawl survey,RACEBASE
+redstripe rockfish,GOA,2013,M,46,33,0.49,AFSC bottom trawl survey,RACEBASE
+redstripe rockfish,GOA,2013,M,41,38,0.746,AFSC bottom trawl survey,RACEBASE
+redstripe rockfish,GOA,2013,F,37,46,1.252,AFSC bottom trawl survey,RACEBASE
+redstripe rockfish,GOA,2013,M,36,35,0.56,AFSC bottom trawl survey,RACEBASE
+sharpchin rockfish,GOA,1996,F,48,35,0.55,AFSC bottom trawl survey,RACEBASE
+sharpchin rockfish,GOA,1996,M,48,29,0.34,AFSC bottom trawl survey,RACEBASE
+sharpchin rockfish,GOA,1996,M,43,27,0.29,AFSC bottom trawl survey,RACEBASE
+sharpchin rockfish,GOA,1996,M,39,28,0.344,AFSC bottom trawl survey,RACEBASE
+sharpchin rockfish,GOA,1996,F,39,36,0.606,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,AI,2004,M,104,102,20.1,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,AI,2004,F,100,57,3.756,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,AI,2006,F,124,96,14.26,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,AI,2006,F,115,84,10.67,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,AI,2006,F,107,111,23.72,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,GOA,1996,F,136,63,4.482,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,GOA,1996,F,127,81,10.865,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,GOA,2003,M,146,79,8.665,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,GOA,2005,F,116,67,5.054,AFSC bottom trawl survey,RACEBASE
+shortraker rockfish,GOA,2005,F,114,77,7.75,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,AI,2006,M,116,60,4.272,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,AI,2006,F,97,54,2.508,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,AI,2006,M,96,64,4.674,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,AI,2006,M,85,55,3.148,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,AI,2006,M,84,61,3.924,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,BS,2008,M,106,54,2.64,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,BS,2008,M,105,61,3.706,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,BS,2008,M,103,62,4.044,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,BS,2012,M,107,61,3.464,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,BS,2016,M,100,63,4.02,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,GOA,2009,M,135,64,3.342,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,GOA,2009,M,113,49,1.762,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,GOA,2009,F,98,48,1.57,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,GOA,2013,M,113,52,2.146,AFSC bottom trawl survey,RACEBASE
+rougheye rockfish,GOA,2019,M,108,60,3.71,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,AI,2010,M,103,54,2.212,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,AI,2010,F,100,62,4.616,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,AI,2010,M,89,53,2.676,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,AI,2016,M,134,59,3.286,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,AI,2016,M,105,50,2.002,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,BS,2008,M,84,61,4.254,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,BS,2008,M,75,60,3.216,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,BS,2008,M,73,56,2.38,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,BS,2008,M,71,63,4.134,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,BS,2008,F,60,54,2.61,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,GOA,2009,M,97,47,1.622,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,GOA,2009,M,90,54,2.406,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,GOA,2013,F,103,53,2.482,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,GOA,2013,M,91,50,2.126,AFSC bottom trawl survey,RACEBASE
+blackspotted rockfish,GOA,2013,M,90,53,2.462,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,AI,2002,M,114,51,2.042,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,AI,2004,M,121,63,4.024,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,AI,2011,M,117,78,8.64,Bottom trawl fishery,NORPAC
+rebs rockfish,AI,2017,F,131,87,12.22,Bottom trawl fishery,NORPAC
+rebs rockfish,AI,2017,F,116,51,2.28,Bottom trawl fishery,NORPAC
+rebs rockfish,BS,2004,M,115,74,6.15,Hook-and-line fishery,NORPAC
+rebs rockfish,BS,2017,M,130,67,4.88,Hook-and-line fishery,NORPAC
+rebs rockfish,BS,2019,F,127,63,4.05,Pelagic trawl fishery,NORPAC
+rebs rockfish,BS,2019,F,119,63,4.11,Pelagic trawl fishery,NORPAC
+rebs rockfish,BS,2019,F,110,62,4.01,Pelagic trawl fishery,NORPAC
+rebs rockfish,GOA,1993,M,132,60,NA,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,GOA,1993,M,130,54,NA,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,GOA,1993,M,121,58,NA,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,GOA,1999,M,129,59,2.962,AFSC bottom trawl survey,RACEBASE
+rebs rockfish,GOA,2008,M,126,50,1.9,Hook-and-line fishery,NORPAC
