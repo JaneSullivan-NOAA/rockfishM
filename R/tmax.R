@@ -124,7 +124,7 @@ write_csv(combsum, paste0(out_path, '/tmax_summary.csv'))
 top5 <- comb %>% 
   group_by(common_name, area) %>% 
   slice_max(order_by = age, n = 5) %>% 
-  arrange(common_name, area, year) %>%
+  arrange(common_name, area, -age) %>%
   select(`Species` = common_name, Region = area, `Year sampled` = year, Sex = sex,
          `Age (yr)` = age, `Fork length (cm)` = length, `Weight (kg)` = weight, 
         Gear = gear,  Source = source) 
