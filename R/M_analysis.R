@@ -8,7 +8,7 @@
 # 4) format output, save
 
 # setup ----
-libs <- c("tidyverse", "googlesheets4")
+libs <- c("tidyverse", "googlesheets4", "writexl")
 if(length(libs[which(libs %in% rownames(installed.packages()) == FALSE )]) > 0) {
   install.packages(libs[which(libs %in% rownames(installed.packages()) == FALSE)])}
 lapply(libs, library, character.only = TRUE)
@@ -33,9 +33,10 @@ nrow(lh)
 lh
 lh$use
 # tmax estimates based on combined fishery and survey age data. see tmax.R
-tmax <- read_csv(paste0(out_path, '/alldat_tmax.csv'))
-tmax
-unique(tmax$area)
+tmax <- read_csv(paste0(out_path, '/tmax_summary.csv')) %>% 
+  select(common_name = `Species`, area = Region, 
+       max_age = `Maximum age observed`, 
+       mean_top5 = `Mean top 5 ages`)
 
 # test to see if the spreadsheet has any errors identifying which region the
 # data represent. Should be zero rows, and if it's not GOA:WC should be 0 and
@@ -252,7 +253,6 @@ summ <- l_fullout %>%
          data_input_values = input_values, M_estimate,
          references = method_or_source) 
 
-
 summ <- summ %>% filter(species != 'northern rockfish') 
 summ <- summ %>% 
   mutate(species = factor(species, 
@@ -264,7 +264,34 @@ summ <- summ %>%
                                      'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
                           ordered = TRUE)) %>% 
   arrange(species, area, data_input, version)
+summ
 summ %>% write_csv(paste0(out_path, '/formatted_M_results.csv'))
+
+# write results to separate excel sheets using writexl and purrr ----
+summls <- summ %>% 
+  dplyr::group_split(species)
+
+# these become the names of each sheet in excel
+names(summls) <- summls %>% 
+  purrr::map(~pull(., species)) %>% 
+  map(~as.character(.)) %>% 
+  map(~unique(.))
+
+summls %>% 
+  writexl::write_xlsx(path = paste0(out_path, '/M_species_tables.xlsx'))
+
+summ %>% 
+  left_join(reference_lkup) %>% 
+  select(Species = species, Region = area, `Parameter(s)` = data_input,
+         `Parameter values(s)` = data_input_values, `M estimate` = M_estimate, Reference = references) %>% 
+  write_xlsx(path = paste0(out_path, '/M_species_tables_full.xlsx'))
+
+# reference_lkup <- summ %>% 
+#   distinct(references) %>% 
+#   mutate(reference_number = row_number()) 
+# 
+# reference_lkup %>% 
+#   mutate(txt = paste0(reference_number, ') ', references))
 
 # Figures ----
 
@@ -339,7 +366,6 @@ plot_data <- l_fullout %>%
 mybarplot(title = 'Harlequin rockfish')
 ggsave(paste0(out_path, '/harlequin_M_results.png'),
        dpi = 300, units = 'in', width = 7, height = 3)
-
 
 # Redbanded, redstripe, sharpchin, slivergray, yelloweye rockfish ----
 

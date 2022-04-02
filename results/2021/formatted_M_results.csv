@@ -14,6 +14,8 @@ harlequin rockfish,GOA,1,Max age (y),47,0.1149,AFSC max age
 harlequin rockfish,GOA,2,Max age (y),41,0.1312,AFSC mean top 5
 harlequin rockfish,GOA,3,Max age (y),72,0.0750,TenBrink and Helser 2021
 harlequin rockfish,GOA,1,Temperature (C) / Dry weight (g),5.5 / 226,0.2783,McCoy and Gillooly 2008
+harlequin rockfish,GOA,1,VBGF Linf (cm) / k,31.2 / 0.209,0.4212,TenBrink pers comm
+harlequin rockfish,GOA,2,VBGF Linf (cm) / k,30.9 / 0.167,0.3587,TenBrink pers comm
 silvergray rockfish,BC,1,Max age (y),81,0.0667,ADF&G Age Determination Unit website
 silvergray rockfish,GOA,1,Max age (y),79,0.0684,AFSC max age
 silvergray rockfish,GOA,2,Max age (y),71,0.0763,AFSC mean top 5
@@ -47,12 +49,12 @@ shortraker rockfish,GOA,3,Max age (y),157,0.0344,Munk 2001
 shortraker rockfish,GOA,4,Max age (y),160,0.0338,ADF&G Age Determination Unit website
 shortraker rockfish,GOA,1,Temperature (C) / Dry weight (g),"4.5 / 9,300",0.0925,McCoy and Gillooly 2008
 shortraker rockfish,"GOA, AI, BS",1,VBGF Linf (cm) / k,84.6 / 0.030,0.0735,Hutchinson 2004
-rougheye rockfish,AI,1,Max age (y),131,0.0412,AFSC max age
-rougheye rockfish,AI,2,Max age (y),117,0.0460,AFSC mean top 5
-rougheye rockfish,BS,1,Max age (y),130,0.0415,AFSC max age
-rougheye rockfish,BS,2,Max age (y),120,0.0449,AFSC mean top 5
+rougheye rockfish,AI,1,Max age (y),116,0.0466,AFSC max age
+rougheye rockfish,AI,2,Max age (y),96,0.0565,AFSC mean top 5
+rougheye rockfish,BS,1,Max age (y),107,0.0505,AFSC max age
+rougheye rockfish,BS,2,Max age (y),104,0.0518,AFSC mean top 5
 rougheye rockfish,GOA,1,Max age (y),135,0.0400,AFSC max age
-rougheye rockfish,GOA,2,Max age (y),120,0.0451,AFSC mean top 5
+rougheye rockfish,GOA,2,Max age (y),113,0.0476,AFSC mean top 5
 rougheye rockfish,GOA,3,Max age (y),205,0.0263,Munk 2001
 rougheye rockfish,GOA,1,VBGF Linf (cm) / k,53.6 / 0.109,0.2190,Shotwell et al. 2019
 blackspotted rockfish,AI,1,Max age (y),134,0.0403,AFSC max age
@@ -62,14 +64,14 @@ blackspotted rockfish,BS,2,Max age (y),73,0.0744,AFSC mean top 5
 blackspotted rockfish,GOA,1,Max age (y),103,0.0524,AFSC max age
 blackspotted rockfish,GOA,2,Max age (y),94,0.0573,AFSC mean top 5
 blackspotted rockfish,GOA,1,VBGF Linf (cm) / k,51.9 / 0.065,0.1518,Shotwell et al. 2019
-rebs rockfish,AI,1,Max age (y),134,0.0403,AFSC max age
-rebs rockfish,AI,2,Max age (y),123,0.0440,AFSC mean top 5
+rebs rockfish,AI,1,Max age (y),131,0.0412,AFSC max age
+rebs rockfish,AI,2,Max age (y),120,0.0451,AFSC mean top 5
 rebs rockfish,AI,1,VBGF Linf (cm) / k,51.5 / 0.060,0.1435,Spencer et al. 2020
 rebs rockfish,BS,1,Max age (y),130,0.0415,AFSC max age
 rebs rockfish,BS,2,Max age (y),120,0.0449,AFSC mean top 5
 rebs rockfish,GOA,1,GSI,0.0200,0.0363,Gunderson 1997; McDermott 1994
-rebs rockfish,GOA,1,Max age (y),135,0.0400,AFSC max age
-rebs rockfish,GOA,2,Max age (y),120,0.0451,AFSC mean top 5
+rebs rockfish,GOA,1,Max age (y),132,0.0409,AFSC max age
+rebs rockfish,GOA,2,Max age (y),128,0.0423,AFSC mean top 5
 rebs rockfish,GOA,3,Max age (y),205,0.0263,Munk 2001
 rebs rockfish,GOA,1,Temperature (C) / Dry weight (g),"4.5 / 9,380",0.0923,McCoy and Gillooly 2008
 rebs rockfish,GOA,1,VBGF Linf (cm) / k,49.6 / 0.090,0.1954,Shotwell and Hanselman 2019

@@ -103,8 +103,10 @@ harlequin rockfish,GOA,maxage_yr,GOA,AFSC max age,47,1
 harlequin rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,41.166666666666664,2
 harlequin rockfish,GOA,maxage_yr,GOA,TenBrink and Helser 2021,72,3
 harlequin rockfish,GOA,temp_C,GOA,McCoy and Gillooly 2008,5.5,1
-harlequin rockfish,GOA,vbgf_k_cm-1,NA,NA,NA,1
-harlequin rockfish,GOA,vbgf_linf_cm,NA,NA,NA,1
+harlequin rockfish,GOA,vbgf_k_cm-1,GOA,TenBrink pers comm,0.209,1
+harlequin rockfish,GOA,vbgf_k_cm-1,GOA,TenBrink pers comm,0.167,2
+harlequin rockfish,GOA,vbgf_linf_cm,GOA,TenBrink pers comm,31.206,1
+harlequin rockfish,GOA,vbgf_linf_cm,GOA,TenBrink pers comm,30.897,2
 harlequin rockfish,multi_region,dry_weight_g,NA,NA,NA,1
 harlequin rockfish,multi_region,gsi,NA,NA,NA,1
 harlequin rockfish,multi_region,maxage_yr,NA,NA,NA,1
@@ -117,49 +119,10 @@ harlequin rockfish,WC,maxage_yr,NA,NA,NA,1
 harlequin rockfish,WC,temp_C,NA,NA,NA,1
 harlequin rockfish,WC,vbgf_k_cm-1,NA,NA,NA,1
 harlequin rockfish,WC,vbgf_linf_cm,NA,NA,NA,1
-northern rockfish,AI,dry_weight_g,NA,NA,NA,1
-northern rockfish,AI,gsi,NA,NA,NA,1
-northern rockfish,AI,maxage_yr,AI,AFSC max age,88,1
-northern rockfish,AI,maxage_yr,AI,AFSC mean top 5,79.2,2
-northern rockfish,AI,temp_C,NA,NA,NA,1
-northern rockfish,AI,vbgf_k_cm-1,NA,NA,NA,1
-northern rockfish,AI,vbgf_linf_cm,NA,NA,NA,1
-northern rockfish,BC,dry_weight_g,NA,NA,NA,1
-northern rockfish,BC,gsi,NA,NA,NA,1
-northern rockfish,BC,maxage_yr,NA,NA,NA,1
-northern rockfish,BC,temp_C,NA,NA,NA,1
-northern rockfish,BC,vbgf_k_cm-1,NA,NA,NA,1
-northern rockfish,BC,vbgf_linf_cm,NA,NA,NA,1
-northern rockfish,BS,dry_weight_g,NA,NA,NA,1
-northern rockfish,BS,gsi,NA,NA,NA,1
-northern rockfish,BS,maxage_yr,BS,AFSC max age,76,1
-northern rockfish,BS,maxage_yr,BS,AFSC mean top 5,68.4,2
-northern rockfish,BS,temp_C,NA,NA,NA,1
-northern rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
-northern rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
-northern rockfish,GOA,dry_weight_g,NA,NA,NA,1
-northern rockfish,GOA,gsi,NA,NA,NA,1
-northern rockfish,GOA,maxage_yr,GOA,AFSC max age,72,1
-northern rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,65.83333333333333,2
-northern rockfish,GOA,temp_C,NA,NA,NA,1
-northern rockfish,GOA,vbgf_k_cm-1,NA,NA,NA,1
-northern rockfish,GOA,vbgf_linf_cm,NA,NA,NA,1
-northern rockfish,multi_region,dry_weight_g,NA,NA,NA,1
-northern rockfish,multi_region,gsi,NA,NA,NA,1
-northern rockfish,multi_region,maxage_yr,NA,NA,NA,1
-northern rockfish,multi_region,temp_C,NA,NA,NA,1
-northern rockfish,multi_region,vbgf_k_cm-1,NA,NA,NA,1
-northern rockfish,multi_region,vbgf_linf_cm,NA,NA,NA,1
-northern rockfish,WC,dry_weight_g,NA,NA,NA,1
-northern rockfish,WC,gsi,NA,NA,NA,1
-northern rockfish,WC,maxage_yr,NA,NA,NA,1
-northern rockfish,WC,temp_C,NA,NA,NA,1
-northern rockfish,WC,vbgf_k_cm-1,NA,NA,NA,1
-northern rockfish,WC,vbgf_linf_cm,NA,NA,NA,1
 rebs rockfish,AI,dry_weight_g,NA,NA,NA,1
 rebs rockfish,AI,gsi,NA,NA,NA,1
-rebs rockfish,AI,maxage_yr,AI,AFSC max age,134,1
-rebs rockfish,AI,maxage_yr,AI,AFSC mean top 5,122.8,2
+rebs rockfish,AI,maxage_yr,AI,AFSC max age,131,1
+rebs rockfish,AI,maxage_yr,AI,AFSC mean top 5,119.8,2
 rebs rockfish,AI,temp_C,NA,NA,NA,1
 rebs rockfish,AI,vbgf_k_cm-1,AI,Spencer et al. 2020,0.06,1
 rebs rockfish,AI,vbgf_linf_cm,AI,Spencer et al. 2020,51.53,1
@@ -178,8 +141,8 @@ rebs rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
 rebs rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
 rebs rockfish,GOA,dry_weight_g,GOA,McCoy and Gillooly 2008,9380,1
 rebs rockfish,GOA,gsi,GOA,Gunderson 1997; McDermott 1994,0.02,1
-rebs rockfish,GOA,maxage_yr,GOA,AFSC max age,135,1
-rebs rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,119.8,2
+rebs rockfish,GOA,maxage_yr,GOA,AFSC max age,132,1
+rebs rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,127.6,2
 rebs rockfish,GOA,maxage_yr,GOA - Southern Southeast AK (SSEA),Munk 2001,205,3
 rebs rockfish,GOA,temp_C,GOA,McCoy and Gillooly 2008,4.5,1
 rebs rockfish,GOA,vbgf_k_cm-1,GOA,Shotwell and Hanselman 2019,0.09,1
@@ -271,8 +234,8 @@ redstripe rockfish,WC,vbgf_k_cm-1,NA,NA,NA,1
 redstripe rockfish,WC,vbgf_linf_cm,NA,NA,NA,1
 rougheye rockfish,AI,dry_weight_g,NA,NA,NA,1
 rougheye rockfish,AI,gsi,NA,NA,NA,1
-rougheye rockfish,AI,maxage_yr,AI,AFSC max age,131,1
-rougheye rockfish,AI,maxage_yr,AI,AFSC mean top 5,117.4,2
+rougheye rockfish,AI,maxage_yr,AI,AFSC max age,116,1
+rougheye rockfish,AI,maxage_yr,AI,AFSC mean top 5,95.6,2
 rougheye rockfish,AI,temp_C,NA,NA,NA,1
 rougheye rockfish,AI,vbgf_k_cm-1,NA,NA,NA,1
 rougheye rockfish,AI,vbgf_linf_cm,NA,NA,NA,1
@@ -284,15 +247,15 @@ rougheye rockfish,BC,vbgf_k_cm-1,NA,NA,NA,1
 rougheye rockfish,BC,vbgf_linf_cm,NA,NA,NA,1
 rougheye rockfish,BS,dry_weight_g,NA,NA,NA,1
 rougheye rockfish,BS,gsi,NA,NA,NA,1
-rougheye rockfish,BS,maxage_yr,BS,AFSC max age,130,1
-rougheye rockfish,BS,maxage_yr,BS,AFSC mean top 5,120.2,2
+rougheye rockfish,BS,maxage_yr,BS,AFSC max age,107,1
+rougheye rockfish,BS,maxage_yr,BS,AFSC mean top 5,104.2,2
 rougheye rockfish,BS,temp_C,NA,NA,NA,1
 rougheye rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
 rougheye rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
 rougheye rockfish,GOA,dry_weight_g,NA,NA,NA,1
 rougheye rockfish,GOA,gsi,NA,NA,NA,1
 rougheye rockfish,GOA,maxage_yr,GOA,AFSC max age,135,1
-rougheye rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,119.8,2
+rougheye rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,113.4,2
 rougheye rockfish,GOA,maxage_yr,GOA,Munk 2001,205,3
 rougheye rockfish,GOA,temp_C,NA,NA,NA,1
 rougheye rockfish,GOA,vbgf_k_cm-1,GOA,Shotwell et al. 2019,0.109,1
