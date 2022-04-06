@@ -134,7 +134,7 @@ top5 %>% print(n=Inf)
 write_csv(top5, paste0(out_path, '/top5_tmax_detailed.csv'))
 
 # graphic Cindy requested 
-
+comb <- read_csv(paste0(dat_path, '/all_age_data_used.csv'))
 df <- comb %>% 
   droplevels() %>% 
   group_by(common_name, area, source, year) %>% 
@@ -188,12 +188,12 @@ tickr <- function(data, var, to = 5, start = NULL, end = NULL, min = NULL){
 }
 
 internet_theme <- theme_set(axis.text.x = theme_text(angle = 90,
-                                                        hjust = 1), 
-                               panel.grid.major = theme_line(colour = "grey90"),
-                                  panel.grid.minor = theme_blank(), 
-                               panel.background = theme_blank(),
-                                  axis.ticks = theme_blank(), 
-                               legend.position = "none")
+                                                     hjust = 1), 
+                            panel.grid.major = theme_line(colour = "grey90"),
+                            panel.grid.minor = theme_blank(), 
+                            panel.background = theme_blank(),
+                            axis.ticks = theme_blank(), 
+                            legend.position = "none")
 
 tmp <- df %>%  filter(area == 'GOA') 
 
@@ -210,19 +210,30 @@ tmp %>%
 tmp <- df %>%  
   filter(common_name %in% c('rebs rockfish',
                             'rougheye rockfish',
-                            'blackspotted rockfish'))
+                            'blackspotted rockfish')) %>% 
+  mutate(common_name = factor(common_name,
+                              labels = c('rougheye rockfish',
+                                         'blackspotted rockfish',
+                                         'rebs rockfish'),
+                              levels = c('rougheye rockfish',
+                                         'blackspotted rockfish',
+                                         'rebs rockfish'),
+                              ordered = TRUE))
 # xaxis <- tickr(tmp, year, 10, min = 1978, start = 1980)
 tmp %>% 
+  filter(n > 0) %>%
   ggplot(aes(x = year, y = n, fill = source)) +
   geom_col(width = 0.8, col = NA) +
   scale_fill_grey() +
   # scale_colour_grey() +
   facet_grid(common_name ~ area, scales = 'free') +
+  scale_x_continuous(limits = c(min(tmp$year), max(tmp$year))) +
+  scale_y_continuous(expand = expansion(mult = c(0, .1))) +
   # scale_x_continuous(labels = xaxis$labels, breaks = xaxis$breaks) +
-  labs(x = NULL, y = 'Number of observations', 
-       title = 'Rougheye and blackspotted rockfish age data summary') +
+  labs(x = NULL, y = 'Number of samples') + #, 
+       # title = 'Rougheye and blackspotted rockfish age data summary') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-        panel.grid.major = element_line(colour = "grey90"),
+        panel.grid.major = element_line(colour = "grey95"),
         panel.grid.minor = element_blank(), 
         panel.background = element_rect(colour = 'black', fill = 'white'),
         axis.ticks = element_blank())
@@ -242,16 +253,23 @@ tmp <- df %>%
 
 # xaxis <- tickr(tmp, year, 10, min = 1978, start = 1980)
 tmp %>% 
+  filter(n > 0) %>%
+  # blank row to keep both source values
+  bind_rows(data.frame(source = 'NORPAC', year = 2020, n = 0,
+                       common_name = unique(tmp$common_name),
+                       area = 'GOA')) %>%
   ggplot(aes(x = year, y = n, fill = source, col = source)) +
   geom_col(width = 0.8) +
   scale_fill_grey() +
   scale_colour_grey() +
-  facet_grid(common_name ~ area, scales = 'free') +
+  facet_grid(common_name ~ area) +
+  scale_x_continuous(limits = c(min(tmp$year), max(tmp$year))) +
+  scale_y_continuous(expand = expansion(mult = c(0, .1))) +
   # scale_x_continuous(labels = xaxis$labels, breaks = xaxis$breaks) +
-  labs(x = NULL, y = 'Number of observations', 
-       title = 'Silvergray, redstripe, and sharpchin rockfish\nage data summary') +
+  labs(x = NULL, y = 'Number of samples') + #, 
+       # title = 'Silvergray, redstripe, and sharpchin rockfish\nage data summary') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-        panel.grid.major = element_line(colour = "grey90"),
+        panel.grid.major = element_line(colour = "grey95"),
         panel.grid.minor = element_blank(), 
         panel.background = element_rect(colour = 'black', fill = 'white'),
         axis.ticks = element_blank())
@@ -267,16 +285,19 @@ tmp <- df %>%
   filter(!area %in% c('BS')) 
 
 tmp %>% 
+  filter(n > 0) %>%
   ggplot(aes(x = year, y = n, fill = source, col = source)) +
   geom_col(width = 0.8) +
   scale_fill_grey() +
   scale_colour_grey() +
-  facet_grid(common_name ~ area, scales = 'free') +
+  facet_grid(common_name ~ area) +
   # scale_x_continuous(labels = xaxis$labels, breaks = xaxis$breaks) +
-  labs(x = NULL, y = 'Number of observations', 
-       title = 'Dusky, harlequin, and shortraker rockfish age data summary') +
+  scale_x_continuous(limits = c(min(tmp$year), max(tmp$year))) +
+  scale_y_continuous(expand = expansion(mult = c(0, .1))) +
+  labs(x = NULL, y = 'Number of samples') +#, 
+       # title = 'Dusky, harlequin, and shortraker rockfish age data summary') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-        panel.grid.major = element_line(colour = "grey90"),
+        panel.grid.major = element_line(colour = "grey95"),
         panel.grid.minor = element_blank(), 
         panel.background = element_rect(colour = 'black', fill = 'white'),
         axis.ticks = element_blank())
