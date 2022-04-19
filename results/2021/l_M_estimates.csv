@@ -72,8 +72,7 @@ harlequin rockfish,GOA,amax,0.13117408906882594,2,AFSC mean top 5
 harlequin rockfish,GOA,amax,0.07500000000000001,3,TenBrink and Helser 2021
 harlequin rockfish,GOA,gsi,0.049059,1,pers. comm. TenBrink 2022
 harlequin rockfish,GOA,temp,0.27829267327359847,1,McCoy and Gillooly 2008
-harlequin rockfish,GOA,lvb,0.4211628310692755,1,TenBrink pers comm
-harlequin rockfish,GOA,lvb,0.3587174160472237,2,TenBrink pers comm
+harlequin rockfish,GOA,lvb,0.3587174160472237,1,TenBrink pers comm
 harlequin rockfish,multi_region,amax,NA,1,NA
 harlequin rockfish,multi_region,gsi,NA,1,NA
 harlequin rockfish,multi_region,temp,NA,1,NA
@@ -99,11 +98,12 @@ rebs rockfish,BS,lvb,NA,1,NA
 rebs rockfish,GOA,amax,0.04090909090909091,1,AFSC max age
 rebs rockfish,GOA,amax,0.042319749216300946,2,AFSC mean top 5
 rebs rockfish,GOA,amax,0.02634146341463415,3,Munk 2001
-rebs rockfish,GOA,gsi,0.03634,1,Gunderson 1997; McDermott 1994
+rebs rockfish,GOA,gsi,NA,1,NA
 rebs rockfish,GOA,temp,0.09230928906332918,1,McCoy and Gillooly 2008
 rebs rockfish,GOA,lvb,0.19540240312888654,1,Shotwell and Hanselman 2019
 rebs rockfish,multi_region,amax,NA,1,NA
-rebs rockfish,multi_region,gsi,NA,1,NA
+rebs rockfish,multi_region,gsi,0.0230759,1,McDermott 1994
+rebs rockfish,multi_region,gsi,0.0323426,2,McDermott 1994
 rebs rockfish,multi_region,temp,NA,1,NA
 rebs rockfish,multi_region,lvb,NA,1,NA
 rebs rockfish,WC,amax,NA,1,NA
@@ -175,7 +175,6 @@ rougheye rockfish,BS,temp,NA,1,NA
 rougheye rockfish,BS,lvb,NA,1,NA
 rougheye rockfish,GOA,amax,0.04,1,AFSC max age
 rougheye rockfish,GOA,amax,0.047619047619047616,2,AFSC mean top 5
-rougheye rockfish,GOA,amax,0.02634146341463415,3,Munk 2001
 rougheye rockfish,GOA,gsi,NA,1,NA
 rougheye rockfish,GOA,temp,NA,1,NA
 rougheye rockfish,GOA,lvb,0.21904774404531713,1,Shotwell et al. 2019
@@ -233,7 +232,8 @@ shortraker rockfish,GOA,gsi,NA,1,NA
 shortraker rockfish,GOA,temp,0.09252301499463407,1,McCoy and Gillooly 2008
 shortraker rockfish,GOA,lvb,NA,1,NA
 shortraker rockfish,multi_region,amax,NA,1,NA
-shortraker rockfish,multi_region,gsi,NA,1,NA
+shortraker rockfish,multi_region,gsi,0.019441899999999998,1,McDermott 1994
+shortraker rockfish,multi_region,gsi,0.0361583,2,McDermott 1994
 shortraker rockfish,multi_region,temp,NA,1,NA
 shortraker rockfish,multi_region,lvb,0.07346967488366232,1,Hutchinson 2004
 shortraker rockfish,WC,amax,NA,1,NA

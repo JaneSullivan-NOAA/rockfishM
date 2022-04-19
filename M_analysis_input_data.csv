@@ -103,10 +103,8 @@ harlequin rockfish,GOA,maxage_yr,GOA,AFSC max age,47,1
 harlequin rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,41.166666666666664,2
 harlequin rockfish,GOA,maxage_yr,GOA,TenBrink and Helser 2021,72,3
 harlequin rockfish,GOA,temp_C,GOA,McCoy and Gillooly 2008,5.5,1
-harlequin rockfish,GOA,vbgf_k_cm-1,GOA,TenBrink pers comm,0.209,1
-harlequin rockfish,GOA,vbgf_k_cm-1,GOA,TenBrink pers comm,0.167,2
-harlequin rockfish,GOA,vbgf_linf_cm,GOA,TenBrink pers comm,31.206,1
-harlequin rockfish,GOA,vbgf_linf_cm,GOA,TenBrink pers comm,30.897,2
+harlequin rockfish,GOA,vbgf_k_cm-1,GOA,TenBrink pers comm,0.167,1
+harlequin rockfish,GOA,vbgf_linf_cm,GOA,TenBrink pers comm,30.897,1
 harlequin rockfish,multi_region,dry_weight_g,NA,NA,NA,1
 harlequin rockfish,multi_region,gsi,NA,NA,NA,1
 harlequin rockfish,multi_region,maxage_yr,NA,NA,NA,1
@@ -140,7 +138,7 @@ rebs rockfish,BS,temp_C,NA,NA,NA,1
 rebs rockfish,BS,vbgf_k_cm-1,NA,NA,NA,1
 rebs rockfish,BS,vbgf_linf_cm,NA,NA,NA,1
 rebs rockfish,GOA,dry_weight_g,GOA,McCoy and Gillooly 2008,9380,1
-rebs rockfish,GOA,gsi,GOA,Gunderson 1997; McDermott 1994,0.02,1
+rebs rockfish,GOA,gsi,NA,NA,NA,1
 rebs rockfish,GOA,maxage_yr,GOA,AFSC max age,132,1
 rebs rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,127.6,2
 rebs rockfish,GOA,maxage_yr,GOA - Southern Southeast AK (SSEA),Munk 2001,205,3
@@ -148,7 +146,8 @@ rebs rockfish,GOA,temp_C,GOA,McCoy and Gillooly 2008,4.5,1
 rebs rockfish,GOA,vbgf_k_cm-1,GOA,Shotwell and Hanselman 2019,0.09,1
 rebs rockfish,GOA,vbgf_linf_cm,GOA,Shotwell and Hanselman 2019,49.6,1
 rebs rockfish,multi_region,dry_weight_g,NA,NA,NA,1
-rebs rockfish,multi_region,gsi,NA,NA,NA,1
+rebs rockfish,multi_region,gsi,"WC, GOA, AI, BC",McDermott 1994,0.0127,1
+rebs rockfish,multi_region,gsi,"WC, GOA, AI, BC",McDermott 1994,0.0178,2
 rebs rockfish,multi_region,maxage_yr,NA,NA,NA,1
 rebs rockfish,multi_region,temp_C,NA,NA,NA,1
 rebs rockfish,multi_region,vbgf_k_cm-1,NA,NA,NA,1
@@ -256,7 +255,6 @@ rougheye rockfish,GOA,dry_weight_g,NA,NA,NA,1
 rougheye rockfish,GOA,gsi,NA,NA,NA,1
 rougheye rockfish,GOA,maxage_yr,GOA,AFSC max age,135,1
 rougheye rockfish,GOA,maxage_yr,GOA,AFSC mean top 5,113.4,2
-rougheye rockfish,GOA,maxage_yr,GOA,Munk 2001,205,3
 rougheye rockfish,GOA,temp_C,NA,NA,NA,1
 rougheye rockfish,GOA,vbgf_k_cm-1,GOA,Shotwell et al. 2019,0.109,1
 rougheye rockfish,GOA,vbgf_linf_cm,GOA,Shotwell et al. 2019,53.6,1
@@ -338,7 +336,8 @@ shortraker rockfish,GOA,temp_C,GOA,McCoy and Gillooly 2008,4.5,1
 shortraker rockfish,GOA,vbgf_k_cm-1,NA,NA,NA,1
 shortraker rockfish,GOA,vbgf_linf_cm,NA,NA,NA,1
 shortraker rockfish,multi_region,dry_weight_g,NA,NA,NA,1
-shortraker rockfish,multi_region,gsi,NA,NA,NA,1
+shortraker rockfish,multi_region,gsi,"WC, BC, GOA, AI, BS",McDermott 1994,0.0107,1
+shortraker rockfish,multi_region,gsi,"WC, BC, GOA, AI, BS",McDermott 1994,0.0199,2
 shortraker rockfish,multi_region,maxage_yr,NA,NA,NA,1
 shortraker rockfish,multi_region,temp_C,NA,NA,NA,1
 shortraker rockfish,multi_region,vbgf_k_cm-1,"GOA, AI, BS",Hutchinson 2004,0.03,1

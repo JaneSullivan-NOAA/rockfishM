@@ -32,6 +32,7 @@ lh$species <- sub('_', ' ', lh$species)
 nrow(lh)
 lh
 lh$use
+
 # tmax estimates based on combined fishery and survey age data. see tmax.R
 tmax <- read_csv(paste0(out_path, '/tmax_summary.csv')) %>% 
   select(common_name = `Species`, area = Region, 
@@ -246,7 +247,7 @@ nrow(summ) == nrow(l_fullout) # should be true. if not you probably messed up re
 summ <- l_fullout %>% 
   left_join(summ, by = c("species", "input_area", "M_method", "version", "method_or_source")) %>% 
   filter(!is.na(M_estimate)) %>% 
-  mutate(M_estimate = formatC(round(M_estimate, 4), format = 'f', digits = 4),
+  mutate(M_estimate = formatC(round(M_estimate, 3), format = 'f', digits = 3),
          M_method = paste0(M_method, '.v', version),
          area = ifelse(input_area == 'multi_region', data_area, input_area)) %>% 
   select(species, area, version, data_input = input_names, 
@@ -256,12 +257,16 @@ summ <- l_fullout %>%
 summ <- summ %>% filter(species != 'northern rockfish') 
 summ <- summ %>% 
   mutate(species = factor(species, 
-                          labels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
-                                             'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
-                                             'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
-                          levels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
-                                     'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
-                                     'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
+                          labels = c('dusky rockfish', 'harlequin rockfish',
+                                     'rebs rockfish','rougheye rockfish','blackspotted rockfish',
+                                     'redbanded rockfish', 'redstripe rockfish', 
+                                     'sharpchin rockfish', 'shortraker rockfish','silvergray rockfish',
+                                     'yelloweye rockfish', 'shortspine thornyhead'),
+                          levels = c('dusky rockfish', 'harlequin rockfish',
+                                     'rebs rockfish','rougheye rockfish','blackspotted rockfish',
+                                     'redbanded rockfish', 'redstripe rockfish', 
+                                     'sharpchin rockfish', 'shortraker rockfish','silvergray rockfish',
+                                     'yelloweye rockfish', 'shortspine thornyhead'),
                           ordered = TRUE)) %>% 
   arrange(species, area, data_input, version)
 summ
@@ -422,3 +427,4 @@ plot_data <- l_fullout %>%
 mybarplot(title = 'Yelloweye rockfish')
 ggsave(paste0(out_path, '/yelloweye_M_results.png'),
        dpi = 300, units = 'in', width = 7, height = 3)
+

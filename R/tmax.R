@@ -77,12 +77,16 @@ tmpfsh <- fshbio %>%
 comb <- bind_rows(tmpsrv, tmpfsh) %>% 
   filter(common_name != 'northern rockfish') %>% 
   mutate(common_name = factor(common_name,
-                              labels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
-                                         'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
-                                         'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
-                              levels = c('dusky rockfish', 'harlequin rockfish', 'silvergray rockfish', 'redstripe rockfish',
-                                         'sharpchin rockfish', 'yelloweye rockfish', 'redbanded rockfish', 'shortraker rockfish',
-                                         'rougheye rockfish', 'blackspotted rockfish', 'rebs rockfish', 'shortspine thornyhead'),
+                              labels = c('dusky rockfish', 'harlequin rockfish',
+                                         'rebs rockfish','rougheye rockfish','blackspotted rockfish',
+                                         'redbanded rockfish', 'redstripe rockfish', 
+                                         'sharpchin rockfish', 'shortraker rockfish','silvergray rockfish',
+                                         'yelloweye rockfish', 'shortspine thornyhead'),
+                              levels = c('dusky rockfish', 'harlequin rockfish',
+                                         'rebs rockfish','rougheye rockfish','blackspotted rockfish',
+                                         'redbanded rockfish', 'redstripe rockfish', 
+                                         'sharpchin rockfish', 'shortraker rockfish','silvergray rockfish',
+                                         'yelloweye rockfish', 'shortspine thornyhead'),
                               ordered = TRUE)) %>% 
   arrange(common_name, source, year)
 

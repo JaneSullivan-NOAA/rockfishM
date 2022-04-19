@@ -1,90 +1,91 @@
 species,area,version,data_input,data_input_values,M_estimate,references
-dusky rockfish,AI,1,Max age (y),67,0.0806,AFSC max age
-dusky rockfish,AI,2,Max age (y),63,0.0854,AFSC mean top 5
-dusky rockfish,GOA,1,GSI,0.0160,0.0291,Conrath 2019
-dusky rockfish,GOA,1,Max age (y),75,0.0720,AFSC max age
-dusky rockfish,GOA,2,Max age (y),68,0.0792,AFSC mean top 5
-dusky rockfish,GOA,3,Max age (y),67,0.0806,Munk 2001
-dusky rockfish,GOA,1,VBGF Linf (cm) / k,48.3 / 0.180,0.3270,Fenske et al. 2020
-harlequin rockfish,AI,1,Max age (y),79,0.0684,AFSC max age
-harlequin rockfish,AI,2,Max age (y),63,0.0852,AFSC mean top 5
-harlequin rockfish,AI,3,Max age (y),81,0.0667,pers. comm. TenBrink 2022
-harlequin rockfish,GOA,1,GSI,0.0270,0.0491,pers. comm. TenBrink 2022
-harlequin rockfish,GOA,1,Max age (y),47,0.1149,AFSC max age
-harlequin rockfish,GOA,2,Max age (y),41,0.1312,AFSC mean top 5
-harlequin rockfish,GOA,3,Max age (y),72,0.0750,TenBrink and Helser 2021
-harlequin rockfish,GOA,1,Temperature (C) / Dry weight (g),5.5 / 226,0.2783,McCoy and Gillooly 2008
-harlequin rockfish,GOA,1,VBGF Linf (cm) / k,31.2 / 0.209,0.4212,TenBrink pers comm
-harlequin rockfish,GOA,2,VBGF Linf (cm) / k,30.9 / 0.167,0.3587,TenBrink pers comm
-silvergray rockfish,BC,1,Max age (y),81,0.0667,ADF&G Age Determination Unit website
-silvergray rockfish,GOA,1,Max age (y),79,0.0684,AFSC max age
-silvergray rockfish,GOA,2,Max age (y),71,0.0763,AFSC mean top 5
-silvergray rockfish,GOA,3,Max age (y),75,0.0720,Malecha et al. 2007
-silvergray rockfish,GOA,1,Temperature (C) / Dry weight (g),"7.0 / 1,960",0.1796,McCoy and Gillooly 2008
-redstripe rockfish,BC,1,Max age (y),55,0.0982,ADF&G Age Determination Unit website
-redstripe rockfish,GOA,1,Max age (y),46,0.1174,AFSC max age
-redstripe rockfish,GOA,2,Max age (y),39,0.1378,AFSC mean top 5
-sharpchin rockfish,BC,1,VBGF Linf (cm) / k,34.9 / 0.095,0.2283,Archibald 1981
-sharpchin rockfish,GOA,1,Max age (y),48,0.1125,AFSC max age
-sharpchin rockfish,GOA,2,Max age (y),43,0.1244,AFSC mean top 5
-sharpchin rockfish,GOA,1,Temperature (C) / Dry weight (g),6.0 / 533,0.2317,McCoy and Gillooly 2008
-sharpchin rockfish,GOA,1,VBGF Linf (cm) / k,32.6 / 0.131,0.2951,Malecha et al. 2007
-sharpchin rockfish,WC,1,Max age (y),58,0.0931,Cope et al. 2015
-sharpchin rockfish,WC,1,VBGF Linf (cm) / k,33.2 / 0.170,0.3549,Cope et al. 2015
-yelloweye rockfish,BC,1,Max age (y),115,0.0470,DFO 2018
-yelloweye rockfish,GOA,1,GSI,0.0285,0.0518,Arthur 2020
-yelloweye rockfish,GOA,1,Max age (y),122,0.0443,ADF&G Age Determination Unit website
-yelloweye rockfish,GOA,2,Max age (y),114,0.0474,Bechtol 1998
-yelloweye rockfish,GOA,3,Max age (y),118,0.0458,O'Connell and Funk 1987
-yelloweye rockfish,GOA,1,Temperature (C) / Dry weight (g),"6.0 / 4,200",0.1327,McCoy and Gillooly 2008
-redbanded rockfish,BC,1,VBGF Linf (cm) / k,54.8 / 0.050,0.1231,Haigh and Starr 2006
-redbanded rockfish,GOA,1,Max age (y),106,0.0509,ADF&G Age Determination Unit website
-redbanded rockfish,GOA,1,Temperature (C) / Dry weight (g),"5.5 / 1,960",0.1553,McCoy and Gillooly 2008
-shortraker rockfish,AI,1,Max age (y),124,0.0435,AFSC max age
-shortraker rockfish,AI,2,Max age (y),110,0.0491,AFSC mean top 5
-shortraker rockfish,BC,1,Max age (y),120,0.0450,Chilton and Beamish 1982
-shortraker rockfish,GOA,1,Max age (y),146,0.0370,AFSC max age
-shortraker rockfish,GOA,2,Max age (y),128,0.0423,AFSC mean top 5
-shortraker rockfish,GOA,3,Max age (y),157,0.0344,Munk 2001
-shortraker rockfish,GOA,4,Max age (y),160,0.0338,ADF&G Age Determination Unit website
-shortraker rockfish,GOA,1,Temperature (C) / Dry weight (g),"4.5 / 9,300",0.0925,McCoy and Gillooly 2008
-shortraker rockfish,"GOA, AI, BS",1,VBGF Linf (cm) / k,84.6 / 0.030,0.0735,Hutchinson 2004
-rougheye rockfish,AI,1,Max age (y),116,0.0466,AFSC max age
-rougheye rockfish,AI,2,Max age (y),96,0.0565,AFSC mean top 5
-rougheye rockfish,BS,1,Max age (y),107,0.0505,AFSC max age
-rougheye rockfish,BS,2,Max age (y),104,0.0518,AFSC mean top 5
-rougheye rockfish,GOA,1,Max age (y),135,0.0400,AFSC max age
-rougheye rockfish,GOA,2,Max age (y),113,0.0476,AFSC mean top 5
-rougheye rockfish,GOA,3,Max age (y),205,0.0263,Munk 2001
-rougheye rockfish,GOA,1,VBGF Linf (cm) / k,53.6 / 0.109,0.2190,Shotwell et al. 2019
-blackspotted rockfish,AI,1,Max age (y),134,0.0403,AFSC max age
-blackspotted rockfish,AI,2,Max age (y),106,0.0508,AFSC mean top 5
-blackspotted rockfish,BS,1,Max age (y),84,0.0643,AFSC max age
-blackspotted rockfish,BS,2,Max age (y),73,0.0744,AFSC mean top 5
-blackspotted rockfish,GOA,1,Max age (y),103,0.0524,AFSC max age
-blackspotted rockfish,GOA,2,Max age (y),94,0.0573,AFSC mean top 5
-blackspotted rockfish,GOA,1,VBGF Linf (cm) / k,51.9 / 0.065,0.1518,Shotwell et al. 2019
-rebs rockfish,AI,1,Max age (y),131,0.0412,AFSC max age
-rebs rockfish,AI,2,Max age (y),120,0.0451,AFSC mean top 5
-rebs rockfish,AI,1,VBGF Linf (cm) / k,51.5 / 0.060,0.1435,Spencer et al. 2020
-rebs rockfish,BS,1,Max age (y),130,0.0415,AFSC max age
-rebs rockfish,BS,2,Max age (y),120,0.0449,AFSC mean top 5
-rebs rockfish,GOA,1,GSI,0.0200,0.0363,Gunderson 1997; McDermott 1994
-rebs rockfish,GOA,1,Max age (y),132,0.0409,AFSC max age
-rebs rockfish,GOA,2,Max age (y),128,0.0423,AFSC mean top 5
-rebs rockfish,GOA,3,Max age (y),205,0.0263,Munk 2001
-rebs rockfish,GOA,1,Temperature (C) / Dry weight (g),"4.5 / 9,380",0.0923,McCoy and Gillooly 2008
-rebs rockfish,GOA,1,VBGF Linf (cm) / k,49.6 / 0.090,0.1954,Shotwell and Hanselman 2019
-shortspine thornyhead,AI,1,GSI,0.0094,0.0171,Pearson and Gunderson 2003
-shortspine thornyhead,BS,1,GSI,0.0091,0.0165,Pearson and Gunderson 2003
-shortspine thornyhead,GOA,1,GSI,0.0072,0.0131,Pearson and Gunderson 2003
-shortspine thornyhead,GOA,1,Max age (y),62,0.0871,Miller 1985
-shortspine thornyhead,GOA,2,Max age (y),133,0.0406,ADF&G Age Determination Unit website
-shortspine thornyhead,GOA,1,Temperature (C) / Dry weight (g),"2.8 / 2,470",0.1119,McCoy and Gillooly 2008
-shortspine thornyhead,"GOA, AI, BS, WC",3,Max age (y),250,0.0216,Pearson and Gunderson 2003 (minimum)
-shortspine thornyhead,"GOA, AI, BS, WC",4,Max age (y),313,0.0173,Pearson and Gunderson 2003 (maximum)
-shortspine thornyhead,"GOA, WC",1,Max age (y),50,0.1080,Kastelle et al. 2000 (minimum)
-shortspine thornyhead,"GOA, WC",2,Max age (y),100,0.0540,Kastelle et al. 2000 (maximum)
-shortspine thornyhead,WC,1,Max age (y),150,0.0360,Jacobson 1990
-shortspine thornyhead,WC,2,Max age (y),115,0.0470,Kline 1996 (conventional ageing)
-shortspine thornyhead,WC,3,Max age (y),100,0.0540,Kline 1996 (radiochemical ageing)
+dusky rockfish,AI,1,Max age (y),67,0.081,AFSC max age
+dusky rockfish,AI,2,Max age (y),63,0.085,AFSC mean top 5
+dusky rockfish,GOA,1,GSI,0.0160,0.029,Conrath 2019
+dusky rockfish,GOA,1,Max age (y),75,0.072,AFSC max age
+dusky rockfish,GOA,2,Max age (y),68,0.079,AFSC mean top 5
+dusky rockfish,GOA,3,Max age (y),67,0.081,Munk 2001
+dusky rockfish,GOA,1,VBGF Linf (cm) / k,48.3 / 0.180,0.327,Fenske et al. 2020
+harlequin rockfish,AI,1,Max age (y),79,0.068,AFSC max age
+harlequin rockfish,AI,2,Max age (y),63,0.085,AFSC mean top 5
+harlequin rockfish,AI,3,Max age (y),81,0.067,pers. comm. TenBrink 2022
+harlequin rockfish,GOA,1,GSI,0.0270,0.049,pers. comm. TenBrink 2022
+harlequin rockfish,GOA,1,Max age (y),47,0.115,AFSC max age
+harlequin rockfish,GOA,2,Max age (y),41,0.131,AFSC mean top 5
+harlequin rockfish,GOA,3,Max age (y),72,0.075,TenBrink and Helser 2021
+harlequin rockfish,GOA,1,Temperature (C) / Dry weight (g),5.5 / 226,0.278,McCoy and Gillooly 2008
+harlequin rockfish,GOA,1,VBGF Linf (cm) / k,30.9 / 0.167,0.359,TenBrink pers comm
+rebs rockfish,AI,1,Max age (y),131,0.041,AFSC max age
+rebs rockfish,AI,2,Max age (y),120,0.045,AFSC mean top 5
+rebs rockfish,AI,1,VBGF Linf (cm) / k,51.5 / 0.060,0.144,Spencer et al. 2020
+rebs rockfish,BS,1,Max age (y),130,0.042,AFSC max age
+rebs rockfish,BS,2,Max age (y),120,0.045,AFSC mean top 5
+rebs rockfish,GOA,1,Max age (y),132,0.041,AFSC max age
+rebs rockfish,GOA,2,Max age (y),128,0.042,AFSC mean top 5
+rebs rockfish,GOA,3,Max age (y),205,0.026,Munk 2001
+rebs rockfish,GOA,1,Temperature (C) / Dry weight (g),"4.5 / 9,380",0.092,McCoy and Gillooly 2008
+rebs rockfish,GOA,1,VBGF Linf (cm) / k,49.6 / 0.090,0.195,Shotwell and Hanselman 2019
+rebs rockfish,"WC, GOA, AI, BC",1,GSI,0.0127,0.023,McDermott 1994
+rebs rockfish,"WC, GOA, AI, BC",2,GSI,0.0178,0.032,McDermott 1994
+rougheye rockfish,AI,1,Max age (y),116,0.047,AFSC max age
+rougheye rockfish,AI,2,Max age (y),96,0.056,AFSC mean top 5
+rougheye rockfish,BS,1,Max age (y),107,0.050,AFSC max age
+rougheye rockfish,BS,2,Max age (y),104,0.052,AFSC mean top 5
+rougheye rockfish,GOA,1,Max age (y),135,0.040,AFSC max age
+rougheye rockfish,GOA,2,Max age (y),113,0.048,AFSC mean top 5
+rougheye rockfish,GOA,1,VBGF Linf (cm) / k,53.6 / 0.109,0.219,Shotwell et al. 2019
+blackspotted rockfish,AI,1,Max age (y),134,0.040,AFSC max age
+blackspotted rockfish,AI,2,Max age (y),106,0.051,AFSC mean top 5
+blackspotted rockfish,BS,1,Max age (y),84,0.064,AFSC max age
+blackspotted rockfish,BS,2,Max age (y),73,0.074,AFSC mean top 5
+blackspotted rockfish,GOA,1,Max age (y),103,0.052,AFSC max age
+blackspotted rockfish,GOA,2,Max age (y),94,0.057,AFSC mean top 5
+blackspotted rockfish,GOA,1,VBGF Linf (cm) / k,51.9 / 0.065,0.152,Shotwell et al. 2019
+redbanded rockfish,BC,1,VBGF Linf (cm) / k,54.8 / 0.050,0.123,Haigh and Starr 2006
+redbanded rockfish,GOA,1,Max age (y),106,0.051,ADF&G Age Determination Unit website
+redbanded rockfish,GOA,1,Temperature (C) / Dry weight (g),"5.5 / 1,960",0.155,McCoy and Gillooly 2008
+redstripe rockfish,BC,1,Max age (y),55,0.098,ADF&G Age Determination Unit website
+redstripe rockfish,GOA,1,Max age (y),46,0.117,AFSC max age
+redstripe rockfish,GOA,2,Max age (y),39,0.138,AFSC mean top 5
+sharpchin rockfish,BC,1,VBGF Linf (cm) / k,34.9 / 0.095,0.228,Archibald 1981
+sharpchin rockfish,GOA,1,Max age (y),48,0.112,AFSC max age
+sharpchin rockfish,GOA,2,Max age (y),43,0.124,AFSC mean top 5
+sharpchin rockfish,GOA,1,Temperature (C) / Dry weight (g),6.0 / 533,0.232,McCoy and Gillooly 2008
+sharpchin rockfish,GOA,1,VBGF Linf (cm) / k,32.6 / 0.131,0.295,Malecha et al. 2007
+sharpchin rockfish,WC,1,Max age (y),58,0.093,Cope et al. 2015
+sharpchin rockfish,WC,1,VBGF Linf (cm) / k,33.2 / 0.170,0.355,Cope et al. 2015
+shortraker rockfish,AI,1,Max age (y),124,0.044,AFSC max age
+shortraker rockfish,AI,2,Max age (y),110,0.049,AFSC mean top 5
+shortraker rockfish,BC,1,Max age (y),120,0.045,Chilton and Beamish 1982
+shortraker rockfish,GOA,1,Max age (y),146,0.037,AFSC max age
+shortraker rockfish,GOA,2,Max age (y),128,0.042,AFSC mean top 5
+shortraker rockfish,GOA,3,Max age (y),157,0.034,Munk 2001
+shortraker rockfish,GOA,4,Max age (y),160,0.034,ADF&G Age Determination Unit website
+shortraker rockfish,GOA,1,Temperature (C) / Dry weight (g),"4.5 / 9,300",0.093,McCoy and Gillooly 2008
+shortraker rockfish,"GOA, AI, BS",1,VBGF Linf (cm) / k,84.6 / 0.030,0.073,Hutchinson 2004
+shortraker rockfish,"WC, BC, GOA, AI, BS",1,GSI,0.0107,0.019,McDermott 1994
+shortraker rockfish,"WC, BC, GOA, AI, BS",2,GSI,0.0199,0.036,McDermott 1994
+silvergray rockfish,BC,1,Max age (y),81,0.067,ADF&G Age Determination Unit website
+silvergray rockfish,GOA,1,Max age (y),79,0.068,AFSC max age
+silvergray rockfish,GOA,2,Max age (y),71,0.076,AFSC mean top 5
+silvergray rockfish,GOA,3,Max age (y),75,0.072,Malecha et al. 2007
+silvergray rockfish,GOA,1,Temperature (C) / Dry weight (g),"7.0 / 1,960",0.180,McCoy and Gillooly 2008
+yelloweye rockfish,BC,1,Max age (y),115,0.047,DFO 2018
+yelloweye rockfish,GOA,1,GSI,0.0285,0.052,Arthur 2020
+yelloweye rockfish,GOA,1,Max age (y),122,0.044,ADF&G Age Determination Unit website
+yelloweye rockfish,GOA,2,Max age (y),114,0.047,Bechtol 1998
+yelloweye rockfish,GOA,3,Max age (y),118,0.046,O'Connell and Funk 1987
+yelloweye rockfish,GOA,1,Temperature (C) / Dry weight (g),"6.0 / 4,200",0.133,McCoy and Gillooly 2008
+shortspine thornyhead,AI,1,GSI,0.0094,0.017,Pearson and Gunderson 2003
+shortspine thornyhead,BS,1,GSI,0.0091,0.017,Pearson and Gunderson 2003
+shortspine thornyhead,GOA,1,GSI,0.0072,0.013,Pearson and Gunderson 2003
+shortspine thornyhead,GOA,1,Max age (y),62,0.087,Miller 1985
+shortspine thornyhead,GOA,2,Max age (y),133,0.041,ADF&G Age Determination Unit website
+shortspine thornyhead,GOA,1,Temperature (C) / Dry weight (g),"2.8 / 2,470",0.112,McCoy and Gillooly 2008
+shortspine thornyhead,"GOA, AI, BS, WC",3,Max age (y),250,0.022,Pearson and Gunderson 2003 (minimum)
+shortspine thornyhead,"GOA, AI, BS, WC",4,Max age (y),313,0.017,Pearson and Gunderson 2003 (maximum)
+shortspine thornyhead,"GOA, WC",1,Max age (y),50,0.108,Kastelle et al. 2000 (minimum)
+shortspine thornyhead,"GOA, WC",2,Max age (y),100,0.054,Kastelle et al. 2000 (maximum)
+shortspine thornyhead,WC,1,Max age (y),150,0.036,Jacobson 1990
+shortspine thornyhead,WC,2,Max age (y),115,0.047,Kline 1996 (conventional ageing)
+shortspine thornyhead,WC,3,Max age (y),100,0.054,Kline 1996 (radiochemical ageing)
